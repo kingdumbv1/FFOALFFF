@@ -1020,6 +1020,7 @@ MonoBehaviour:
   currentDirection: {x: 0, y: 0}
   isAttacking: 0
   isBlocking: 0
+  canAttack: 0
   jumpHeight: 5
 --- !u!212 &1356373816
 SpriteRenderer:

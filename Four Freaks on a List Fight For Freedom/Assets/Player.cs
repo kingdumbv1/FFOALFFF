@@ -9,8 +9,8 @@ public class Player : MonoBehaviour
     [SerializeField] Vector2 currentDirection;
     [SerializeField] float isAttacking;
     [SerializeField] float isBlocking;
+    [SerializeField] bool canAttack;
     [SerializeField] float jumpHeight = 5f;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -18,23 +18,33 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(animator.GetCurrentAnimatorClipInfo(0).Length);
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle")) canAttack = true;
         switch (currentDirection.y)
         {
             case -1:
-                if (isAttacking == 1)
+                if (isAttacking == 1 && canAttack)
                 {
+                    canAttack = false;
                     rb.linearVelocityY = currentDirection.y * jumpHeight;
                     animator.SetTrigger("LowPrimary");
                 }
                 break;
             case 0:
-                if (isAttacking == 1) animator.SetTrigger("MiddlePrimary");
+                if (isAttacking == 1 && canAttack)
+                { 
+                    canAttack = false;
+                    animator.SetTrigger("MiddlePrimary");
+                }
                 break;
             case 1:
-                if (isAttacking == 1) animator.SetTrigger("HighPrimary");
+                if (isAttacking == 1 && canAttack)
+                {
+                    canAttack = false;
+                    animator.SetTrigger("HighPrimary");
+                }
                 break;
         }
+
         animator.SetFloat("IfRunning", currentDirection.x);
         rb.linearVelocityX = currentDirection.x * moveSpeed;
     }
@@ -46,6 +56,7 @@ public class Player : MonoBehaviour
 
     public void Attack(InputAction.CallbackContext context)
     {
+        Debug.Log(isAttacking);
         isAttacking = context.ReadValue<float>();
     }
     public void Block(InputAction.CallbackContext context)
