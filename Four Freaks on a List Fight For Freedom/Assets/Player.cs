@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     [SerializeField] float isAttacking;
     [SerializeField] float isBlocking;
     [SerializeField] bool canAttack;
+    [SerializeField] bool canBlock;
     [SerializeField] float jumpHeight = 5f;
     void Start()
     {
@@ -18,6 +19,7 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        // make sure future characters keep same animator names
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle")) canAttack = true;
         switch (currentDirection.y)
         {
@@ -25,7 +27,6 @@ public class Player : MonoBehaviour
                 if (isAttacking == 1 && canAttack)
                 {
                     canAttack = false;
-                    rb.linearVelocityY = currentDirection.y * jumpHeight;
                     animator.SetTrigger("LowPrimary");
                 }
                 break;
@@ -40,6 +41,7 @@ public class Player : MonoBehaviour
                 if (isAttacking == 1 && canAttack)
                 {
                     canAttack = false;
+                    rb.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
                     animator.SetTrigger("HighPrimary");
                 }
                 break;
