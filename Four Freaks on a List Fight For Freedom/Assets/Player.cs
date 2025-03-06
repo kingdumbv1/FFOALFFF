@@ -6,20 +6,27 @@ public class Player : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator animator;
+    [SerializeField] Transform enemy;
     [SerializeField] Vector2 currentDirection;
     [SerializeField] float isAttacking;
     [SerializeField] float isBlocking;
     [SerializeField] bool canAttack;
     [SerializeField] bool canBlock;
     [SerializeField] float jumpHeight = 5f;
+    [SerializeField] float distance;
     void Start()
     {
+        enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
     void Update()
     {
-        // make sure future characters keep same animator names
+        distance = transform.position.x - enemy.transform.position.x;
+
+        if (distance < 0) transform.rotation = Quaternion.identity;
+        if (distance > 0) transform.rotation = Quaternion.Euler(0, 180, 0);
+
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle")) canAttack = true;
         switch (currentDirection.y)
         {
@@ -47,7 +54,12 @@ public class Player : MonoBehaviour
                 break;
         }
 
-        animator.SetFloat("IfRunning", currentDirection.x);
+        if (distance < 0)
+        {
+            animator.SetFloat("IfRunning", currentDirection.x);
+        }
+        else if (distance > 0) animator.SetFloat("IfRunning", -currentDirection.x);
+
         rb.linearVelocityX = currentDirection.x * moveSpeed;
     }
 

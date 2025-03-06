@@ -7,6 +7,11 @@ public class Enemy : MonoBehaviour
     public float currentHealth;
     [SerializeField] float maxHealth;
     [SerializeField] SpriteRenderer spriteRend;
+
+    private void Awake()
+    {
+        spriteRend = GetComponent<SpriteRenderer>();
+    }
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
