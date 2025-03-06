@@ -11,7 +11,6 @@ public class FindMedian : MonoBehaviour
     {
         foundPlayer = GameObject.FindGameObjectWithTag("Player").transform;
         foundPlayer2 = GameObject.FindGameObjectWithTag("Enemy").transform;
-        
     }
     private void Update()
     {
