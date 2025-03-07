@@ -1,19 +1,25 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 5f;
+    [SerializeField] float moveSpeed = 2.8f;
+    [SerializeField] float jumpHeight = 5f;
+    [SerializeField] float distance;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator animator;
     [SerializeField] Transform enemy;
     [SerializeField] Vector2 currentDirection;
+    // Light Attacks - Blocking
     [SerializeField] float isAttacking;
     [SerializeField] float isBlocking;
     [SerializeField] bool canAttack;
     [SerializeField] bool canBlock;
-    [SerializeField] float jumpHeight = 5f;
-    [SerializeField] float distance;
+    // Heavy Attacks 
+    [SerializeField] float isHeavyAttacking;
+
+
     void Start()
     {
         enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
@@ -28,6 +34,7 @@ public class Player : MonoBehaviour
         if (distance > 0) transform.rotation = Quaternion.Euler(0, 180, 0);
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle")) canAttack = true;
+        //Directional Combat Input
         switch (currentDirection.y)
         {
             case -1:
@@ -36,12 +43,23 @@ public class Player : MonoBehaviour
                     canAttack = false;
                     animator.SetTrigger("LowPrimary");
                 }
+                if (isHeavyAttacking == 1 && canAttack)
+                {
+                    
+                }
                 break;
             case 0:
                 if (isAttacking == 1 && canAttack)
                 { 
                     canAttack = false;
                     animator.SetTrigger("MiddlePrimary");
+                }
+                if (isHeavyAttacking == 1 && canAttack)
+                {
+                    canAttack = false;
+                    StartCoroutine("Dash", 3);
+                    //rb.AddForce(Vector2.right * 100, ForceMode2D.Impulse);
+                    animator.SetTrigger("HeavyMiddle");
                 }
                 break;
             case 1:
@@ -50,6 +68,10 @@ public class Player : MonoBehaviour
                     canAttack = false;
                     rb.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
                     animator.SetTrigger("HighPrimary");
+                }
+                if (isHeavyAttacking == 1 && canAttack)
+                {
+                    
                 }
                 break;
         }
@@ -60,6 +82,16 @@ public class Player : MonoBehaviour
         }
         else if (distance > 0) animator.SetFloat("IfRunning", -currentDirection.x);
 
+        //Blocking 
+        animator.SetFloat("IfBlocking", isBlocking);
+
+        if (isBlocking == 1)
+        {
+            canAttack = false;
+            moveSpeed = 1.5f; 
+        } else moveSpeed = 2.8f;
+
+        //movement
         rb.linearVelocityX = currentDirection.x * moveSpeed;
     }
 
@@ -73,8 +105,19 @@ public class Player : MonoBehaviour
         Debug.Log(isAttacking);
         isAttacking = context.ReadValue<float>();
     }
+    public void HeavyAttack(InputAction.CallbackContext context)
+    {
+        Debug.Log(isHeavyAttacking);
+        isHeavyAttacking = context.ReadValue<float>();
+    }
     public void Block(InputAction.CallbackContext context)
     {
         isBlocking = context.ReadValue<float>();
+    }
+
+    IEnumerator Dash(float seconds)
+    {
+        transform.position += Vector3.right * 5f * Time.deltaTime;
+        yield return new WaitForSeconds(seconds);
     }
 }
