@@ -32,6 +32,10 @@ public class Enemy : MonoBehaviour
         currentHealth -= damage;
         StartCoroutine("HitIndicated", 0.2f);
     }
+    public void BlockBroke(float damage)
+    {
+
+    }
     IEnumerator HitIndicated(float seconds)
     {
         spriteRend.color = Color.red;

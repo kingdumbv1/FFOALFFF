@@ -1,22 +1,34 @@
 fileFormatVersion: 2
-guid: 5696f04e5d2a8994b86158da5a2de6b1
+guid: d16d37740fea30f46948dbbed81ce348
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7312427974099809530
-    second: walkingguyleft_0
+      213: 6844513409907142860
+    second: BlockBreak_0
   - first:
-      213: -851648453829023422
-    second: walkingguyleft_1
+      213: -1584167288902893745
+    second: BlockBreak_1
   - first:
-      213: -2050256332948938621
-    second: walkingguyleft_2
+      213: 9163293782320810930
+    second: BlockBreak_2
   - first:
-      213: -4302064647095733091
-    second: walkingguyleft_3
+      213: -8245595752420657287
+    second: BlockBreak_3
   - first:
-      213: 7352452024429531659
-    second: walkingguyleft_4
+      213: 5991176329977291413
+    second: BlockBreak_4
+  - first:
+      213: 2983346534258320420
+    second: BlockBreak_5
+  - first:
+      213: -8197705454759352861
+    second: BlockBreak_6
+  - first:
+      213: 7046777857423795289
+    second: BlockBreak_7
+  - first:
+      213: -3392410303559699492
+    second: BlockBreak_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,13 +124,101 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walkingguyleft_0
+      name: BlockBreak_0
       rect:
         serializedVersion: 2
-        x: 32
+        x: 26
+        y: 17
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0b9e9bea89cfe50800000000000000
+      internalID: 6844513409907142860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockBreak_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 17
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f36287e38e30ae0800000000000000
+      internalID: -1584167288902893745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockBreak_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 16
+        width: 24
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb07c3552f8a2f70800000000000000
+      internalID: 9163293782320810930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockBreak_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 12
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9773f77a952c19d80800000000000000
+      internalID: -8245595752420657287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockBreak_4
+      rect:
+        serializedVersion: 2
+        x: 265
         y: 11
-        width: 35
-        height: 76
+        width: 24
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af439d1ef76fa7560800000000000000
-      internalID: 7312427974099809530
+      spriteID: 5926607212fe42350800000000000000
+      internalID: 5991176329977291413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkingguyleft_1
+      name: BlockBreak_5
       rect:
         serializedVersion: 2
-        x: 132
-        y: 9
-        width: 31
-        height: 81
+        x: 322
+        y: 12
+        width: 34
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +249,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 249a2045e365e24f0800000000000000
-      internalID: -851648453829023422
+      spriteID: 4242c50ddd9f66920800000000000000
+      internalID: 2983346534258320420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkingguyleft_2
+      name: BlockBreak_6
       rect:
         serializedVersion: 2
-        x: 232
-        y: 9
-        width: 37
-        height: 79
+        x: 365
+        y: 11
+        width: 24
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38065185ab60c83e0800000000000000
-      internalID: -2050256332948938621
+      spriteID: 3e569cb7256eb3e80800000000000000
+      internalID: -8197705454759352861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkingguyleft_3
+      name: BlockBreak_7
       rect:
         serializedVersion: 2
-        x: 332
-        y: 10
-        width: 32
-        height: 80
+        x: 419
+        y: 13
+        width: 39
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +293,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d94b71d2ffefb44c0800000000000000
-      internalID: -4302064647095733091
+      spriteID: 95465da302f2bc160800000000000000
+      internalID: 7046777857423795289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkingguyleft_4
+      name: BlockBreak_8
       rect:
         serializedVersion: 2
-        x: 349
-        y: 9
-        width: 20
-        height: 21
+        x: 463
+        y: 11
+        width: 29
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +315,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0259384928290660800000000000000
-      internalID: 7352452024429531659
+      spriteID: cd3f2fb7dccbbe0d0800000000000000
+      internalID: -3392410303559699492
       vertices: []
       indices: 
       edges: []
@@ -234,12 +334,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      walkingguyleft_0: 7312427974099809530
-      walkingguyleft_1: -851648453829023422
-      walkingguyleft_2: -2050256332948938621
-      walkingguyleft_3: -4302064647095733091
-      walkingguyleft_4: 7352452024429531659
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

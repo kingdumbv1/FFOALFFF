@@ -14,10 +14,13 @@ public class Player : MonoBehaviour
     // Light Attacks - Blocking
     [SerializeField] float isAttacking;
     [SerializeField] float isBlocking;
+    public float lightDamage;
     [SerializeField] bool canAttack;
     [SerializeField] bool canBlock;
+    [SerializeField] bool xMovementPossible = true;
     // Heavy Attacks 
     [SerializeField] float isHeavyAttacking;
+    public float heavyDamage;
 
 
     void Start()
@@ -33,7 +36,11 @@ public class Player : MonoBehaviour
         if (distance < 0) transform.rotation = Quaternion.identity;
         if (distance > 0) transform.rotation = Quaternion.Euler(0, 180, 0);
 
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle")) canAttack = true;
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+        {
+            canAttack = true;
+            xMovementPossible = true;
+        }
         //Directional Combat Input
         switch (currentDirection.y)
         {
@@ -56,9 +63,10 @@ public class Player : MonoBehaviour
                 }
                 if (isHeavyAttacking == 1 && canAttack)
                 {
+                    xMovementPossible = false;
                     canAttack = false;
-                    StartCoroutine("Dash", 3);
-                    //rb.AddForce(Vector2.right * 100, ForceMode2D.Impulse);
+                    //StartCoroutine("Dash", 3);
+                    rb.AddForce(Vector2.right * 5 * Mathf.Clamp(-distance, -1, 1), ForceMode2D.Impulse);
                     animator.SetTrigger("HeavyMiddle");
                 }
                 break;
@@ -92,7 +100,10 @@ public class Player : MonoBehaviour
         } else moveSpeed = 2.8f;
 
         //movement
-        rb.linearVelocityX = currentDirection.x * moveSpeed;
+        if (xMovementPossible)
+        {
+            rb.linearVelocityX = currentDirection.x * moveSpeed;
+        }
     }
 
     public void TestInput(InputAction.CallbackContext context)

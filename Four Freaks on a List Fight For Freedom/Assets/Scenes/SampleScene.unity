@@ -210,6 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3195e217c0fe64ba9dd5058ee678da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,6 +540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3195e217c0fe64ba9dd5058ee678da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &1066286654
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3195e217c0fe64ba9dd5058ee678da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &1080265230
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,9 +968,12 @@ MonoBehaviour:
   currentDirection: {x: 0, y: 0}
   isAttacking: 0
   isBlocking: 0
+  lightDamage: 5
   canAttack: 0
   canBlock: 0
+  xMovementPossible: 1
   isHeavyAttacking: 0
+  heavyDamage: 10
 --- !u!212 &1356373816
 SpriteRenderer:
   m_ObjectHideFlags: 0
