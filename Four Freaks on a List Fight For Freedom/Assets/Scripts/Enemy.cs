@@ -50,6 +50,10 @@ public class Enemy : MonoBehaviour
         StartCoroutine("HitIndicated", 0.2f);
     }
 
+    void BlockBroke()
+    {
+        animator.SetTrigger("BlockBroke");
+    }
     IEnumerator HitIndicated(float seconds)
     {
         spriteRend.color = Color.red;

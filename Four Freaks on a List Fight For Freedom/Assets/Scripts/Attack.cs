@@ -15,8 +15,8 @@ public class Attack : MonoBehaviour
             Enemy enemy = collision.GetComponent<Enemy>();
             if (enemy != null && enemy.isBlocking == 0)
             {
-                if (player.isAttacking == 1) enemy.TakeDamage(player.lightDamage);
-                if (player.isHeavyAttacking == 1) enemy.TakeDamage(player.heavyDamage);
+                if (player.isAttacking) enemy.TakeDamage(player.lightDamage);
+                //if (player.isAttacking) enemy.TakeDamage(player.heavyDamage);
             }
         }
     }

@@ -132,7 +132,7 @@ TextureImporter:
         width: 57
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,11 +150,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 125
-        y: 17
-        width: 34
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 18
+        width: 62
+        height: 69
+      alignment: 9
+      pivot: {x: 0.54018277, y: 0.49097332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,13 +171,13 @@ TextureImporter:
       name: BlockBreak_2
       rect:
         serializedVersion: 2
-        x: 161
-        y: 16
-        width: 24
-        height: 72
+        x: 242
+        y: 99
+        width: 1
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: BlockBreak_3
       rect:
         serializedVersion: 2
-        x: 222
-        y: 12
-        width: 34
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 221
+        y: 10
+        width: 71
+        height: 74
+      alignment: 9
+      pivot: {x: 0.54627365, y: 0.4809723}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: BlockBreak_4
       rect:
         serializedVersion: 2
-        x: 265
-        y: 11
-        width: 24
-        height: 72
+        x: 250
+        y: 99
+        width: 1
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,10 +239,10 @@ TextureImporter:
         serializedVersion: 2
         x: 322
         y: 12
-        width: 34
+        width: 66
         height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5484383, y: 0.49238816}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,12 +259,12 @@ TextureImporter:
       name: BlockBreak_6
       rect:
         serializedVersion: 2
-        x: 365
-        y: 11
-        width: 24
-        height: 72
+        x: 360
+        y: 99
+        width: 1
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -283,10 +283,10 @@ TextureImporter:
         serializedVersion: 2
         x: 419
         y: 13
-        width: 39
+        width: 71
         height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5750453, y: 0.48477647}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: BlockBreak_8
       rect:
         serializedVersion: 2
-        x: 463
-        y: 11
-        width: 29
-        height: 71
+        x: 455
+        y: 99
+        width: 1
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f3ff1c18ad54d6848ba9573e00cd1ad3
     internalID: 0
     vertices: []
     indices: 

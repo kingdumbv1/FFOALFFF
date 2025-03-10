@@ -12,7 +12,8 @@ public class Player : MonoBehaviour
     [SerializeField] Transform enemy;
     [SerializeField] Vector2 currentDirection;
     // Light Attacks - Blocking
-    public float isAttacking;
+    public float attackClickedFrame;
+    public bool isAttacking;
     [SerializeField] float isBlocking;
     public float lightDamage;
     [SerializeField] bool canAttack;
@@ -21,7 +22,7 @@ public class Player : MonoBehaviour
     [SerializeField] bool canMove = true;
     [SerializeField] bool xMovementPossible = true;
     // Heavy Attacks 
-    public float isHeavyAttacking;
+    public float heavyAttackClickedFrame;
     public float heavyDamage;
 
 
@@ -43,6 +44,7 @@ public class Player : MonoBehaviour
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {
             canAttack = true;
+            isAttacking = false;
             xMovementPossible = true;
         }
         //Directional Combat Input
@@ -50,42 +52,48 @@ public class Player : MonoBehaviour
         {
             case -1:
                 // down light
-                if (isAttacking == 1 && canAttack)
+                if (attackClickedFrame == 1 && canAttack)
                 {
                     canAttack = false;
+                    isAttacking = true;
                     animator.SetTrigger("LowPrimary");
                 }
                 // down heavy
-                if (isHeavyAttacking == 1 && canAttack)
+                if (heavyAttackClickedFrame == 1 && canAttack)
                 {
-                    
+                    isAttacking = true;
+                    HeavyLow();
                 }
                 break;
             case 0:
                 // neutral light
-                if (isAttacking == 1 && canAttack)
-                { 
+                if (attackClickedFrame == 1 && canAttack)
+                {
+                    isAttacking = true;
                     canAttack = false;
                     animator.SetTrigger("MiddlePrimary");
                 }
                 // neutral heavy
-                if (isHeavyAttacking == 1 && canAttack)
+                if (heavyAttackClickedFrame == 1 && canAttack)
                 {
-                    NeutralMiddle();
+                    isAttacking = true;
+                    HeavyMiddle();
                 }
                 break;
             case 1:
                 //up light
-                if (isAttacking == 1 && canAttack)
+                if (attackClickedFrame == 1 && canAttack)
                 {
+                    isAttacking = true;
                     canAttack = false;
                     rb.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
                     animator.SetTrigger("HighPrimary");
                 }
                 // up heavy
-                if (isHeavyAttacking == 1 && canAttack)
+                if (heavyAttackClickedFrame == 1 && canAttack)
                 {
-                    
+                    isAttacking = true;
+                    HeavyHigh();
                 }
                 break;
         }
@@ -111,12 +119,25 @@ public class Player : MonoBehaviour
             rb.linearVelocityX = currentDirection.x * moveSpeed;
         }
     }
-    void NeutralMiddle()
+    void HeavyHigh()
+    {
+        xMovementPossible = false;
+        canAttack = false;
+
+    }
+    void HeavyMiddle()
     {
         xMovementPossible = false;
         canAttack = false;
         rb.AddForce(Vector2.right * 5 * Mathf.Clamp(-distance, -1, 1), ForceMode2D.Impulse);
         animator.SetTrigger("HeavyMiddle");
+    }
+
+    void HeavyLow()
+    {
+        xMovementPossible = false;
+        canAttack = false;
+
     }
 
     // Inputs
@@ -129,13 +150,13 @@ public class Player : MonoBehaviour
 
     public void Attack(InputAction.CallbackContext context)
     {
-        Debug.Log(isAttacking);
-        isAttacking = context.ReadValue<float>();
+        Debug.Log(attackClickedFrame);
+        attackClickedFrame = context.ReadValue<float>();
     }
     public void HeavyAttack(InputAction.CallbackContext context)
     {
-        Debug.Log(isHeavyAttacking);
-        isHeavyAttacking = context.ReadValue<float>();
+        Debug.Log(heavyAttackClickedFrame);
+        heavyAttackClickedFrame = context.ReadValue<float>();
     }
     public void Block(InputAction.CallbackContext context)
     {
