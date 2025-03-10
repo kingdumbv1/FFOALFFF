@@ -5,17 +5,23 @@ public class Attack : MonoBehaviour
     [SerializeField] Player player;
     private void Start()
     {
-        player = GetComponent<Player>();
+        player = GetComponentInParent<Player>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
         if (collision.CompareTag("Enemy"))
         {
             Debug.Log("Triggered");
             Enemy enemy = collision.GetComponent<Enemy>();
-            if (enemy != null && enemy.isBlocking == 0) enemy.TakeDamage(player.lightDamage);
-            //else if()
+            if (enemy != null && enemy.isBlocking == 0)
+            {
+                if (player.isAttacking == 1) enemy.TakeDamage(player.lightDamage);
+                if (player.isHeavyAttacking == 1) enemy.TakeDamage(player.heavyDamage);
+            }
         }
+    }
+    void BlockBreak()
+    {
+        //
     }
 }

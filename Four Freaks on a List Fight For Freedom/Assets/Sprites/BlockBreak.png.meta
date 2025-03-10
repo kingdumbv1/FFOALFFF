@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BlockBreak_0: 6844513409907142860
+      BlockBreak_1: -1584167288902893745
+      BlockBreak_2: 9163293782320810930
+      BlockBreak_3: -8245595752420657287
+      BlockBreak_4: 5991176329977291413
+      BlockBreak_5: 2983346534258320420
+      BlockBreak_6: -8197705454759352861
+      BlockBreak_7: 7046777857423795289
+      BlockBreak_8: -3392410303559699492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

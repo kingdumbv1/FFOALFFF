@@ -5,21 +5,23 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 2.8f;
-    [SerializeField] float jumpHeight = 5f;
+    [SerializeField] float jumpHeight = 4f;
     [SerializeField] float distance;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator animator;
     [SerializeField] Transform enemy;
     [SerializeField] Vector2 currentDirection;
     // Light Attacks - Blocking
-    [SerializeField] float isAttacking;
+    public float isAttacking;
     [SerializeField] float isBlocking;
     public float lightDamage;
     [SerializeField] bool canAttack;
     [SerializeField] bool canBlock;
+    // Movement
+    [SerializeField] bool canMove = true;
     [SerializeField] bool xMovementPossible = true;
     // Heavy Attacks 
-    [SerializeField] float isHeavyAttacking;
+    public float isHeavyAttacking;
     public float heavyDamage;
 
 
@@ -33,9 +35,11 @@ public class Player : MonoBehaviour
     {
         distance = transform.position.x - enemy.transform.position.x;
 
-        if (distance < 0) transform.rotation = Quaternion.identity;
-        if (distance > 0) transform.rotation = Quaternion.Euler(0, 180, 0);
-
+        if (xMovementPossible)
+        {
+            if (distance < 0) transform.rotation = Quaternion.identity;
+            if (distance > 0) transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {
             canAttack = true;
@@ -45,38 +49,40 @@ public class Player : MonoBehaviour
         switch (currentDirection.y)
         {
             case -1:
+                // down light
                 if (isAttacking == 1 && canAttack)
                 {
                     canAttack = false;
                     animator.SetTrigger("LowPrimary");
                 }
+                // down heavy
                 if (isHeavyAttacking == 1 && canAttack)
                 {
                     
                 }
                 break;
             case 0:
+                // neutral light
                 if (isAttacking == 1 && canAttack)
                 { 
                     canAttack = false;
                     animator.SetTrigger("MiddlePrimary");
                 }
+                // neutral heavy
                 if (isHeavyAttacking == 1 && canAttack)
                 {
-                    xMovementPossible = false;
-                    canAttack = false;
-                    //StartCoroutine("Dash", 3);
-                    rb.AddForce(Vector2.right * 5 * Mathf.Clamp(-distance, -1, 1), ForceMode2D.Impulse);
-                    animator.SetTrigger("HeavyMiddle");
+                    NeutralMiddle();
                 }
                 break;
             case 1:
+                //up light
                 if (isAttacking == 1 && canAttack)
                 {
                     canAttack = false;
                     rb.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
                     animator.SetTrigger("HighPrimary");
                 }
+                // up heavy
                 if (isHeavyAttacking == 1 && canAttack)
                 {
                     
@@ -105,10 +111,20 @@ public class Player : MonoBehaviour
             rb.linearVelocityX = currentDirection.x * moveSpeed;
         }
     }
+    void NeutralMiddle()
+    {
+        xMovementPossible = false;
+        canAttack = false;
+        rb.AddForce(Vector2.right * 5 * Mathf.Clamp(-distance, -1, 1), ForceMode2D.Impulse);
+        animator.SetTrigger("HeavyMiddle");
+    }
+
+    // Inputs
 
     public void TestInput(InputAction.CallbackContext context)
     {
-        currentDirection = context.ReadValue<Vector2>();
+        if (canMove) currentDirection = context.ReadValue<Vector2>();
+        else currentDirection = Vector2.zero;
     }
 
     public void Attack(InputAction.CallbackContext context)
@@ -126,9 +142,4 @@ public class Player : MonoBehaviour
         isBlocking = context.ReadValue<float>();
     }
 
-    IEnumerator Dash(float seconds)
-    {
-        transform.position += Vector3.right * 5f * Time.deltaTime;
-        yield return new WaitForSeconds(seconds);
-    }
 }
