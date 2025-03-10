@@ -25,9 +25,9 @@ public class Enemy : MonoBehaviour
     {
         distance = transform.position.x - player.position.x;
 
-        if (distance < 0) transform.rotation = Quaternion.identity;
+        if (distance < 0) transform.rotation = Quaternion.Euler(0, 0, 0);
         if (distance > 0) transform.rotation = Quaternion.Euler(0, 180, 0);
-
+        
         if (Input.GetKeyDown(KeyCode.T))
         {
             animator.SetTrigger("Blocking");
