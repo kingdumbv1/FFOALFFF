@@ -2755,6 +2755,7 @@ GameObject:
   - component: {fileID: 1356373819}
   - component: {fileID: 1356373818}
   - component: {fileID: 1356373820}
+  - component: {fileID: 1356373821}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -2915,6 +2916,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 96291798-4180-4d97-92a3-013092db5b61
     m_ActionName: 'Player/HeavyAttack[/Mouse/rightButton]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1356373815}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Dash
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: e5080efc-5edd-49ac-8882-254135dc21b2
+    m_ActionName: 'Player/Dash[/Keyboard/q]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -2932,6 +2949,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1492f4ee5d9034aa3a265ed7779803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentHealth: 100
+  currentMaxHealth: 100
+  currentMaxPosture: 50
+  currentPosture: 50
   moveSpeed: 2.5
   jumpHeight: 4
   distance: 0
@@ -2947,6 +2968,9 @@ MonoBehaviour:
   canBlock: 0
   canMove: 1
   xMovementPossible: 1
+  canDashAgain: 1
+  isDashing: 0
+  dashCooldown: 5
   heavyAttackClickedFrame: 0
   heavyDamage: 10
   blockBreak: 0
@@ -3119,6 +3143,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1356373821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356373813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9a7c63ce2dea19468c1f630bcd0bd0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 1349358319}
+  posture: {fileID: 770687948}
+  ult: {fileID: 641471342}
+  player: {fileID: 0}
 --- !u!1 &1408616689
 GameObject:
   m_ObjectHideFlags: 0
@@ -3666,6 +3706,7 @@ GameObject:
   - component: {fileID: 1990365637}
   - component: {fileID: 1990365636}
   - component: {fileID: 1990365641}
+  - component: {fileID: 1990365642}
   m_Layer: 6
   m_Name: Dummy Blocking
   m_TagString: Enemy
@@ -3685,7 +3726,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f42f264f2ecc12f44a152e48e0a8b2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 0
+  currentHealth: 100
+  currentMaxHealth: 100
+  currentMaxPosture: 50
+  currentPosture: 50
   rb: {fileID: 0}
   distance: 0
   maxHealth: 0
@@ -3850,7 +3894,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 8bcedfc3fc8b9424abf5282db815800a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -3859,6 +3903,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1990365642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990365635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d04e95f1065e34abf3f55ceddb6823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 881040954}
+  posture: {fileID: 38789447}
+  ult: {fileID: 1937294238}
+  enemy: {fileID: 0}
 --- !u!1 &2006768753
 GameObject:
   m_ObjectHideFlags: 0

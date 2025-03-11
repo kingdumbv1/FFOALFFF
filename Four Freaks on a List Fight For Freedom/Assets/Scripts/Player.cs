@@ -4,6 +4,13 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    // Health
+    public float currentHealth;
+    public float currentMaxHealth;
+    // Posture
+    public float currentMaxPosture;
+    public float currentPosture;
+    //
     [SerializeField] float moveSpeed = 2.8f;
     [SerializeField] float jumpHeight = 4f;
     [SerializeField] float distance;
@@ -21,6 +28,9 @@ public class Player : MonoBehaviour
     // Movement
     [SerializeField] bool canMove = true;
     [SerializeField] bool xMovementPossible = true;
+    [SerializeField] bool canDashAgain = true;
+    [SerializeField] bool isDashing;
+    [SerializeField] float dashCooldown = 1f;
     // Heavy Attacks 
     public float heavyAttackClickedFrame;
     public float heavyDamage;
@@ -65,7 +75,6 @@ public class Player : MonoBehaviour
                 if (heavyAttackClickedFrame == 1 && canAttack)
                 {
                     isAttacking = true;
-                    blockBreak = true;
                     HeavyLow();
                 }
                 break;
@@ -81,6 +90,7 @@ public class Player : MonoBehaviour
                 if (heavyAttackClickedFrame == 1 && canAttack)
                 {
                     isAttacking = true;
+                    blockBreak = true;
                     HeavyMiddle();
                 }
                 break;
@@ -144,7 +154,22 @@ public class Player : MonoBehaviour
 
     }
 
-    
+    public IEnumerator Dash(InputAction.CallbackContext context)
+    {
+        float dashfloat = context.ReadValue<float>();
+        if (dashfloat == 0) isDashing = false;
+        if (dashfloat == 1) isDashing = true;
+
+        if (canDashAgain && isDashing)
+        {
+            xMovementPossible = false;
+            rb.AddForce(Vector2.right * 5 * currentDirection, ForceMode2D.Impulse);
+            canDashAgain = false;
+            yield return new WaitForSeconds(dashCooldown);
+            canDashAgain = true;
+            xMovementPossible = true;
+        }
+    }
 
     // Inputs
 
@@ -153,6 +178,8 @@ public class Player : MonoBehaviour
         if (canMove) currentDirection = context.ReadValue<Vector2>();
         else currentDirection = Vector2.zero;
     }
+
+    
 
     public void Attack(InputAction.CallbackContext context)
     {

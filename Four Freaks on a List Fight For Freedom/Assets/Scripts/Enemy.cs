@@ -5,6 +5,9 @@ using UnityEngine.Rendering;
 public class Enemy : MonoBehaviour
 {
     public float currentHealth;
+    public float currentMaxHealth;
+    public float currentMaxPosture;
+    public float currentPosture;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] float distance;
     [SerializeField] float maxHealth;
@@ -42,6 +45,11 @@ public class Enemy : MonoBehaviour
         {
             animator.SetTrigger("Attacking");
             isBlocking = 0;
+        }
+
+        if (currentPosture <= 0)
+        {
+            BlockBroke();
         }
     }
     public void TakeDamage(float damage)
