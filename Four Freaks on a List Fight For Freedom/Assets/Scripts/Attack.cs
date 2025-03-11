@@ -16,9 +16,16 @@ public class Attack : MonoBehaviour
             if (enemy != null && enemy.isBlocking == 0)
             {
                 if (player.isAttacking) enemy.TakeDamage(player.lightDamage);
-                //if (player.isAttacking) enemy.TakeDamage(player.heavyDamage);
+                
+
             }
+            if (enemy != null && player.isAttacking && enemy.isBlocking == 1 && player.blockBreak == true)
+            {
+                enemy.BlockBroke();
+            }
+            
         }
+        
     }
     void BlockBreak()
     {

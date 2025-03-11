@@ -50,9 +50,10 @@ public class Enemy : MonoBehaviour
         StartCoroutine("HitIndicated", 0.2f);
     }
 
-    void BlockBroke()
+    public void BlockBroke()
     {
         animator.SetTrigger("BlockBroke");
+        isBlocking = 0;
     }
     IEnumerator HitIndicated(float seconds)
     {

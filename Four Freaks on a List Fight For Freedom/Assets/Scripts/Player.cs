@@ -24,6 +24,8 @@ public class Player : MonoBehaviour
     // Heavy Attacks 
     public float heavyAttackClickedFrame;
     public float heavyDamage;
+    // Block Break Type
+    public bool blockBreak;
 
 
     void Start()
@@ -45,6 +47,7 @@ public class Player : MonoBehaviour
         {
             canAttack = true;
             isAttacking = false;
+            blockBreak = false;
             xMovementPossible = true;
         }
         //Directional Combat Input
@@ -62,6 +65,7 @@ public class Player : MonoBehaviour
                 if (heavyAttackClickedFrame == 1 && canAttack)
                 {
                     isAttacking = true;
+                    blockBreak = true;
                     HeavyLow();
                 }
                 break;
@@ -139,6 +143,8 @@ public class Player : MonoBehaviour
         canAttack = false;
 
     }
+
+    
 
     // Inputs
 
