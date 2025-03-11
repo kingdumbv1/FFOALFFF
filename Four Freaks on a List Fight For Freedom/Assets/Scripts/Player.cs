@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
     [SerializeField] bool xMovementPossible = true;
     [SerializeField] bool canDashAgain = true;
     [SerializeField] bool isDashing;
-    [SerializeField] float dashCooldown = 1f;
+    [SerializeField] float dashCooldown = 2f;
     // Heavy Attacks 
     public float heavyAttackClickedFrame;
     public float heavyDamage;
@@ -154,18 +154,23 @@ public class Player : MonoBehaviour
 
     }
 
-    public IEnumerator Dash(InputAction.CallbackContext context)
+    public void Dash(InputAction.CallbackContext context)
     {
         float dashfloat = context.ReadValue<float>();
         if (dashfloat == 0) isDashing = false;
         if (dashfloat == 1) isDashing = true;
 
+        StartCoroutine("Dashing", dashCooldown);
+    }
+
+    public IEnumerator Dashing(float seconds)
+    {
         if (canDashAgain && isDashing)
         {
             xMovementPossible = false;
             rb.AddForce(Vector2.right * 5 * currentDirection, ForceMode2D.Impulse);
             canDashAgain = false;
-            yield return new WaitForSeconds(dashCooldown);
+            yield return new WaitForSeconds(seconds);
             canDashAgain = true;
             xMovementPossible = true;
         }
