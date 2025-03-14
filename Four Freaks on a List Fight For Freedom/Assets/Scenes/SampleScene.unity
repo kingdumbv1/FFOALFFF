@@ -2953,6 +2953,7 @@ MonoBehaviour:
   currentMaxHealth: 100
   currentMaxPosture: 50
   currentPosture: 50
+  playerOneProto: {fileID: 1356373815}
   moveSpeed: 2.5
   jumpHeight: 4
   distance: 0

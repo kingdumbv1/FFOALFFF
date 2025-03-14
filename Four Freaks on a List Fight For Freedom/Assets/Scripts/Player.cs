@@ -11,26 +11,28 @@ public class Player : MonoBehaviour
     public float currentMaxPosture;
     public float currentPosture;
     //
-    [SerializeField] float moveSpeed = 2.8f;
-    [SerializeField] float jumpHeight = 4f;
-    [SerializeField] float distance;
-    [SerializeField] Rigidbody2D rb;
-    [SerializeField] Animator animator;
-    [SerializeField] Transform enemy;
-    [SerializeField] Vector2 currentDirection;
+    [SerializeField] Player playerOneProto;
+    public float moveSpeed = 2.8f;
+    public float jumpHeight = 4f;
+    public float distance;
+    public Rigidbody2D rb;
+    public Animator animator;
+    public Transform enemy;
+    public Vector2 currentDirection;
+    public Test proto;
     // Light Attacks - Blocking
     public float attackClickedFrame;
     public bool isAttacking;
-    [SerializeField] float isBlocking;
+    public float isBlocking;
     public float lightDamage;
-    [SerializeField] bool canAttack;
-    [SerializeField] bool canBlock;
+    public bool canAttack;
+    public bool canBlock;
     // Movement
-    [SerializeField] bool canMove = true;
-    [SerializeField] bool xMovementPossible = true;
-    [SerializeField] bool canDashAgain = true;
-    [SerializeField] bool isDashing;
-    [SerializeField] float dashCooldown = 2f;
+    public bool canMove = true;
+    public bool xMovementPossible = true;
+    public bool canDashAgain = true;
+    public bool isDashing;
+    public float dashCooldown = 2f;
     // Heavy Attacks 
     public float heavyAttackClickedFrame;
     public float heavyDamage;
@@ -43,6 +45,7 @@ public class Player : MonoBehaviour
         enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        proto = new Test(playerOneProto);
     }
     void Update()
     {
@@ -91,7 +94,7 @@ public class Player : MonoBehaviour
                 {
                     isAttacking = true;
                     blockBreak = true;
-                    HeavyMiddle();
+                    proto.HeavyMiddle(rb);
                 }
                 break;
             case 1:
@@ -139,13 +142,7 @@ public class Player : MonoBehaviour
         canAttack = false;
 
     }
-    void HeavyMiddle()
-    {
-        xMovementPossible = false;
-        canAttack = false;
-        rb.AddForce(Vector2.right * 5 * Mathf.Clamp(-distance, -1, 1), ForceMode2D.Impulse);
-        animator.SetTrigger("HeavyMiddle");
-    }
+    
 
     void HeavyLow()
     {
@@ -183,8 +180,6 @@ public class Player : MonoBehaviour
         if (canMove) currentDirection = context.ReadValue<Vector2>();
         else currentDirection = Vector2.zero;
     }
-
-    
 
     public void Attack(InputAction.CallbackContext context)
     {
