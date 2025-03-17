@@ -10,8 +10,11 @@ public class Player : MonoBehaviour
     // Posture
     public float currentMaxPosture;
     public float currentPosture;
-    //
-    [SerializeField] Player playerOneProto;
+    // Self
+    [SerializeField] Player playerOne;
+    // edit in inspector for choice. Characters: prototype, raven, rockstar, dj, outlaw.
+    [SerializeField] string chosenCharacter;
+    // 
     public float moveSpeed = 2.8f;
     public float jumpHeight = 4f;
     public float distance;
@@ -19,7 +22,7 @@ public class Player : MonoBehaviour
     public Animator animator;
     public Transform enemy;
     public Vector2 currentDirection;
-    public Test proto;
+    public Test abilityDatabase;
     // Light Attacks - Blocking
     public float attackClickedFrame;
     public bool isAttacking;
@@ -32,7 +35,7 @@ public class Player : MonoBehaviour
     public bool xMovementPossible = true;
     public bool canDashAgain = true;
     public bool isDashing;
-    public float dashCooldown = 2f;
+    public float dashCooldown = 1f;
     // Heavy Attacks 
     public float heavyAttackClickedFrame;
     public float heavyDamage;
@@ -45,7 +48,7 @@ public class Player : MonoBehaviour
         enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        proto = new Test(playerOneProto);
+        abilityDatabase = new Test(playerOne, chosenCharacter);
     }
     void Update()
     {
@@ -70,47 +73,36 @@ public class Player : MonoBehaviour
                 // down light
                 if (attackClickedFrame == 1 && canAttack)
                 {
-                    canAttack = false;
-                    isAttacking = true;
-                    animator.SetTrigger("LowPrimary");
+                    abilityDatabase.LightLow();
                 }
                 // down heavy
                 if (heavyAttackClickedFrame == 1 && canAttack)
                 {
-                    isAttacking = true;
-                    HeavyLow();
+                    abilityDatabase.HeavyLow();
                 }
                 break;
             case 0:
                 // neutral light
                 if (attackClickedFrame == 1 && canAttack)
                 {
-                    isAttacking = true;
-                    canAttack = false;
-                    animator.SetTrigger("MiddlePrimary");
+                    abilityDatabase.LightMiddle();
                 }
                 // neutral heavy
                 if (heavyAttackClickedFrame == 1 && canAttack)
                 {
-                    isAttacking = true;
-                    blockBreak = true;
-                    proto.HeavyMiddle(rb);
+                    abilityDatabase.HeavyMiddle(rb);
                 }
                 break;
             case 1:
                 //up light
                 if (attackClickedFrame == 1 && canAttack)
                 {
-                    isAttacking = true;
-                    canAttack = false;
-                    rb.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
-                    animator.SetTrigger("HighPrimary");
+                    abilityDatabase.LightHigh();
                 }
                 // up heavy
                 if (heavyAttackClickedFrame == 1 && canAttack)
                 {
-                    isAttacking = true;
-                    HeavyHigh();
+                    abilityDatabase.HeavyHigh();
                 }
                 break;
         }
@@ -135,20 +127,6 @@ public class Player : MonoBehaviour
         {
             rb.linearVelocityX = currentDirection.x * moveSpeed;
         }
-    }
-    void HeavyHigh()
-    {
-        xMovementPossible = false;
-        canAttack = false;
-
-    }
-    
-
-    void HeavyLow()
-    {
-        xMovementPossible = false;
-        canAttack = false;
-
     }
 
     public void Dash(InputAction.CallbackContext context)
