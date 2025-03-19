@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player : MonoBehaviour
+public class Player1 : MonoBehaviour
 {
     // Health
     public float currentHealth;
@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public float currentMaxPosture;
     public float currentPosture;
     // Self
-    [SerializeField] Player playerOne;
+    [SerializeField] Player1 playerOne;
     // edit in inspector for choice. Characters: prototype, raven, rockstar, dj, outlaw.
     [SerializeField] string chosenCharacter;
     // 
@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     public float jumpHeight = 4f;
     public float distance;
     public Rigidbody2D rb;
+    [SerializeField] SpriteRenderer spriteRend;
     public Animator animator;
     public Transform enemy;
     public Vector2 currentDirection;
@@ -49,6 +50,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         abilityDatabase = new Test(playerOne, chosenCharacter);
+        spriteRend = GetComponent<SpriteRenderer>();
     }
     void Update()
     {
@@ -107,6 +109,9 @@ public class Player : MonoBehaviour
                 break;
         }
 
+        
+
+        //turn around
         if (distance < 0)
         {
             animator.SetFloat("IfRunning", currentDirection.x);
@@ -151,6 +156,24 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+        StartCoroutine("HitIndicated", 0.2f);
+    }
+
+    IEnumerator HitIndicated(float seconds)
+    {
+        spriteRend.color = Color.red;
+        yield return new WaitForSeconds(seconds);
+        spriteRend.color = Color.white;
+    }
+
+    public void BlockBroke()
+    {
+        animator.SetTrigger("BlockBroke");
+        isBlocking = 0;
+    }
     // Inputs
 
     public void TestInput(InputAction.CallbackContext context)

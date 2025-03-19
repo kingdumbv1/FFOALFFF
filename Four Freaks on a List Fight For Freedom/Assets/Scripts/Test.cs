@@ -3,13 +3,19 @@ using UnityEngine;
 
 public class Test
 {
-    Player player;
+    Player1 player;
     string characterChoice;
     Animator animator;
 
-    public Test(Player self, string chosenCharacter)
+    public Test(Player1 self, string chosenCharacter)
     {
         player = self;
+        characterChoice = chosenCharacter;
+        animator = player.animator;
+    }
+    public Test(Player2 self, string chosenCharacter)
+    {
+        //player = self;
         characterChoice = chosenCharacter;
         animator = player.animator;
     }
