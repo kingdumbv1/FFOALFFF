@@ -66,7 +66,7 @@ public class Player1 : MonoBehaviour
             canAttack = true;
             isAttacking = false;
             blockBreak = false;
-            if (canDashAgain) xMovementPossible = true;
+            xMovementPossible = true;
         }
         //Directional Combat Input
         switch (currentDirection.y)
@@ -145,11 +145,11 @@ public class Player1 : MonoBehaviour
 
     public IEnumerator Dashing(float seconds)
     {
-        if (canDashAgain && isDashing && currentDirection != Vector2.zero)
+        if (canDashAgain && isDashing)
         {
-            canDashAgain = false;
             xMovementPossible = false;
-            rb.AddForce(Vector2.right * currentDirection, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.right * 5 * currentDirection, ForceMode2D.Impulse);
+            canDashAgain = false;
             yield return new WaitForSeconds(seconds);
             canDashAgain = true;
             xMovementPossible = true;
