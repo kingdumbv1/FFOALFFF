@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player2 : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     // Health
     public float currentHealth;
@@ -11,7 +11,7 @@ public class Player2 : MonoBehaviour
     public float currentMaxPosture;
     public float currentPosture;
     // Self
-    [SerializeField] Player2 playerTwo;
+    [SerializeField] Player playerTwo;
     // edit in inspector for choice. Characters: prototype, raven, rockstar, dj, outlaw.
     [SerializeField] string chosenCharacter;
     // 

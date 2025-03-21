@@ -6,30 +6,31 @@ public class Attack : MonoBehaviour
     private void Start()
     {
         player = GetComponentInParent<Player>();
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (player.CompareTag("Player"))
         {
-            Debug.Log("Triggered");
-            Enemy enemy = collision.GetComponent<Enemy>();
-            if (enemy != null && enemy.isBlocking == 0)
+            if (collision.CompareTag("Enemy"))
             {
-                if (player.isAttacking) enemy.TakeDamage(player.lightDamage);
-                
+                Debug.Log("Triggered");
+                Player enemy = collision.GetComponent<Player>();
+                if (enemy != null && enemy.isBlocking == 0)
+                {
+                    if (player.isAttacking) enemy.TakeDamage(player.lightDamage);
+
+
+                }
+                if (enemy != null && player.isAttacking && enemy.isBlocking == 1 && player.blockBreak == true)
+                {
+                    enemy.BlockBroke();
+                }
 
             }
-            if (enemy != null && player.isAttacking && enemy.isBlocking == 1 && player.blockBreak == true)
-            {
-                enemy.BlockBroke();
-            }
-            
         }
-       
+        
         
     }
-    void BlockBreak()
-    {
-        //
-    }
+    
 }

@@ -3,22 +3,17 @@ using UnityEngine;
 
 public class Test
 {
-    Player1 player;
+    Player player;
     string characterChoice;
     Animator animator;
 
-    public Test(Player1 self, string chosenCharacter)
+    public Test(Player self, string chosenCharacter)
     {
         player = self;
         characterChoice = chosenCharacter;
         animator = player.animator;
     }
-    public Test(Player2 self, string chosenCharacter)
-    {
-        //player = self;
-        characterChoice = chosenCharacter;
-        animator = player.animator;
-    }
+     
     public void LightHigh()
     {
         switch (characterChoice)

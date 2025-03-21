@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player1 : MonoBehaviour
+public class Player : MonoBehaviour
 {
     // Health
     public float currentHealth;
@@ -11,7 +11,7 @@ public class Player1 : MonoBehaviour
     public float currentMaxPosture;
     public float currentPosture;
     // Self
-    [SerializeField] Player1 playerOne;
+    [SerializeField] Player player;
     // edit in inspector for choice. Characters: prototype, raven, rockstar, dj, outlaw.
     [SerializeField] string chosenCharacter;
     // 
@@ -49,7 +49,7 @@ public class Player1 : MonoBehaviour
         enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        abilityDatabase = new Test(playerOne, chosenCharacter);
+        abilityDatabase = new Test(player, chosenCharacter);
         spriteRend = GetComponent<SpriteRenderer>();
     }
     void Update()
