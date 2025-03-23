@@ -4,6 +4,11 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    // For Players 1 and 2, Player 1 must have "Player" Tag and player 2 must have
+    // "Enemy" tag. The Layer for p1 must be "Player1" and p2 must be "Player2"
+
+
+
     // Health
     public float currentHealth;
     public float currentMaxHealth;
@@ -12,6 +17,7 @@ public class Player : MonoBehaviour
     public float currentPosture;
     // Self
     [SerializeField] Player player;
+    [SerializeField] string playerTag;
     // edit in inspector for choice. Characters: prototype, raven, rockstar, dj, outlaw.
     [SerializeField] string chosenCharacter;
     // 
@@ -39,6 +45,7 @@ public class Player : MonoBehaviour
     public float dashCooldown = 1f;
     // Heavy Attacks 
     public float heavyAttackClickedFrame;
+    public bool isHeavyAttacking;
     public float heavyDamage;
     // Block Break Type
     public bool blockBreak;
@@ -46,7 +53,10 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
+        playerTag = gameObject.tag;
+
+        if (playerTag == "Player") enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
+        if (playerTag == "Enemy") enemy = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         abilityDatabase = new Test(player, chosenCharacter);
@@ -63,8 +73,10 @@ public class Player : MonoBehaviour
         }
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {
+            animator.SetBool("IsBlockBreaking", false);
             canAttack = true;
             isAttacking = false;
+            isHeavyAttacking = false;
             blockBreak = false;
             xMovementPossible = true;
         }
@@ -169,9 +181,10 @@ public class Player : MonoBehaviour
         spriteRend.color = Color.white;
     }
 
-    public void BlockBroke()
+    public void BlockBroke(bool isBlockBreaking)
     {
         animator.SetTrigger("BlockBroke");
+        animator.SetBool("IsBlockBreaking", isBlockBreaking);
         isBlocking = 0;
     }
     // Inputs

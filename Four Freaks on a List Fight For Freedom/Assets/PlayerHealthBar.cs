@@ -10,7 +10,20 @@ public class PlayerHealthBar : MonoBehaviour
 
     private void Start()
     {
-         player = GetComponent<Player>();
+        player = GetComponent<Player>();
+
+        if (player.CompareTag("Player"))
+        { 
+            health = GameObject.Find("/UI/Player Health").GetComponent<Slider>();
+            posture = GameObject.Find("/UI/Player Posture").GetComponent<Slider>();
+            ult = GameObject.Find("/UI/Player Ult").GetComponent<Slider>();
+        }
+        if (player.CompareTag("Enemy"))
+        {
+            health = GameObject.Find("/UI/Enemy Health").GetComponent<Slider>();
+            posture = GameObject.Find("/UI/Enemy Posture").GetComponent<Slider>();
+            ult = GameObject.Find("/UI/Enemy Ult").GetComponent<Slider>();
+        }
     }
 
     private void Update()

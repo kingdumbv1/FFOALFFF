@@ -118,7 +118,7 @@ public class Test
         {
             //Characters: prototype, raven, rockstar, dj, outlaw.
             case "prototype":
-                player.isAttacking = true;
+                player.isHeavyAttacking = true;
                 player.blockBreak = true;
                 player.xMovementPossible = false;
                 player.canAttack = false;

@@ -16,21 +16,45 @@ public class Attack : MonoBehaviour
             {
                 Debug.Log("Triggered");
                 Player enemy = collision.GetComponent<Player>();
-                if (enemy != null && enemy.isBlocking == 0)
+                if (enemy != null)
                 {
-                    if (player.isAttacking) enemy.TakeDamage(player.lightDamage);
-
-
-                }
-                if (enemy != null && player.isAttacking && enemy.isBlocking == 1 && player.blockBreak == true)
-                {
-                    enemy.BlockBroke();
+                    if (enemy.isBlocking == 0)
+                    {
+                        if (player.isAttacking) enemy.TakeDamage(player.lightDamage); 
+                        if (player.isHeavyAttacking) enemy.TakeDamage(player.heavyDamage);
+                    }
+                    if (player.isHeavyAttacking && enemy.isBlocking == 1 && player.blockBreak == true)
+                    {
+                        enemy.BlockBroke(true);
+                        enemy.TakeDamage(player.heavyDamage / 2);
+                    }
                 }
 
             }
         }
-        
-        
+        if (player.CompareTag("Enemy"))
+        {
+            if (collision.CompareTag("Player"))
+            {
+                Debug.Log("Triggered");
+                Player enemy = collision.GetComponent<Player>();
+                if (enemy != null)
+                {
+                    if (enemy.isBlocking == 0)
+                    {
+                        if (player.isAttacking) enemy.TakeDamage(player.lightDamage);
+                        if (player.isHeavyAttacking) enemy.TakeDamage(player.heavyDamage);
+                    }
+                    if (player.isHeavyAttacking && enemy.isBlocking == 1 && player.blockBreak == true)
+                    {
+                        enemy.BlockBroke(true);
+                        enemy.TakeDamage(player.heavyDamage / 2);
+                    }
+                }
+
+            }
+        }
+
     }
     
 }
