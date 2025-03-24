@@ -16,7 +16,6 @@ public class Player : MonoBehaviour
     public float currentPosture;
     // Self
     [SerializeField] Player player;
-    [SerializeField] string playerTag;
     // edit in inspector for choice. Characters: prototype, raven, rockstar, dj, outlaw.
     [SerializeField] string chosenCharacter;
     // 
@@ -53,10 +52,9 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        playerTag = gameObject.tag;
 
-        if (playerTag == "Player") enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
-        if (playerTag == "Enemy") enemy = GameObject.FindGameObjectWithTag("Player").transform;
+        if (gameObject.tag == "Player") enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
+        if (gameObject.tag == "Enemy") enemy = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         abilityDatabase = new Test(player, chosenCharacter);
