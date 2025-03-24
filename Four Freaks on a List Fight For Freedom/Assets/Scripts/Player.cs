@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
     // "Enemy" tag. The Layer for p1 must be "Player1" and p2 must be "Player2"
 
 
-
     // Health
     public float currentHealth;
     public float currentMaxHealth;
@@ -39,6 +38,7 @@ public class Player : MonoBehaviour
     public bool canBlock;
     // Movement
     public bool canMove = true;
+    public bool isStaggered = false;
     public bool xMovementPossible = true;
     public bool canDashAgain = true;
     public bool isDashing;
@@ -78,7 +78,7 @@ public class Player : MonoBehaviour
             isAttacking = false;
             isHeavyAttacking = false;
             blockBreak = false;
-            xMovementPossible = true;
+            if (!isStaggered) xMovementPossible = true;
         }
         //Directional Combat Input
         switch (currentDirection.y)
@@ -168,7 +168,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage, float knockback)
     {
         currentHealth -= damage;
         StartCoroutine("HitIndicated", 0.2f);
@@ -177,7 +177,12 @@ public class Player : MonoBehaviour
     IEnumerator HitIndicated(float seconds)
     {
         spriteRend.color = Color.red;
+        isStaggered = true;
+        xMovementPossible = false;
+        rb.AddForce(Vector2.right * 3.5f * Mathf.Clamp(distance, -1, 1), ForceMode2D.Impulse);
         yield return new WaitForSeconds(seconds);
+        xMovementPossible = true;
+        isStaggered = false;
         spriteRend.color = Color.white;
     }
 
@@ -187,8 +192,8 @@ public class Player : MonoBehaviour
         animator.SetBool("IsBlockBreaking", isBlockBreaking);
         isBlocking = 0;
     }
-    // Inputs
 
+    // Inputs
     public void TestInput(InputAction.CallbackContext context)
     {
         if (canMove) currentDirection = context.ReadValue<Vector2>();

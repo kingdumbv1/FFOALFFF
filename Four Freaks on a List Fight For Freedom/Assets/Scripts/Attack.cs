@@ -20,13 +20,13 @@ public class Attack : MonoBehaviour
                 {
                     if (enemy.isBlocking == 0)
                     {
-                        if (player.isAttacking) enemy.TakeDamage(player.lightDamage); 
-                        if (player.isHeavyAttacking) enemy.TakeDamage(player.heavyDamage);
+                        if (player.isAttacking) enemy.TakeDamage(player.lightDamage, 0); 
+                        if (player.isHeavyAttacking) enemy.TakeDamage(player.heavyDamage, 0);
                     }
                     if (player.isHeavyAttacking && enemy.isBlocking == 1 && player.blockBreak == true)
                     {
                         enemy.BlockBroke(true);
-                        enemy.TakeDamage(player.heavyDamage / 2);
+                        enemy.TakeDamage(player.heavyDamage / 2, 0);
                     }
                 }
 
@@ -42,13 +42,13 @@ public class Attack : MonoBehaviour
                 {
                     if (enemy.isBlocking == 0)
                     {
-                        if (player.isAttacking) enemy.TakeDamage(player.lightDamage);
-                        if (player.isHeavyAttacking) enemy.TakeDamage(player.heavyDamage);
+                        if (player.isAttacking) enemy.TakeDamage(player.lightDamage, 0);
+                        if (player.isHeavyAttacking) enemy.TakeDamage(player.heavyDamage, 0);
                     }
                     if (player.isHeavyAttacking && enemy.isBlocking == 1 && player.blockBreak == true)
                     {
                         enemy.BlockBroke(true);
-                        enemy.TakeDamage(player.heavyDamage / 2);
+                        enemy.TakeDamage(player.heavyDamage / 2, 0);
                     }
                 }
 
