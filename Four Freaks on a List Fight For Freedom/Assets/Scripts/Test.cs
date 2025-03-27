@@ -20,10 +20,13 @@ public class Test
         {
             //Characters: prototype, raven, rockstar, dj, outlaw.
             case "prototype":
-                player.isAttacking = true;
-                player.canAttack = false;
-                player.rb.AddForce(Vector2.up * player.jumpHeight, ForceMode2D.Impulse);
-                animator.SetTrigger("HighPrimary");
+                if (player.isGrounded)
+                {
+                    player.isAttacking = true;
+                    player.canAttack = false;
+                    player.rb.AddForce(Vector2.up * player.jumpHeight, ForceMode2D.Impulse);
+                    animator.SetTrigger("HighPrimary");
+                }
                 break;
             case "raven":
 

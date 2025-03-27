@@ -3516,6 +3516,7 @@ MonoBehaviour:
   chosenCharacter: prototype
   moveSpeed: 2.8
   jumpHeight: 4
+  isGrounded: 0
   distance: 0
   rb: {fileID: 0}
   spriteRend: {fileID: 0}
@@ -4882,7 +4883,8 @@ MonoBehaviour:
   player: {fileID: 1356373822}
   chosenCharacter: prototype
   moveSpeed: 2.8
-  jumpHeight: 4
+  jumpHeight: 2
+  isGrounded: 1
   distance: 0
   rb: {fileID: 0}
   spriteRend: {fileID: 0}

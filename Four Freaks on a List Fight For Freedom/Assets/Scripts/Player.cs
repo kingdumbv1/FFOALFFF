@@ -9,25 +9,32 @@ public class Player : MonoBehaviour
 
 
     // Health
+    [Header("Health")]
     public float currentHealth;
     public float currentMaxHealth;
     // Posture
     public float currentMaxPosture;
     public float currentPosture;
     // Self
+    [Header("Self")]
     [SerializeField] Player player;
     // edit in inspector for choice. Characters: prototype, raven, rockstar, dj, outlaw.
     [SerializeField] string chosenCharacter;
     // 
+    [Header("Movement")]
     public float moveSpeed = 2.8f;
-    public float jumpHeight = 4f;
+    public float jumpHeight = 2f;
     public float distance;
     public Rigidbody2D rb;
+    [Header("Animator / Sprites")]
     [SerializeField] SpriteRenderer spriteRend;
     public Animator animator;
     public Transform enemy;
+    [Header("Misc")]
+    public RaycastHit2D isGrounded;
     public Vector2 currentDirection;
     public Test abilityDatabase;
+    [Header("Light Attack / Blocking")]
     // Light Attacks - Blocking
     public float attackClickedFrame;
     public bool isAttacking;
@@ -36,6 +43,7 @@ public class Player : MonoBehaviour
     public bool canAttack;
     public bool canBlock;
     // Movement
+    [Header("Other Movement")]
     public bool canMove = true;
     public bool isStaggered = false;
     public bool xMovementPossible = true;
@@ -43,6 +51,7 @@ public class Player : MonoBehaviour
     public bool isDashing;
     public float dashCooldown = 1f;
     // Heavy Attacks 
+    [Header("Heavy Attack")]
     public float heavyAttackClickedFrame;
     public bool isHeavyAttacking;
     public float heavyDamage;
@@ -63,6 +72,10 @@ public class Player : MonoBehaviour
     void Update()
     {
         distance = transform.position.x - enemy.transform.position.x;
+        currentDirection.y = Mathf.RoundToInt(currentDirection.y);
+
+        RaycastHit2D isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 1);
+        
 
         if (xMovementPossible)
         {
@@ -202,6 +215,45 @@ public class Player : MonoBehaviour
     {
         Debug.Log(attackClickedFrame);
         attackClickedFrame = context.ReadValue<float>();
+        switch (currentDirection.y)
+        {
+            case -1:
+                // down light
+                if (context.ReadValue<float>() == 1 && canAttack)
+                {
+                    abilityDatabase.LightLow();
+                }
+                // down heavy
+                if (heavyAttackClickedFrame == 1 && canAttack)
+                {
+                    abilityDatabase.HeavyLow();
+                }
+                break;
+            case 0:
+                // neutral light
+                if (attackClickedFrame == 1 && canAttack)
+                {
+                    abilityDatabase.LightMiddle();
+                }
+                // neutral heavy
+                if (heavyAttackClickedFrame == 1 && canAttack)
+                {
+                    abilityDatabase.HeavyMiddle(rb);
+                }
+                break;
+            case 1:
+                //up light
+                if (attackClickedFrame == 1 && canAttack)
+                {
+                    abilityDatabase.LightHigh();
+                }
+                // up heavy
+                if (heavyAttackClickedFrame == 1 && canAttack)
+                {
+                    abilityDatabase.HeavyHigh();
+                }
+                break;
+        }
     }
     public void HeavyAttack(InputAction.CallbackContext context)
     {
