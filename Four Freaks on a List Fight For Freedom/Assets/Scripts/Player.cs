@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     [Header("Misc")]
     public Vector2 currentDirection;
     public Test abilityDatabase;
+    public GameManager game;
     [Header("Light Attack / Blocking")]
     // Light Attacks - Blocking
     public float attackClickedFrame;
@@ -65,8 +66,9 @@ public class Player : MonoBehaviour
         if (gameObject.tag == "Enemy") enemy = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        abilityDatabase = new Test(player, chosenCharacter);
+        abilityDatabase = new Test(player, chosenCharacter, game);
         spriteRend = GetComponent<SpriteRenderer>();
+        game = GameObject.Find("Game Manager").GetComponent<GameManager>();
     }
     void Update()
     {

@@ -6,12 +6,15 @@ public class Test
     Player player;
     string characterChoice;
     Animator animator;
+    GameManager game;
 
-    public Test(Player self, string chosenCharacter)
+    public Test(Player self, string chosenCharacter, GameManager gameManager)
     {
         player = self;
         characterChoice = chosenCharacter;
         animator = player.animator;
+        game = gameManager;
+        // finish in player
     }
     // MAKE SURE ALL IDLE ANIMATIONS ARE NAMED "Idle"!
     public void LightHigh()
@@ -83,6 +86,11 @@ public class Test
                 animator.SetTrigger("LowPrimary");
                 break;
             case "rockstar":
+                player.canAttack = false;
+                player.isAttacking = true;
+                player.xMovementPossible = false;
+                player.rb.AddForce(Vector2.left * player.jumpHeight, ForceMode2D.Impulse); player.xMovementPossible = false;
+
                 animator.SetTrigger("LowPrimary");
                 break;
             case "dj":

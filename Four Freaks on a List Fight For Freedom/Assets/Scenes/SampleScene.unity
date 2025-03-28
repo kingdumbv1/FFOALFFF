@@ -2729,6 +2729,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1045809599}
+  - component: {fileID: 1045809600}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -2751,6 +2752,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1045809600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045809597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3ea2b95072a2e43a4f31254be1c537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  enemy: {fileID: 0}
 --- !u!1 &1080265230
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,6 +3080,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   enemy: {fileID: 0}
   currentDirection: {x: 0, y: 0}
+  game: {fileID: 0}
   attackClickedFrame: 0
   isAttacking: 0
   isBlocking: 0
@@ -3127,7 +3143,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!61 &1131856474
@@ -5791,6 +5807,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   enemy: {fileID: 0}
   currentDirection: {x: 0, y: 0}
+  game: {fileID: 0}
   attackClickedFrame: 0
   isAttacking: 0
   isBlocking: 0
@@ -5854,8 +5871,8 @@ Transform:
   m_GameObject: {fileID: 2542751640056363396}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.291, y: -0.251, z: -0.0009414869}
-  m_LocalScale: {x: 0.3707686, y: 0.3707686, z: 0.3707686}
+  m_LocalPosition: {x: 0.344, y: 0.18502, z: -0.0009414869}
+  m_LocalScale: {x: 0.33369175, y: 1.1123059, z: 0.3707686}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1781982942180051033}
@@ -11023,7 +11040,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7764940433240378085, guid: fcc0d764aa70d904a8f42b5eacb86567, type: 3}
+  m_Sprite: {fileID: -2757806025713791685, guid: 0f9e87632e779834dac3769272366b18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11191,7 +11208,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.42, y: 0.81}
+    oldSize: {x: 0.69, y: 0.89}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -11264,7 +11281,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!95 &8041086084937344904
