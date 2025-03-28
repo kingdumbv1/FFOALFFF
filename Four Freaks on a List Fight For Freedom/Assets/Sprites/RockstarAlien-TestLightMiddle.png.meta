@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: d3f8927b71d1fd3418d3c66f4cc8edef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2970388700139944139
+    second: RockstarAlien-TestLightMiddle_0
+  - first:
+      213: -34564373052485700
+    second: RockstarAlien-TestLightMiddle_1
+  - first:
+      213: 7550806940137090949
+    second: RockstarAlien-TestLightMiddle_2
+  - first:
+      213: 7949741028751700592
+    second: RockstarAlien-TestLightMiddle_3
+  - first:
+      213: -5425051057532062720
+    second: RockstarAlien-TestLightMiddle_4
+  - first:
+      213: 1477382664292660001
+    second: RockstarAlien-TestLightMiddle_5
+  - first:
+      213: 9144967624228628171
+    second: RockstarAlien-TestLightMiddle_6
+  - first:
+      213: 8627008821178845891
+    second: RockstarAlien-TestLightMiddle_7
+  - first:
+      213: -4452434171641227155
+    second: RockstarAlien-TestLightMiddle_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightMiddle_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 35
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8fca4f8c0f83920800000000000000
+      internalID: 2970388700139944139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightMiddle_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 35
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf8256c2e3358ff0800000000000000
+      internalID: -34564373052485700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightMiddle_2
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 35
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fec6af7ead9c860800000000000000
+      internalID: 7550806940137090949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightMiddle_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 35
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072f71b9857235e60800000000000000
+      internalID: 7949741028751700592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightMiddle_4
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 35
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004b17b6ec856b4b0800000000000000
+      internalID: -5425051057532062720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightMiddle_5
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 35
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123fb76a4b7b08410800000000000000
+      internalID: 1477382664292660001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightMiddle_6
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 35
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc668942a9379ee70800000000000000
+      internalID: 9144967624228628171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightMiddle_7
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 35
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cac684a0da49b770800000000000000
+      internalID: 8627008821178845891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightMiddle_8
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 35
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68938df5b6c532c0800000000000000
+      internalID: -4452434171641227155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RockstarAlien-TestLightMiddle_0: 2970388700139944139
+      RockstarAlien-TestLightMiddle_1: -34564373052485700
+      RockstarAlien-TestLightMiddle_2: 7550806940137090949
+      RockstarAlien-TestLightMiddle_3: 7949741028751700592
+      RockstarAlien-TestLightMiddle_4: -5425051057532062720
+      RockstarAlien-TestLightMiddle_5: 1477382664292660001
+      RockstarAlien-TestLightMiddle_6: 9144967624228628171
+      RockstarAlien-TestLightMiddle_7: 8627008821178845891
+      RockstarAlien-TestLightMiddle_8: -4452434171641227155
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

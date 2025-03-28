@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: eb8a00a7297944041b6e7b27852c746e
+guid: 354a9d2f6a659da4eaf1e6890b93a31f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3998727726349651679
-    second: alien attack 2_0
+      213: 8297745480444171893
+    second: RockstarAlien-TestIdle_0
+  - first:
+      213: 9061253541682837668
+    second: RockstarAlien-TestIdle_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: alien attack 2_0
+      name: RockstarAlien-TestIdle_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 2
-        width: 33
-        height: 42
+        x: 0
+        y: 10
+        width: 77
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fde83925ea55e7730800000000000000
-      internalID: 3998727726349651679
+      spriteID: 5765a761d83872370800000000000000
+      internalID: 8297745480444171893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestIdle_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 10
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a871cb661a00cd70800000000000000
+      internalID: 9061253541682837668
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      alien attack 2_0: 3998727726349651679
+      RockstarAlien-TestIdle_0: 8297745480444171893
+      RockstarAlien-TestIdle_1: 9061253541682837668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

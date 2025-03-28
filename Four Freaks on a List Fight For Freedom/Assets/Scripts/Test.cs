@@ -13,32 +13,33 @@ public class Test
         characterChoice = chosenCharacter;
         animator = player.animator;
     }
-     
+    // MAKE SURE ALL IDLE ANIMATIONS ARE NAMED "Idle"!
     public void LightHigh()
     {
         switch (characterChoice)
         {
             //Characters: prototype, raven, rockstar, dj, outlaw.
             case "prototype":
-                if (player.isGrounded)
-                {
-                    player.isAttacking = true;
-                    player.canAttack = false;
-                    player.rb.AddForce(Vector2.up * player.jumpHeight, ForceMode2D.Impulse);
-                    animator.SetTrigger("HighPrimary");
-                }
+                player.isAttacking = true;
+                player.canAttack = false;
+                player.rb.AddForce(Vector2.up * player.jumpHeight, ForceMode2D.Impulse);
+                animator.SetTrigger("HighPrimary");
                 break;
             case "raven":
-
+                animator.SetTrigger("HighPrimary");
                 break;
             case "rockstar":
-
+                player.isAttacking = true;
+                player.canAttack = false;
+                player.rb.AddForce(Vector2.up * player.jumpHeight, ForceMode2D.Impulse);
+                player.rb.AddForce(Vector2.right * player.jumpHeight / 1.5f, ForceMode2D.Impulse);
+                animator.SetTrigger("HighPrimary");
                 break;
             case "dj":
-
+                animator.SetTrigger("HighPrimary");
                 break;
             case "outlaw":
-
+                animator.SetTrigger("HighPrimary");
                 break;
         }
     }
@@ -53,16 +54,18 @@ public class Test
                 animator.SetTrigger("MiddlePrimary");
                 break;
             case "raven":
-
+                animator.SetTrigger("MiddlePrimary");
                 break;
             case "rockstar":
-
+                player.isAttacking = true;
+                player.canAttack = false;
+                animator.SetTrigger("MiddlePrimary");
                 break;
             case "dj":
-
+                animator.SetTrigger("MiddlePrimary");
                 break;
             case "outlaw":
-
+                animator.SetTrigger("MiddlePrimary");
                 break;
         }
     }
@@ -77,16 +80,16 @@ public class Test
                 animator.SetTrigger("LowPrimary");
                 break;
             case "raven":
-
+                animator.SetTrigger("LowPrimary");
                 break;
             case "rockstar":
-
+                animator.SetTrigger("LowPrimary");
                 break;
             case "dj":
-
+                animator.SetTrigger("LowPrimary");
                 break;
             case "outlaw":
-
+                animator.SetTrigger("LowPrimary");
                 break;
         }
     }
@@ -99,18 +102,22 @@ public class Test
                 player.isAttacking = true;
                 player.xMovementPossible = false;
                 player.canAttack = false;
+                animator.SetTrigger("HeavyHigh");
                 break;
             case "raven":
-
+                animator.SetTrigger("HeavyHigh");
                 break;
             case "rockstar":
-
+                player.isAttacking = true;
+                player.xMovementPossible = false;
+                player.canAttack = false;
+                animator.SetTrigger("HeavyHigh");
                 break;
             case "dj":
-
+                animator.SetTrigger("HeavyHigh");
                 break;
             case "outlaw":
-
+                animator.SetTrigger("HeavyHigh");
                 break;
         }
     }
@@ -129,16 +136,16 @@ public class Test
                 animator.SetTrigger("HeavyMiddle");
                 break;
             case "raven":
-
+                animator.SetTrigger("HeavyMiddle");
                 break;
             case "rockstar":
-
+                animator.SetTrigger("HeavyMiddle");
                 break;
             case "dj":
-
+                animator.SetTrigger("HeavyMiddle");
                 break;
             case "outlaw":
-
+                animator.SetTrigger("HeavyMiddle");
                 break;
         }
     }

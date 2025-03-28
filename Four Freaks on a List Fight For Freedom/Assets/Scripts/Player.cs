@@ -31,7 +31,6 @@ public class Player : MonoBehaviour
     public Animator animator;
     public Transform enemy;
     [Header("Misc")]
-    public RaycastHit2D isGrounded;
     public Vector2 currentDirection;
     public Test abilityDatabase;
     [Header("Light Attack / Blocking")]
@@ -61,7 +60,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-
+        Debug.Log(chosenCharacter);
         if (gameObject.tag == "Player") enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
         if (gameObject.tag == "Enemy") enemy = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
@@ -73,10 +72,6 @@ public class Player : MonoBehaviour
     {
         distance = transform.position.x - enemy.transform.position.x;
         currentDirection.y = Mathf.RoundToInt(currentDirection.y);
-
-        RaycastHit2D isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 1);
-        
-
         if (xMovementPossible)
         {
             if (distance < 0) transform.rotation = Quaternion.identity;
@@ -94,18 +89,6 @@ public class Player : MonoBehaviour
         //Directional Combat Input
         switch (currentDirection.y)
         {
-            case -1:
-                // down light
-                if (attackClickedFrame == 1 && canAttack)
-                {
-                    abilityDatabase.LightLow();
-                }
-                // down heavy
-                if (heavyAttackClickedFrame == 1 && canAttack)
-                {
-                    abilityDatabase.HeavyLow();
-                }
-                break;
             case 0:
                 // neutral light
                 if (attackClickedFrame == 1 && canAttack)
@@ -128,6 +111,19 @@ public class Player : MonoBehaviour
                 if (heavyAttackClickedFrame == 1 && canAttack)
                 {
                     abilityDatabase.HeavyHigh();
+                }
+                break;
+        
+            case -1:
+                // down light
+                if (attackClickedFrame == 1 && canAttack)
+                {
+                    abilityDatabase.LightLow();
+                }
+                // down heavy
+                if (heavyAttackClickedFrame == 1 && canAttack)
+                {
+                    abilityDatabase.HeavyLow();
                 }
                 break;
         }
@@ -215,45 +211,7 @@ public class Player : MonoBehaviour
     {
         Debug.Log(attackClickedFrame);
         attackClickedFrame = context.ReadValue<float>();
-        switch (currentDirection.y)
-        {
-            case -1:
-                // down light
-                if (context.ReadValue<float>() == 1 && canAttack)
-                {
-                    abilityDatabase.LightLow();
-                }
-                // down heavy
-                if (heavyAttackClickedFrame == 1 && canAttack)
-                {
-                    abilityDatabase.HeavyLow();
-                }
-                break;
-            case 0:
-                // neutral light
-                if (attackClickedFrame == 1 && canAttack)
-                {
-                    abilityDatabase.LightMiddle();
-                }
-                // neutral heavy
-                if (heavyAttackClickedFrame == 1 && canAttack)
-                {
-                    abilityDatabase.HeavyMiddle(rb);
-                }
-                break;
-            case 1:
-                //up light
-                if (attackClickedFrame == 1 && canAttack)
-                {
-                    abilityDatabase.LightHigh();
-                }
-                // up heavy
-                if (heavyAttackClickedFrame == 1 && canAttack)
-                {
-                    abilityDatabase.HeavyHigh();
-                }
-                break;
-        }
+        
     }
     public void HeavyAttack(InputAction.CallbackContext context)
     {

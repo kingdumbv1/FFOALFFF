@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 0f9e87632e779834dac3769272366b18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2757806025713791685
+    second: RockstarAlien-TestLightUp_0
+  - first:
+      213: -4580896056691960146
+    second: RockstarAlien-TestLightUp_1
+  - first:
+      213: 6222112973401369561
+    second: RockstarAlien-TestLightUp_2
+  - first:
+      213: -4160795065646875268
+    second: RockstarAlien-TestLightUp_3
+  - first:
+      213: -3091135395763011513
+    second: RockstarAlien-TestLightUp_4
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightUp_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 35
+        width: 69
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dc5e5f70e4ab9d0800000000000000
+      internalID: -2757806025713791685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightUp_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 35
+        width: 84
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6089552, y: 0.42445767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea653eb9e436d60c0800000000000000
+      internalID: -4580896056691960146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightUp_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 35
+        width: 95
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41043672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db20fb78c2695650800000000000000
+      internalID: 6222112973401369561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightUp_3
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 33
+        width: 102
+        height: 114
+      alignment: 9
+      pivot: {x: 0.30259854, y: 0.41436487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d7be0cee2e146c0800000000000000
+      internalID: -4160795065646875268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestLightUp_4
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 30
+        width: 85
+        height: 102
+      alignment: 9
+      pivot: {x: 0.20569207, y: 0.4641088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740c8ee2cb41a15d0800000000000000
+      internalID: -3091135395763011513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d7aea5e429a8323458c31096f95fb195
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RockstarAlien-TestLightUp_0: -2757806025713791685
+      RockstarAlien-TestLightUp_1: -4580896056691960146
+      RockstarAlien-TestLightUp_2: 6222112973401369561
+      RockstarAlien-TestLightUp_3: -4160795065646875268
+      RockstarAlien-TestLightUp_4: -3091135395763011513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
