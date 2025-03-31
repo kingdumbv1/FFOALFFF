@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         enemy = GameObject.FindGameObjectWithTag("Enemy");
     }
-
+    public void PlayerJoined()
+    {
+        Debug.Log("Player 2 Joined!");
+    }
     
 }
