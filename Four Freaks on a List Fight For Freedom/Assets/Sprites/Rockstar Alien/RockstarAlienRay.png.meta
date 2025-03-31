@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eb8a00a7297944041b6e7b27852c746e
+guid: dc671740e637d1d478aaf10a7cdf3a8a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3998727726349651679
-    second: alien attack 2_0
+      213: 3381045286051184816
+    second: RockstarAlienRay_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: alien attack 2_0
+      name: RockstarAlienRay_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 2
-        width: 33
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 66
+        width: 148
+        height: 49
+      alignment: 9
+      pivot: {x: 0.15299599, y: 0.5395506}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fde83925ea55e7730800000000000000
-      internalID: 3998727726349651679
+      spriteID: 0b0079c26c2ebee20800000000000000
+      internalID: 3381045286051184816
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: db1217a0241d2d54f975de57a72a8111
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      alien attack 2_0: 3998727726349651679
+      RockstarAlienRay_0: 3381045286051184816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

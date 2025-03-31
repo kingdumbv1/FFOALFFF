@@ -1,61 +1,52 @@
 fileFormatVersion: 2
-guid: 47d793907b7be744d85b554197d93f06
+guid: 6242d33fcc08588499b6566cb54f929c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9147607093250389451
-    second: alien attack 2-Sheet_0
+      213: -5952128603530160958
+    second: RockstarAlien-TestHeavyDown_0
   - first:
-      213: 1146824193201608956
-    second: alien attack 2-Sheet_1
+      213: 7232608972647451814
+    second: RockstarAlien-TestHeavyDown_1
   - first:
-      213: -5229882694381429362
-    second: alien attack 2-Sheet_2
+      213: 3958884213657982335
+    second: RockstarAlien-TestHeavyDown_2
   - first:
-      213: 7226591679414689724
-    second: alien attack 2-Sheet_3
+      213: 1597306916758751870
+    second: RockstarAlien-TestHeavyDown_3
   - first:
-      213: -7194629815342123149
-    second: alien attack 2-Sheet_4
+      213: -6206938994846982800
+    second: RockstarAlien-TestHeavyDown_4
   - first:
-      213: 7888027055199253162
-    second: alien attack 2-Sheet_5
+      213: 551677832662892216
+    second: RockstarAlien-TestHeavyDown_5
   - first:
-      213: 3626848377121473733
-    second: alien attack 2-Sheet_6
+      213: 581216678809276013
+    second: RockstarAlien-TestHeavyDown_6
   - first:
-      213: -3447760268873660712
-    second: alien attack 2-Sheet_7
+      213: 4226059837022863901
+    second: RockstarAlien-TestHeavyDown_7
   - first:
-      213: -3990925304723407398
-    second: alien attack 2-Sheet_8
+      213: 1958022789959850054
+    second: RockstarAlien-TestHeavyDown_8
   - first:
-      213: -6831283314598317118
-    second: alien attack 2-Sheet_9
+      213: 5670453507836628343
+    second: RockstarAlien-TestHeavyDown_9
   - first:
-      213: 5771366229581932956
-    second: alien attack 2-Sheet_10
+      213: -759246417080821290
+    second: RockstarAlien-TestHeavyDown_10
   - first:
-      213: -3283099115445778074
-    second: alien attack 2-Sheet_11
+      213: 3798010150275594209
+    second: RockstarAlien-TestHeavyDown_11
   - first:
-      213: -1143167215561273020
-    second: alien attack 2-Sheet_12
+      213: -4063221041200277821
+    second: RockstarAlien-TestHeavyDown_12
   - first:
-      213: -3836513465962318103
-    second: alien attack 2-Sheet_13
+      213: 3488798850971042676
+    second: RockstarAlien-TestHeavyDown_13
   - first:
-      213: -6444121286957828109
-    second: alien attack 2-Sheet_14
-  - first:
-      213: -941868065839019510
-    second: alien attack 2-Sheet_15
-  - first:
-      213: -2545609417723651440
-    second: alien attack 2-Sheet_16
-  - first:
-      213: -3227260586136967221
-    second: alien attack 2-Sheet_17
+      213: -7664134809758794487
+    second: RockstarAlien-TestHeavyDown_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,397 +142,331 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: alien attack 2-Sheet_0
+      name: RockstarAlien-TestHeavyDown_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 2
-        width: 33
-        height: 42
+        x: 25
+        y: 35
+        width: 77
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc5780a6f24d2fe70800000000000000
-      internalID: 9147607093250389451
+      spriteID: 2c49421229ac56da0800000000000000
+      internalID: -5952128603530160958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_1
+      name: RockstarAlien-TestHeavyDown_1
       rect:
         serializedVersion: 2
-        x: 178
-        y: 2
-        width: 36
-        height: 42
+        x: 174
+        y: 35
+        width: 61
+        height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf81b9f07865aef00800000000000000
-      internalID: 1146824193201608956
+      spriteID: 6ac44f56a836f5460800000000000000
+      internalID: 7232608972647451814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_2
+      name: RockstarAlien-TestHeavyDown_2
       rect:
         serializedVersion: 2
-        x: 351
-        y: 2
-        width: 37
-        height: 42
+        x: 340
+        y: 35
+        width: 47
+        height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8d9e680669bb67b0800000000000000
-      internalID: -5229882694381429362
+      spriteID: f755cfd9738c0f630800000000000000
+      internalID: 3958884213657982335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_3
+      name: RockstarAlien-TestHeavyDown_3
       rect:
         serializedVersion: 2
-        x: 524
-        y: 2
-        width: 38
-        height: 42
+        x: 490
+        y: 35
+        width: 47
+        height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbf5e4428d20a4460800000000000000
-      internalID: 7226591679414689724
+      spriteID: e7a0eaa8d26ca2610800000000000000
+      internalID: 1597306916758751870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_4
+      name: RockstarAlien-TestHeavyDown_4
       rect:
         serializedVersion: 2
-        x: 697
-        y: 2
-        width: 38
-        height: 42
+        x: 640
+        y: 35
+        width: 47
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 377391e3d4a872c90800000000000000
-      internalID: -7194629815342123149
+      spriteID: 07d10a5bed58cd9a0800000000000000
+      internalID: -6206938994846982800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_5
+      name: RockstarAlien-TestHeavyDown_5
       rect:
         serializedVersion: 2
-        x: 870
-        y: 2
-        width: 40
-        height: 42
+        x: 790
+        y: 35
+        width: 47
+        height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa272db60d6e77d60800000000000000
-      internalID: 7888027055199253162
+      spriteID: 8be345ed014f7a700800000000000000
+      internalID: 551677832662892216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_6
+      name: RockstarAlien-TestHeavyDown_6
       rect:
         serializedVersion: 2
-        x: 1043
-        y: 2
-        width: 36
-        height: 41
+        x: 940
+        y: 35
+        width: 47
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c407841267255230800000000000000
-      internalID: 3626848377121473733
+      spriteID: d6e85fd6d75e01800800000000000000
+      internalID: 581216678809276013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_7
+      name: RockstarAlien-TestHeavyDown_7
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 2
-        width: 35
-        height: 41
+        x: 1090
+        y: 35
+        width: 47
+        height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d6841f6d481720d0800000000000000
-      internalID: -3447760268873660712
+      spriteID: d120b49f70bf5aa30800000000000000
+      internalID: 4226059837022863901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_8
+      name: RockstarAlien-TestHeavyDown_8
       rect:
         serializedVersion: 2
-        x: 1403
-        y: 15
-        width: 38
-        height: 41
+        x: 1240
+        y: 35
+        width: 47
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: addf7d684926d98c0800000000000000
-      internalID: -3990925304723407398
+      spriteID: 6481da97a5b4c2b10800000000000000
+      internalID: 1958022789959850054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_9
+      name: RockstarAlien-TestHeavyDown_9
       rect:
         serializedVersion: 2
-        x: 1605
-        y: 21
-        width: 44
-        height: 41
+        x: 1390
+        y: 35
+        width: 47
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c37051e4086231a0800000000000000
-      internalID: -6831283314598317118
+      spriteID: 77d48f90c6f71be40800000000000000
+      internalID: 5670453507836628343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_10
+      name: RockstarAlien-TestHeavyDown_10
       rect:
         serializedVersion: 2
-        x: 1795
-        y: 20
-        width: 40
-        height: 41
+        x: 1540
+        y: 35
+        width: 64
+        height: 78
+      alignment: 9
+      pivot: {x: 0.3665161, y: 0.4999998}
+      border: {x: 0, y: 0, z: 12, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9d8e4086d9675f0800000000000000
+      internalID: -759246417080821290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyDown_11
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 35
+        width: 53
+        height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c99aaeef103081050800000000000000
-      internalID: 5771366229581932956
+      spriteID: 1e73184eb1e35b430800000000000000
+      internalID: 3798010150275594209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_11
+      name: RockstarAlien-TestHeavyDown_12
       rect:
         serializedVersion: 2
-        x: 1997
-        y: 9
-        width: 41
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6698475cfb61072d0800000000000000
-      internalID: -3283099115445778074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien attack 2-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 2189
-        y: 0
-        width: 46
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44119956977a220f0800000000000000
-      internalID: -1143167215561273020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien attack 2-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 2362
-        y: 0
-        width: 46
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e630555457f1cac0800000000000000
-      internalID: -3836513465962318103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien attack 2-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 2526
-        y: 0
+        x: 1838
+        y: 35
         width: 55
-        height: 43
+        height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f77859f4d1e196a0800000000000000
-      internalID: -6444121286957828109
+      spriteID: 3c65d5badf98c97c0800000000000000
+      internalID: -4063221041200277821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_15
+      name: RockstarAlien-TestHeavyDown_13
       rect:
         serializedVersion: 2
-        x: 2708
-        y: 0
-        width: 46
-        height: 43
+        x: 1988
+        y: 35
+        width: 55
+        height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0a816efbffcde2f0800000000000000
-      internalID: -941868065839019510
+      spriteID: 4738bec0214ba6030800000000000000
+      internalID: 3488798850971042676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien attack 2-Sheet_16
+      name: RockstarAlien-TestHeavyDown_14
       rect:
         serializedVersion: 2
-        x: 2182
-        y: 2
-        width: 10
-        height: 6
+        x: 2124
+        y: 35
+        width: 61
+        height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09a51b7c8bd2cacd0800000000000000
-      internalID: -2545609417723651440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien attack 2-Sheet_17
-      rect:
-        serializedVersion: 2
-        x: 2353
-        y: 2
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc7efad78977633d0800000000000000
-      internalID: -3227260586136967221
+      spriteID: 90dfe913ff583a590800000000000000
+      internalID: -7664134809758794487
       vertices: []
       indices: 
       edges: []
@@ -550,7 +475,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b6e160e7563f4124aabf643d7f5d351c
     internalID: 0
     vertices: []
     indices: 
@@ -560,24 +485,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      alien attack 2-Sheet_0: 9147607093250389451
-      alien attack 2-Sheet_1: 1146824193201608956
-      alien attack 2-Sheet_10: 5771366229581932956
-      alien attack 2-Sheet_11: -3283099115445778074
-      alien attack 2-Sheet_12: -1143167215561273020
-      alien attack 2-Sheet_13: -3836513465962318103
-      alien attack 2-Sheet_14: -6444121286957828109
-      alien attack 2-Sheet_15: -941868065839019510
-      alien attack 2-Sheet_16: -2545609417723651440
-      alien attack 2-Sheet_17: -3227260586136967221
-      alien attack 2-Sheet_2: -5229882694381429362
-      alien attack 2-Sheet_3: 7226591679414689724
-      alien attack 2-Sheet_4: -7194629815342123149
-      alien attack 2-Sheet_5: 7888027055199253162
-      alien attack 2-Sheet_6: 3626848377121473733
-      alien attack 2-Sheet_7: -3447760268873660712
-      alien attack 2-Sheet_8: -3990925304723407398
-      alien attack 2-Sheet_9: -6831283314598317118
+      RockstarAlien-TestHeavyDown_0: -5952128603530160958
+      RockstarAlien-TestHeavyDown_1: 7232608972647451814
+      RockstarAlien-TestHeavyDown_10: -759246417080821290
+      RockstarAlien-TestHeavyDown_11: 3798010150275594209
+      RockstarAlien-TestHeavyDown_12: -4063221041200277821
+      RockstarAlien-TestHeavyDown_13: 3488798850971042676
+      RockstarAlien-TestHeavyDown_14: -7664134809758794487
+      RockstarAlien-TestHeavyDown_2: 3958884213657982335
+      RockstarAlien-TestHeavyDown_3: 1597306916758751870
+      RockstarAlien-TestHeavyDown_4: -6206938994846982800
+      RockstarAlien-TestHeavyDown_5: 551677832662892216
+      RockstarAlien-TestHeavyDown_6: 581216678809276013
+      RockstarAlien-TestHeavyDown_7: 4226059837022863901
+      RockstarAlien-TestHeavyDown_8: 1958022789959850054
+      RockstarAlien-TestHeavyDown_9: 5670453507836628343
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

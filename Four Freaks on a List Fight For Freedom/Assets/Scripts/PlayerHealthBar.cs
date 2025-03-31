@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class PlayerHealthBar : MonoBehaviour
 {
     [SerializeField] Slider health;
-    [SerializeField] Slider posture;
+    [SerializeField] Slider passive;
     [SerializeField] Slider ult;
     [SerializeField] Player player;
 
@@ -15,14 +15,12 @@ public class PlayerHealthBar : MonoBehaviour
         if (player.CompareTag("Player"))
         { 
             health = GameObject.Find("/UI/Player Health").GetComponent<Slider>();
-            posture = GameObject.Find("/UI/Player Posture").GetComponent<Slider>();
-            ult = GameObject.Find("/UI/Player Ult").GetComponent<Slider>();
+            passive = GameObject.Find("/UI/Player Posture").GetComponent<Slider>();
         }
         if (player.CompareTag("Enemy"))
         {
             health = GameObject.Find("/UI/Enemy Health").GetComponent<Slider>();
-            posture = GameObject.Find("/UI/Enemy Posture").GetComponent<Slider>();
-            ult = GameObject.Find("/UI/Enemy Ult").GetComponent<Slider>();
+            passive = GameObject.Find("/UI/Enemy Posture").GetComponent<Slider>();
         }
     }
 
@@ -30,7 +28,7 @@ public class PlayerHealthBar : MonoBehaviour
     {
         health.value = player.currentHealth;
         health.maxValue = player.currentMaxHealth;
-        posture.value = player.currentPosture;
-        posture.maxValue = player.currentMaxPosture;
+        passive.value = player.currentPosture;
+        passive.maxValue = player.currentMaxPosture;
     }
 }

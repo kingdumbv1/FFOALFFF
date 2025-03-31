@@ -31,9 +31,11 @@ public class Player : MonoBehaviour
     public Animator animator;
     public Transform enemy;
     [Header("Misc")]
+    public float instantiatedDamage;
     public Vector2 currentDirection;
     public Test abilityDatabase;
     public GameManager game;
+    public AnimatorReference animatorReference;
     [Header("Light Attack / Blocking")]
     // Light Attacks - Blocking
     public float attackClickedFrame;
@@ -62,11 +64,15 @@ public class Player : MonoBehaviour
     void Start()
     {
         Debug.Log(chosenCharacter);
+
         if (gameObject.tag == "Player") enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
         if (gameObject.tag == "Enemy") enemy = GameObject.FindGameObjectWithTag("Player").transform;
+
+
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        abilityDatabase = new Test(player, chosenCharacter, game);
+        animatorReference = GetComponent<AnimatorReference>();
+        abilityDatabase = new Test(player, chosenCharacter, animatorReference);
         spriteRend = GetComponent<SpriteRenderer>();
         game = GameObject.Find("Game Manager").GetComponent<GameManager>();
     }
@@ -74,20 +80,24 @@ public class Player : MonoBehaviour
     {
         distance = transform.position.x - enemy.transform.position.x;
         currentDirection.y = Mathf.RoundToInt(currentDirection.y);
-        if (xMovementPossible)
+        abilityDatabase.Update(Time.deltaTime);
+
+        if (xMovementPossible || !xMovementPossible && isBlocking == 1)
         {
             if (distance < 0) transform.rotation = Quaternion.identity;
             if (distance > 0) transform.rotation = Quaternion.Euler(0, 180, 0);
         }
+
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {
             animator.SetBool("IsBlockBreaking", false);
-            canAttack = true;
+            if (!isStaggered) canAttack = true;
             isAttacking = false;
             isHeavyAttacking = false;
             blockBreak = false;
             if (!isStaggered) xMovementPossible = true;
         }
+
         //Directional Combat Input
         switch (currentDirection.y)
         {
@@ -140,7 +150,7 @@ public class Player : MonoBehaviour
         else if (distance > 0) animator.SetFloat("IfRunning", -currentDirection.x);
 
         //Blocking 
-        animator.SetFloat("IfBlocking", isBlocking);
+        if (!isStaggered) animator.SetFloat("IfBlocking", isBlocking);
 
         if (isBlocking == 1)
         {
@@ -211,7 +221,6 @@ public class Player : MonoBehaviour
 
     public void Attack(InputAction.CallbackContext context)
     {
-        Debug.Log(attackClickedFrame);
         attackClickedFrame = context.ReadValue<float>();
         
     }

@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 0ad4ba37db244334491636cf6b217e18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2395303028826465535
+    second: RockstarAlien-TestHeavyUp2_0
+  - first:
+      213: 9173134828353089645
+    second: RockstarAlien-TestHeavyUp2_1
+  - first:
+      213: 8424131687379208742
+    second: RockstarAlien-TestHeavyUp2_2
+  - first:
+      213: 7490311126192369880
+    second: RockstarAlien-TestHeavyUp2_3
+  - first:
+      213: -296639525175732786
+    second: RockstarAlien-TestHeavyUp2_4
+  - first:
+      213: -1902712489565213297
+    second: RockstarAlien-TestHeavyUp2_5
+  - first:
+      213: 2467912082396257991
+    second: RockstarAlien-TestHeavyUp2_6
+  - first:
+      213: 6135636171783747668
+    second: RockstarAlien-TestHeavyUp2_7
+  - first:
+      213: 203037243857522270
+    second: RockstarAlien-TestHeavyUp2_8
+  - first:
+      213: 464996288116296031
+    second: RockstarAlien-TestHeavyUp2_9
+  - first:
+      213: -3182742184320338157
+    second: RockstarAlien-TestHeavyUp2_10
+  - first:
+      213: -7186848408454544320
+    second: RockstarAlien-TestHeavyUp2_11
+  - first:
+      213: 4730894389144100248
+    second: RockstarAlien-TestHeavyUp2_12
+  - first:
+      213: 8490311865811289671
+    second: RockstarAlien-TestHeavyUp2_13
+  - first:
+      213: 1222243447813826885
+    second: RockstarAlien-TestHeavyUp2_14
+  - first:
+      213: 1302969770663197825
+    second: RockstarAlien-TestHeavyUp2_15
+  - first:
+      213: 5635896981449573358
+    second: RockstarAlien-TestHeavyUp2_16
+  - first:
+      213: 1763092260327311359
+    second: RockstarAlien-TestHeavyUp2_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 38
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff46e92f963dd3120800000000000000
+      internalID: 2395303028826465535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 31
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60ffb866858d4f70800000000000000
+      internalID: 9173134828353089645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a895ff22788e470800000000000000
+      internalID: 8424131687379208742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 29
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d03adda84ee2f760800000000000000
+      internalID: 7490311126192369880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_4
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 32
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec55f8b6cef12ebf0800000000000000
+      internalID: -296639525175732786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_5
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 29
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d24cd52153895e0800000000000000
+      internalID: -1902712489565213297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_6
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 32
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce9f10a6f8cf3220800000000000000
+      internalID: 2467912082396257991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_7
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 30
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458353a1798262550800000000000000
+      internalID: 6135636171783747668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_8
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 33
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e4d4c2c4551d200800000000000000
+      internalID: 203037243857522270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_9
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 38
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f590c0f09aff37600800000000000000
+      internalID: 464996288116296031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_10
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 33
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3177fe3a8d0a4d3d0800000000000000
+      internalID: -3182742184320338157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_11
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 33
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0444c77337f234c90800000000000000
+      internalID: -7186848408454544320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_12
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 31
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d92dea16387a140800000000000000
+      internalID: 4730894389144100248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_13
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 32
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74647f988a5a3d570800000000000000
+      internalID: 8490311865811289671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_14
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 29
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549edf7a0f746f010800000000000000
+      internalID: 1222243447813826885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_15
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 32
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cb37d5a14151210800000000000000
+      internalID: 1302969770663197825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_16
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 29
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee38ff1c17ab63e40800000000000000
+      internalID: 5635896981449573358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-TestHeavyUp2_17
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 32
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7cc0bc113c77810800000000000000
+      internalID: 1763092260327311359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RockstarAlien-TestHeavyUp2_0: 2395303028826465535
+      RockstarAlien-TestHeavyUp2_1: 9173134828353089645
+      RockstarAlien-TestHeavyUp2_10: -3182742184320338157
+      RockstarAlien-TestHeavyUp2_11: -7186848408454544320
+      RockstarAlien-TestHeavyUp2_12: 4730894389144100248
+      RockstarAlien-TestHeavyUp2_13: 8490311865811289671
+      RockstarAlien-TestHeavyUp2_14: 1222243447813826885
+      RockstarAlien-TestHeavyUp2_15: 1302969770663197825
+      RockstarAlien-TestHeavyUp2_16: 5635896981449573358
+      RockstarAlien-TestHeavyUp2_17: 1763092260327311359
+      RockstarAlien-TestHeavyUp2_2: 8424131687379208742
+      RockstarAlien-TestHeavyUp2_3: 7490311126192369880
+      RockstarAlien-TestHeavyUp2_4: -296639525175732786
+      RockstarAlien-TestHeavyUp2_5: -1902712489565213297
+      RockstarAlien-TestHeavyUp2_6: 2467912082396257991
+      RockstarAlien-TestHeavyUp2_7: 6135636171783747668
+      RockstarAlien-TestHeavyUp2_8: 203037243857522270
+      RockstarAlien-TestHeavyUp2_9: 464996288116296031
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
