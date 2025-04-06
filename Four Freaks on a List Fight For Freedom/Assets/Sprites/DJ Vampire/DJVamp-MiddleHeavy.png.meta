@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 0836de6db5fba5447b64858af6d75f41
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5253915739308280571
+    second: DJVamp-MiddleHeavy_0
+  - first:
+      213: -6981749628989043545
+    second: DJVamp-MiddleHeavy_1
+  - first:
+      213: 5962505589488310629
+    second: DJVamp-MiddleHeavy_2
+  - first:
+      213: -13075737739854335
+    second: DJVamp-MiddleHeavy_3
+  - first:
+      213: 3328623179646334718
+    second: DJVamp-MiddleHeavy_4
+  - first:
+      213: 433463294698382561
+    second: DJVamp-MiddleHeavy_5
+  - first:
+      213: -9130521333194697075
+    second: DJVamp-MiddleHeavy_6
+  - first:
+      213: -2416483547703453292
+    second: DJVamp-MiddleHeavy_7
+  - first:
+      213: 2004598793409080279
+    second: DJVamp-MiddleHeavy_8
+  - first:
+      213: 7298833786251636639
+    second: DJVamp-MiddleHeavy_9
+  - first:
+      213: 5648277483591378085
+    second: DJVamp-MiddleHeavy_10
+  - first:
+      213: 6483925590353005182
+    second: DJVamp-MiddleHeavy_11
+  - first:
+      213: 7670802184260271915
+    second: DJVamp-MiddleHeavy_12
+  - first:
+      213: -8001916081254114207
+    second: DJVamp-MiddleHeavy_13
+  - first:
+      213: -6488451475994455220
+    second: DJVamp-MiddleHeavy_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_0
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 29
+        width: 222
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfacd494788a9e840800000000000000
+      internalID: 5253915739308280571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_1
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 29
+        width: 222
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac846d04b7db1f90800000000000000
+      internalID: -6981749628989043545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_2
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 49
+        width: 202
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5695bb03e331fb250800000000000000
+      internalID: 5962505589488310629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_3
+      rect:
+        serializedVersion: 2
+        x: 5789
+        y: 89
+        width: 192
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ef6d09fab81dff0800000000000000
+      internalID: -13075737739854335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_4
+      rect:
+        serializedVersion: 2
+        x: 7629
+        y: 119
+        width: 202
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef673f56525a13e20800000000000000
+      internalID: 3328623179646334718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_5
+      rect:
+        serializedVersion: 2
+        x: 9469
+        y: 139
+        width: 192
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4eaa7e198f30600800000000000000
+      internalID: 433463294698382561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_6
+      rect:
+        serializedVersion: 2
+        x: 11299
+        y: 139
+        width: 192
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86ddc8193fd94180800000000000000
+      internalID: -9130521333194697075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_7
+      rect:
+        serializedVersion: 2
+        x: 13129
+        y: 139
+        width: 192
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4995f85340de67ed0800000000000000
+      internalID: -2416483547703453292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_8
+      rect:
+        serializedVersion: 2
+        x: 14979
+        y: 139
+        width: 162
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db23565bf3c1db10800000000000000
+      internalID: 2004598793409080279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_9
+      rect:
+        serializedVersion: 2
+        x: 16819
+        y: 139
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fe52068aaaa4560800000000000000
+      internalID: 7298833786251636639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_10
+      rect:
+        serializedVersion: 2
+        x: 18779
+        y: 139
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a42d4a0276b26e40800000000000000
+      internalID: 5648277483591378085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_11
+      rect:
+        serializedVersion: 2
+        x: 20759
+        y: 149
+        width: 102
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a4e0b98f78bf950800000000000000
+      internalID: 6483925590353005182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_12
+      rect:
+        serializedVersion: 2
+        x: 22699
+        y: 149
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fbf17e1f9247a60800000000000000
+      internalID: 7670802184260271915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_13
+      rect:
+        serializedVersion: 2
+        x: 24649
+        y: 149
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cdc5658bb73f090800000000000000
+      internalID: -8001916081254114207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleHeavy_14
+      rect:
+        serializedVersion: 2
+        x: 26599
+        y: 149
+        width: 102
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43ddf682c364f5a0800000000000000
+      internalID: -6488451475994455220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DJVamp-MiddleHeavy_0: 5253915739308280571
+      DJVamp-MiddleHeavy_1: -6981749628989043545
+      DJVamp-MiddleHeavy_10: 5648277483591378085
+      DJVamp-MiddleHeavy_11: 6483925590353005182
+      DJVamp-MiddleHeavy_12: 7670802184260271915
+      DJVamp-MiddleHeavy_13: -8001916081254114207
+      DJVamp-MiddleHeavy_14: -6488451475994455220
+      DJVamp-MiddleHeavy_2: 5962505589488310629
+      DJVamp-MiddleHeavy_3: -13075737739854335
+      DJVamp-MiddleHeavy_4: 3328623179646334718
+      DJVamp-MiddleHeavy_5: 433463294698382561
+      DJVamp-MiddleHeavy_6: -9130521333194697075
+      DJVamp-MiddleHeavy_7: -2416483547703453292
+      DJVamp-MiddleHeavy_8: 2004598793409080279
+      DJVamp-MiddleHeavy_9: 7298833786251636639
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

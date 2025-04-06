@@ -5,7 +5,6 @@ public class PlayerHealthBar : MonoBehaviour
 {
     [SerializeField] Slider health;
     [SerializeField] Slider passive;
-    [SerializeField] Slider ult;
     [SerializeField] Player player;
 
     private void Start()
@@ -28,7 +27,7 @@ public class PlayerHealthBar : MonoBehaviour
     {
         health.value = player.currentHealth;
         health.maxValue = player.currentMaxHealth;
-        passive.value = player.currentPosture;
-        passive.maxValue = player.currentMaxPosture;
+        passive.value = player.currentPassive;
+        passive.maxValue = player.currentMaxPassive;
     }
 }

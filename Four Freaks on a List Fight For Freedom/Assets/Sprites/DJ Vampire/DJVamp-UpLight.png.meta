@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: f9856f76a72ba084d8f4bab7a1ec4db1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8811472111418156219
+    second: DJVamp-UpLight_0
+  - first:
+      213: -3105337478321685627
+    second: DJVamp-UpLight_1
+  - first:
+      213: 6102126152583693400
+    second: DJVamp-UpLight_2
+  - first:
+      213: 3279511387477809895
+    second: DJVamp-UpLight_3
+  - first:
+      213: 4471108424909807369
+    second: DJVamp-UpLight_4
+  - first:
+      213: -676975958933993970
+    second: DJVamp-UpLight_5
+  - first:
+      213: -5856978909747590868
+    second: DJVamp-UpLight_6
+  - first:
+      213: -2426048229392530467
+    second: DJVamp-UpLight_7
+  - first:
+      213: 3000164264332287970
+    second: DJVamp-UpLight_8
+  - first:
+      213: 716441913269890725
+    second: DJVamp-UpLight_9
+  - first:
+      213: 4505242906493400220
+    second: DJVamp-UpLight_10
+  - first:
+      213: -1127835889922021842
+    second: DJVamp-UpLight_11
+  - first:
+      213: -1339461619832431124
+    second: DJVamp-UpLight_12
+  - first:
+      213: -4085338106578841265
+    second: DJVamp-UpLight_13
+  - first:
+      213: 1813366128192298114
+    second: DJVamp-UpLight_14
+  - first:
+      213: -6722363159020658598
+    second: DJVamp-UpLight_15
+  - first:
+      213: 8270703379678192391
+    second: DJVamp-UpLight_16
+  - first:
+      213: 370190769898165786
+    second: DJVamp-UpLight_17
+  - first:
+      213: -5721402052567375739
+    second: DJVamp-UpLight_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DJVamp-UpLight_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bd8a2cccc57b580800000000000000
+      internalID: -8811472111418156219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bbde82400a7e4d0800000000000000
+      internalID: -3105337478321685627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8544f53c76b1fa450800000000000000
+      internalID: 6102126152583693400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_3
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 2
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea96773b3a238d20800000000000000
+      internalID: 3279511387477809895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_4
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 2
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f510b6c619c0e30800000000000000
+      internalID: 4471108424909807369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_5
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 2
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06824eb3f5ea96f0800000000000000
+      internalID: -676975958933993970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_6
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c294a8396b4d7bea0800000000000000
+      internalID: -5856978909747590868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_7
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3c7173df1f45ed0800000000000000
+      internalID: -2426048229392530467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_8
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 17
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efd85bb089b2a920800000000000000
+      internalID: 3000164264332287970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_9
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae27aecf1051f900800000000000000
+      internalID: 716441913269890725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_10
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 17
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94336cbd86d58e30800000000000000
+      internalID: 4505242906493400220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_11
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26e240db3f1950f0800000000000000
+      internalID: -1127835889922021842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_12
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 17
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced5e97e0c6496de0800000000000000
+      internalID: -1339461619832431124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_13
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41500a13a6fd47c0800000000000000
+      internalID: -4085338106578841265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_14
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 17
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c90aec2ee5a2910800000000000000
+      internalID: 1813366128192298114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_15
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50a66fc25e55b2a0800000000000000
+      internalID: -6722363159020658598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_16
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 17
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703675c57e077c270800000000000000
+      internalID: 8270703379678192391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_17
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1698ea3b8e232500800000000000000
+      internalID: 370190769898165786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpLight_18
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 17
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580e78f752f7990b0800000000000000
+      internalID: -5721402052567375739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DJVamp-UpLight_0: -8811472111418156219
+      DJVamp-UpLight_1: -3105337478321685627
+      DJVamp-UpLight_10: 4505242906493400220
+      DJVamp-UpLight_11: -1127835889922021842
+      DJVamp-UpLight_12: -1339461619832431124
+      DJVamp-UpLight_13: -4085338106578841265
+      DJVamp-UpLight_14: 1813366128192298114
+      DJVamp-UpLight_15: -6722363159020658598
+      DJVamp-UpLight_16: 8270703379678192391
+      DJVamp-UpLight_17: 370190769898165786
+      DJVamp-UpLight_18: -5721402052567375739
+      DJVamp-UpLight_2: 6102126152583693400
+      DJVamp-UpLight_3: 3279511387477809895
+      DJVamp-UpLight_4: 4471108424909807369
+      DJVamp-UpLight_5: -676975958933993970
+      DJVamp-UpLight_6: -5856978909747590868
+      DJVamp-UpLight_7: -2426048229392530467
+      DJVamp-UpLight_8: 3000164264332287970
+      DJVamp-UpLight_9: 716441913269890725
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

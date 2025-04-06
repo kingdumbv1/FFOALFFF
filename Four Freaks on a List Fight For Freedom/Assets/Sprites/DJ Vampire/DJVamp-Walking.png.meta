@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 21e0b794f69a92d419a46baa112eaf6c
+guid: 48f99c92ce280964bba195922a078b38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3347166510648183339
-    second: DJvampmiddlelight_0
+      213: 4168221354564227670
+    second: DJVamp-Walking_0
   - first:
-      213: -6456791573748469763
-    second: DJvampmiddlelight_1
+      213: -2804078490790692621
+    second: DJVamp-Walking_1
   - first:
-      213: 5502832903592615108
-    second: DJvampmiddlelight_2
+      213: -2269974882341171660
+    second: DJVamp-Walking_2
   - first:
-      213: 5186537504288133050
-    second: DJvampmiddlelight_3
+      213: 4774936419972578797
+    second: DJVamp-Walking_3
+  - first:
+      213: 2271750918753752227
+    second: DJVamp-Walking_4
+  - first:
+      213: -529830722843211549
+    second: DJVamp-Walking_5
+  - first:
+      213: -8083373748590336184
+    second: DJVamp-Walking_6
+  - first:
+      213: 1763812447127761494
+    second: DJVamp-Walking_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DJvampmiddlelight_0
+      name: DJVamp-Walking_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 11
-        width: 64
-        height: 80
+        x: 8
+        y: 3
+        width: 23
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d53bb8eac97c81d0800000000000000
-      internalID: -3347166510648183339
+      spriteID: 6529fffdc3f78d930800000000000000
+      internalID: 4168221354564227670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DJvampmiddlelight_1
+      name: DJVamp-Walking_1
       rect:
         serializedVersion: 2
-        x: 89
-        y: 11
-        width: 83
-        height: 80
+        x: 80
+        y: 3
+        width: 23
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dffacf1f54ed466a0800000000000000
-      internalID: -6456791573748469763
+      spriteID: 3f87b122879e519d0800000000000000
+      internalID: -2804078490790692621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DJvampmiddlelight_2
+      name: DJVamp-Walking_2
       rect:
         serializedVersion: 2
-        x: 189
-        y: 11
-        width: 83
-        height: 80
+        x: 152
+        y: 3
+        width: 23
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cc18fcde5dfd5c40800000000000000
-      internalID: 5502832903592615108
+      spriteID: 43ecef01fdd6f70e0800000000000000
+      internalID: -2269974882341171660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DJvampmiddlelight_3
+      name: DJVamp-Walking_3
       rect:
         serializedVersion: 2
-        x: 289
-        y: 11
-        width: 103
-        height: 80
+        x: 224
+        y: 3
+        width: 23
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +202,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abfc55571684af740800000000000000
-      internalID: 5186537504288133050
+      spriteID: ded7a81106bf34240800000000000000
+      internalID: 4774936419972578797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-Walking_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 3
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a41c72ac61e68f10800000000000000
+      internalID: 2271750918753752227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-Walking_5
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 3
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e887d5c3c9a5a8f0800000000000000
+      internalID: -529830722843211549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-Walking_6
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 3
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8472e88376612df80800000000000000
+      internalID: -8083373748590336184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-Walking_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652767953125a7810800000000000000
+      internalID: 1763812447127761494
       vertices: []
       indices: 
       edges: []
@@ -210,10 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DJvampmiddlelight_0: -3347166510648183339
-      DJvampmiddlelight_1: -6456791573748469763
-      DJvampmiddlelight_2: 5502832903592615108
-      DJvampmiddlelight_3: 5186537504288133050
+      DJVamp-Walking_0: 4168221354564227670
+      DJVamp-Walking_1: -2804078490790692621
+      DJVamp-Walking_2: -2269974882341171660
+      DJVamp-Walking_3: 4774936419972578797
+      DJVamp-Walking_4: 2271750918753752227
+      DJVamp-Walking_5: -529830722843211549
+      DJVamp-Walking_6: -8083373748590336184
+      DJVamp-Walking_7: 1763812447127761494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

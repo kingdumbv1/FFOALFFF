@@ -43,7 +43,9 @@ public class Test
                 player.rb.AddForce(Vector2.right * player.jumpHeight / 1.5f, ForceMode2D.Impulse);
                 break;
             case "dj":
+                player.lightDamage = 3;
                 animator.SetTrigger("HighPrimary");
+                player.canAttack = false;
                 break;
             case "outlaw":
                 animator.SetTrigger("HighPrimary");
@@ -68,7 +70,9 @@ public class Test
                 player.canAttack = false;
                 break;
             case "dj":
+                player.lightDamage = 3;
                 animator.SetTrigger("MiddlePrimary");
+                player.canAttack = false;
                 break;
             case "outlaw":
                 animator.SetTrigger("MiddlePrimary");
@@ -95,7 +99,9 @@ public class Test
                 player.rb.AddForce(Vector2.left * player.jumpHeight * Mathf.Clamp(-player.distance, -1, 1), ForceMode2D.Impulse); 
                 break;
             case "dj":
+                player.lightDamage = 3;
                 animator.SetTrigger("LowPrimary");
+                player.canAttack = false;
                 break;
             case "outlaw":
                 animator.SetTrigger("LowPrimary");
@@ -124,6 +130,7 @@ public class Test
                 break;
             case "dj":
                 animator.SetTrigger("HeavyHigh");
+                player.canAttack= false;
                 break;
             case "outlaw":
                 animator.SetTrigger("HeavyHigh");

@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: f38d4cd89bb0d06418607fca0a583a62
+guid: 6288daa72acfc5d44b20bae713cfbb68
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1150084139059861065
-    second: DJvampuplight_0
+      213: 3216372409025643329
+    second: DJVamp-MiddleLight_0
   - first:
-      213: -1275820118978873000
-    second: DJvampuplight_1
+      213: -2011291963167622913
+    second: DJVamp-MiddleLight_1
   - first:
-      213: 334894632395824792
-    second: DJvampuplight_2
+      213: 1621742342096796151
+    second: DJVamp-MiddleLight_2
   - first:
-      213: -1559248095675784398
-    second: DJvampuplight_3
+      213: 894364463404051462
+    second: DJVamp-MiddleLight_3
   - first:
-      213: 4181249821774421422
-    second: DJvampuplight_4
+      213: 8955489595842040762
+    second: DJVamp-MiddleLight_4
   - first:
-      213: 7056097578692490311
-    second: DJvampuplight_5
+      213: 8325225181523856621
+    second: DJVamp-MiddleLight_5
+  - first:
+      213: 4081443109244580586
+    second: DJVamp-MiddleLight_6
+  - first:
+      213: -1456209361969755668
+    second: DJVamp-MiddleLight_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DJvampuplight_0
+      name: DJVamp-MiddleLight_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 11
-        width: 50
-        height: 84
+        x: 26
+        y: 2
+        width: 24
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 946597a5e6be5ff00800000000000000
-      internalID: 1150084139059861065
+      spriteID: 14347593aa9d2ac20800000000000000
+      internalID: 3216372409025643329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DJvampuplight_1
+      name: DJVamp-MiddleLight_1
       rect:
         serializedVersion: 2
-        x: 89
-        y: 11
-        width: 66
-        height: 84
+        x: 108
+        y: 2
+        width: 24
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 859b7f28c506b4ee0800000000000000
-      internalID: -1275820118978873000
+      spriteID: ff8bbc3ad947614e0800000000000000
+      internalID: -2011291963167622913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DJvampuplight_2
+      name: DJVamp-MiddleLight_2
       rect:
         serializedVersion: 2
-        x: 189
-        y: 11
-        width: 72
-        height: 84
+        x: 187
+        y: 2
+        width: 27
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89e5321d4e8c5a400800000000000000
-      internalID: 334894632395824792
+      spriteID: 7f9b3e95116918610800000000000000
+      internalID: 1621742342096796151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DJvampuplight_3
+      name: DJVamp-MiddleLight_3
       rect:
         serializedVersion: 2
-        x: 289
-        y: 11
-        width: 72
-        height: 84
+        x: 266
+        y: 2
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2336a844e107c5ae0800000000000000
-      internalID: -1559248095675784398
+      spriteID: 60c6eecadbb696c00800000000000000
+      internalID: 894364463404051462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DJvampuplight_4
+      name: DJVamp-MiddleLight_4
       rect:
         serializedVersion: 2
-        x: 389
-        y: 11
-        width: 72
-        height: 84
+        x: 348
+        y: 2
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ead97084f88c60a30800000000000000
-      internalID: 4181249821774421422
+      spriteID: ab31fd5d65a484c70800000000000000
+      internalID: 8955489595842040762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DJvampuplight_5
+      name: DJVamp-MiddleLight_5
       rect:
         serializedVersion: 2
-        x: 489
-        y: 11
-        width: 103
-        height: 84
+        x: 435
+        y: 2
+        width: 25
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +246,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 744b57eec5b4ce160800000000000000
-      internalID: 7056097578692490311
+      spriteID: deccdd39134298370800000000000000
+      internalID: 8325225181523856621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleLight_6
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae23d7922e234a830800000000000000
+      internalID: 4081443109244580586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-MiddleLight_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9c135fc418acbe0800000000000000
+      internalID: -1456209361969755668
       vertices: []
       indices: 
       edges: []
@@ -260,12 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DJvampuplight_0: 1150084139059861065
-      DJvampuplight_1: -1275820118978873000
-      DJvampuplight_2: 334894632395824792
-      DJvampuplight_3: -1559248095675784398
-      DJvampuplight_4: 4181249821774421422
-      DJvampuplight_5: 7056097578692490311
+      DJVamp-MiddleLight_0: 3216372409025643329
+      DJVamp-MiddleLight_1: -2011291963167622913
+      DJVamp-MiddleLight_2: 1621742342096796151
+      DJVamp-MiddleLight_3: 894364463404051462
+      DJVamp-MiddleLight_4: 8955489595842040762
+      DJVamp-MiddleLight_5: 8325225181523856621
+      DJVamp-MiddleLight_6: 4081443109244580586
+      DJVamp-MiddleLight_7: -1456209361969755668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

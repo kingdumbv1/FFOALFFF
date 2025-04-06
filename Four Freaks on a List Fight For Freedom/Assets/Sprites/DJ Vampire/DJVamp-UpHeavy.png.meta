@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: 7a4702959cdb0d94a83e1d12cee6147a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -510409810607376805
+    second: DJVamp-UpHeavy_0
+  - first:
+      213: 5890586319538152274
+    second: DJVamp-UpHeavy_1
+  - first:
+      213: 8608111007697714363
+    second: DJVamp-UpHeavy_2
+  - first:
+      213: 8460158795431642376
+    second: DJVamp-UpHeavy_3
+  - first:
+      213: -4244184088727846173
+    second: DJVamp-UpHeavy_4
+  - first:
+      213: -2004574963761215732
+    second: DJVamp-UpHeavy_5
+  - first:
+      213: 7451317751197816387
+    second: DJVamp-UpHeavy_6
+  - first:
+      213: -1597559306337707913
+    second: DJVamp-UpHeavy_7
+  - first:
+      213: -8659202198024521303
+    second: DJVamp-UpHeavy_8
+  - first:
+      213: -2463235840387073383
+    second: DJVamp-UpHeavy_9
+  - first:
+      213: 51317505434180821
+    second: DJVamp-UpHeavy_10
+  - first:
+      213: 5897176186908012455
+    second: DJVamp-UpHeavy_11
+  - first:
+      213: -4398129182525988678
+    second: DJVamp-UpHeavy_12
+  - first:
+      213: -3789489238486733947
+    second: DJVamp-UpHeavy_13
+  - first:
+      213: 4505578192181624101
+    second: DJVamp-UpHeavy_14
+  - first:
+      213: 6493261794360608399
+    second: DJVamp-UpHeavy_15
+  - first:
+      213: -4837533920108708228
+    second: DJVamp-UpHeavy_16
+  - first:
+      213: -6454006168243337048
+    second: DJVamp-UpHeavy_17
+  - first:
+      213: 4047939294052271975
+    second: DJVamp-UpHeavy_18
+  - first:
+      213: -832504635074926415
+    second: DJVamp-UpHeavy_19
+  - first:
+      213: -4066088214760331736
+    second: DJVamp-UpHeavy_20
+  - first:
+      213: 7240717208722403700
+    second: DJVamp-UpHeavy_21
+  - first:
+      213: 7279379985179540249
+    second: DJVamp-UpHeavy_22
+  - first:
+      213: -1112658591098166734
+    second: DJVamp-UpHeavy_23
+  - first:
+      213: 2704402469279134742
+    second: DJVamp-UpHeavy_24
+  - first:
+      213: 235506613906930465
+    second: DJVamp-UpHeavy_25
+  - first:
+      213: 8028427452063965115
+    second: DJVamp-UpHeavy_26
+  - first:
+      213: -1143643562098807289
+    second: DJVamp-UpHeavy_27
+  - first:
+      213: 3832873812322593905
+    second: DJVamp-UpHeavy_28
+  - first:
+      213: -4257868358374696394
+    second: DJVamp-UpHeavy_29
+  - first:
+      213: -4894582620057064916
+    second: DJVamp-UpHeavy_30
+  - first:
+      213: 3623416637303205442
+    second: DJVamp-UpHeavy_31
+  - first:
+      213: 4559519745247837601
+    second: DJVamp-UpHeavy_32
+  - first:
+      213: 6619216353628200599
+    second: DJVamp-UpHeavy_33
+  - first:
+      213: -3793316124809178686
+    second: DJVamp-UpHeavy_34
+  - first:
+      213: 1626478715366939182
+    second: DJVamp-UpHeavy_35
+  - first:
+      213: -7041213711770219672
+    second: DJVamp-UpHeavy_36
+  - first:
+      213: 3814416784834676581
+    second: DJVamp-UpHeavy_37
+  - first:
+      213: 5247689070761343528
+    second: DJVamp-UpHeavy_38
+  - first:
+      213: -4646935300403171453
+    second: DJVamp-UpHeavy_39
+  - first:
+      213: 2986550398996800317
+    second: DJVamp-UpHeavy_40
+  - first:
+      213: -8681003204992931057
+    second: DJVamp-UpHeavy_41
+  - first:
+      213: -749176474456113580
+    second: DJVamp-UpHeavy_42
+  - first:
+      213: 640179141205316877
+    second: DJVamp-UpHeavy_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_0
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 28
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b567fd44bf8aae8f0800000000000000
+      internalID: -510409810607376805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_1
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253e8d64c019fb150800000000000000
+      internalID: 5890586319538152274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcb3f09a57267770800000000000000
+      internalID: 8608111007697714363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8058911c995886570800000000000000
+      internalID: 8460158795431642376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_4
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e20306de01a915c0800000000000000
+      internalID: -4244184088727846173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_5
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 2
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c070f5fe0b15e24e0800000000000000
+      internalID: -2004574963761215732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34655b41406686760800000000000000
+      internalID: 7451317751197816387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_7
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7781f1e664454d9e0800000000000000
+      internalID: -1597559306337707913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_8
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a97774ba7554d780800000000000000
+      internalID: -8659202198024521303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_9
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ab7bfcd04d0ddd0800000000000000
+      internalID: -2463235840387073383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_10
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcd922dff056b000800000000000000
+      internalID: 51317505434180821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_11
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af6b865f7af6d150800000000000000
+      internalID: 5897176186908012455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_12
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0624f8fc4b6f2c0800000000000000
+      internalID: -4398129182525988678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_13
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b25db7d97096bc0800000000000000
+      internalID: -3789489238486733947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_14
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 14
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d7bb48e77078e30800000000000000
+      internalID: 4505578192181624101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_15
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86ca7ef233bc1a50800000000000000
+      internalID: 6493261794360608399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_16
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e740fa780addcb0800000000000000
+      internalID: -4837533920108708228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_17
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a80da3b593ce66a0800000000000000
+      internalID: -6454006168243337048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_18
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767c45e475b2d2830800000000000000
+      internalID: 4047939294052271975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_19
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b82e78f1795274f0800000000000000
+      internalID: -832504635074926415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_20
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826eecdcf4a5297c0800000000000000
+      internalID: -4066088214760331736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_21
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471f4f830f13c7460800000000000000
+      internalID: 7240717208722403700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_22
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bf6b9578d850560800000000000000
+      internalID: 7279379985179540249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_23
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232ae4118ea0f80f0800000000000000
+      internalID: -1112658591098166734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_24
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614721f97b7f78520800000000000000
+      internalID: 2704402469279134742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_25
+      rect:
+        serializedVersion: 2
+        x: 3796
+        y: 32
+        width: 11
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b7d208400b44300800000000000000
+      internalID: 235506613906930465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_26
+      rect:
+        serializedVersion: 2
+        x: 3797
+        y: 0
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf54413b34ba6f60800000000000000
+      internalID: 8028427452063965115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_27
+      rect:
+        serializedVersion: 2
+        x: 3869
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e20735d36f020f0800000000000000
+      internalID: -1143643562098807289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_28
+      rect:
+        serializedVersion: 2
+        x: 3976
+        y: 1
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ca264cc6a113530800000000000000
+      internalID: 3832873812322593905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_29
+      rect:
+        serializedVersion: 2
+        x: 4052
+        y: 2
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a53b6894309e4c0800000000000000
+      internalID: -4257868358374696394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_30
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 4
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aa2b72a03f21cb0800000000000000
+      internalID: -4894582620057064916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_31
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 4
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ea2b3eb36f84230800000000000000
+      internalID: 3623416637303205442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_32
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 2
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad70e90d0ba64f30800000000000000
+      internalID: 4559519745247837601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_33
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 2
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e1779143e2cdb50800000000000000
+      internalID: 6619216353628200599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_34
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 2
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1dcf3151f6b5bc0800000000000000
+      internalID: -3793316124809178686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_35
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 2
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a1e2036c9629610800000000000000
+      internalID: 1626478715366939182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_36
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 2
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b83526f65984e90800000000000000
+      internalID: -7041213711770219672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_37
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 2
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567cb5d2bd78fe430800000000000000
+      internalID: 3814416784834676581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_38
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 29
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82afd6a086983d840800000000000000
+      internalID: 5247689070761343528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_39
+      rect:
+        serializedVersion: 2
+        x: 3629
+        y: 29
+        width: 1
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fee3df6f4c28fb0800000000000000
+      internalID: -4646935300403171453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_40
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 2
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d336104b3cb527920800000000000000
+      internalID: 2986550398996800317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_41
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 27
+        width: 5
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b6e583491e68780800000000000000
+      internalID: -8681003204992931057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_42
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 25
+        width: 3
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45eb6fd37f36a95f0800000000000000
+      internalID: -749176474456113580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-UpHeavy_43
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 33
+        width: 3
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d055820898f52e800800000000000000
+      internalID: 640179141205316877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f46245055f49c1b418bdc4da83409786
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DJVamp-UpHeavy_0: -510409810607376805
+      DJVamp-UpHeavy_1: 5890586319538152274
+      DJVamp-UpHeavy_10: 51317505434180821
+      DJVamp-UpHeavy_11: 5897176186908012455
+      DJVamp-UpHeavy_12: -4398129182525988678
+      DJVamp-UpHeavy_13: -3789489238486733947
+      DJVamp-UpHeavy_14: 4505578192181624101
+      DJVamp-UpHeavy_15: 6493261794360608399
+      DJVamp-UpHeavy_16: -4837533920108708228
+      DJVamp-UpHeavy_17: -6454006168243337048
+      DJVamp-UpHeavy_18: 4047939294052271975
+      DJVamp-UpHeavy_19: -832504635074926415
+      DJVamp-UpHeavy_2: 8608111007697714363
+      DJVamp-UpHeavy_20: -4066088214760331736
+      DJVamp-UpHeavy_21: 7240717208722403700
+      DJVamp-UpHeavy_22: 7279379985179540249
+      DJVamp-UpHeavy_23: -1112658591098166734
+      DJVamp-UpHeavy_24: 2704402469279134742
+      DJVamp-UpHeavy_25: 235506613906930465
+      DJVamp-UpHeavy_26: 8028427452063965115
+      DJVamp-UpHeavy_27: -1143643562098807289
+      DJVamp-UpHeavy_28: 3832873812322593905
+      DJVamp-UpHeavy_29: -4257868358374696394
+      DJVamp-UpHeavy_3: 8460158795431642376
+      DJVamp-UpHeavy_30: -4894582620057064916
+      DJVamp-UpHeavy_31: 3623416637303205442
+      DJVamp-UpHeavy_32: 4559519745247837601
+      DJVamp-UpHeavy_33: 6619216353628200599
+      DJVamp-UpHeavy_34: -3793316124809178686
+      DJVamp-UpHeavy_35: 1626478715366939182
+      DJVamp-UpHeavy_36: -7041213711770219672
+      DJVamp-UpHeavy_37: 3814416784834676581
+      DJVamp-UpHeavy_38: 5247689070761343528
+      DJVamp-UpHeavy_39: -4646935300403171453
+      DJVamp-UpHeavy_4: -4244184088727846173
+      DJVamp-UpHeavy_40: 2986550398996800317
+      DJVamp-UpHeavy_41: -8681003204992931057
+      DJVamp-UpHeavy_42: -749176474456113580
+      DJVamp-UpHeavy_43: 640179141205316877
+      DJVamp-UpHeavy_5: -2004574963761215732
+      DJVamp-UpHeavy_6: 7451317751197816387
+      DJVamp-UpHeavy_7: -1597559306337707913
+      DJVamp-UpHeavy_8: -8659202198024521303
+      DJVamp-UpHeavy_9: -2463235840387073383
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

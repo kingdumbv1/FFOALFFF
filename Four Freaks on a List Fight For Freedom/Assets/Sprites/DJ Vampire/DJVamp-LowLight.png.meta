@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 94ebd9645c9f21640abf5b5692f36667
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9012842894624630927
+    second: DJVamp-LowLight_0
+  - first:
+      213: 3365521532016225938
+    second: DJVamp-LowLight_1
+  - first:
+      213: 7398648810787602335
+    second: DJVamp-LowLight_2
+  - first:
+      213: -6248814644912686966
+    second: DJVamp-LowLight_3
+  - first:
+      213: 7703021151041871194
+    second: DJVamp-LowLight_4
+  - first:
+      213: 3795574608897235543
+    second: DJVamp-LowLight_5
+  - first:
+      213: 1789937392256377483
+    second: DJVamp-LowLight_6
+  - first:
+      213: 3177200505130231923
+    second: DJVamp-LowLight_7
+  - first:
+      213: -5672214723524898431
+    second: DJVamp-LowLight_8
+  - first:
+      213: -3081547191524660579
+    second: DJVamp-LowLight_9
+  - first:
+      213: -1486250507488370239
+    second: DJVamp-LowLight_10
+  - first:
+      213: 4425528672278592798
+    second: DJVamp-LowLight_11
+  - first:
+      213: 6148927770978349926
+    second: DJVamp-LowLight_12
+  - first:
+      213: 8590944654048014490
+    second: DJVamp-LowLight_13
+  - first:
+      213: 5551008951588436126
+    second: DJVamp-LowLight_14
+  - first:
+      213: 5223233695543025190
+    second: DJVamp-LowLight_15
+  - first:
+      213: 4276165351645505338
+    second: DJVamp-LowLight_16
+  - first:
+      213: 2863090168441299288
+    second: DJVamp-LowLight_17
+  - first:
+      213: 3726824927839870296
+    second: DJVamp-LowLight_18
+  - first:
+      213: 6491761493191601879
+    second: DJVamp-LowLight_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DJVamp-LowLight_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 24
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5577378, y: 0.5135857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177de71b323fbe280800000000000000
+      internalID: -9012842894624630927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2
+        width: 24
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6394126, y: 0.4975867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e61c7800cb4be20800000000000000
+      internalID: 3365521532016225938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 28
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5425393, y: 0.51599956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f7cd8c4e74da660800000000000000
+      internalID: 7398648810787602335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_3
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 2
+        width: 28
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5819397, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8878b62030c749a0800000000000000
+      internalID: -6248814644912686966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_4
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.57678926, y: 0.46391368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ddb2dace0a6ea60800000000000000
+      internalID: 7703021151041871194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_5
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 2
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.60087, y: 0.47834826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75adfc93ff69ca430800000000000000
+      internalID: 3795574608897235543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_6
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1
+        width: 24
+        height: 33
+      alignment: 9
+      pivot: {x: 0.55773926, y: 0.48600295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8261a3239227d810800000000000000
+      internalID: 1789937392256377483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_7
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 2
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53940254, y: 0.4809128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378aa70a60fa71c20800000000000000
+      internalID: 3177200505130231923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_8
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 2
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.548116, y: 0.48556542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181de8af2ce3841b0800000000000000
+      internalID: -5672214723524898431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_9
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 3
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ae192f7252c35d0800000000000000
+      internalID: -3081547191524660579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_10
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 2
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53849286, y: 0.4711308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c169e5b907cf5be0800000000000000
+      internalID: -1486250507488370239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_11
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 3
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1db87641e2aa6d30800000000000000
+      internalID: 4425528672278592798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_12
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.55773926, y: 0.4711308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663f2b2ba31655550800000000000000
+      internalID: 6148927770978349926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_13
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 3
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90b29565aa293770800000000000000
+      internalID: 8590944654048014490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_14
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 2
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.55773926, y: 0.4639135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9831702b35290d40800000000000000
+      internalID: 5551008951588436126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_15
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 3
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e51b94f57ac7840800000000000000
+      internalID: 5223233695543025190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_16
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 2
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.55773926, y: 0.4711308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37e9a13bbdf75b30800000000000000
+      internalID: 4276165351645505338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_17
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 3
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8516bd1c65dbbb720800000000000000
+      internalID: 2863090168441299288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_18
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 2
+        width: 24
+        height: 33
+      alignment: 9
+      pivot: {x: 0.548116, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d57fbb68758b330800000000000000
+      internalID: 3726824927839870296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJVamp-LowLight_19
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deae38eeae571a50800000000000000
+      internalID: 6491761493191601879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 31c37bfac0826f74fb4da6833624aedb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DJVamp-LowLight_0: -9012842894624630927
+      DJVamp-LowLight_1: 3365521532016225938
+      DJVamp-LowLight_10: -1486250507488370239
+      DJVamp-LowLight_11: 4425528672278592798
+      DJVamp-LowLight_12: 6148927770978349926
+      DJVamp-LowLight_13: 8590944654048014490
+      DJVamp-LowLight_14: 5551008951588436126
+      DJVamp-LowLight_15: 5223233695543025190
+      DJVamp-LowLight_16: 4276165351645505338
+      DJVamp-LowLight_17: 2863090168441299288
+      DJVamp-LowLight_18: 3726824927839870296
+      DJVamp-LowLight_19: 6491761493191601879
+      DJVamp-LowLight_2: 7398648810787602335
+      DJVamp-LowLight_3: -6248814644912686966
+      DJVamp-LowLight_4: 7703021151041871194
+      DJVamp-LowLight_5: 3795574608897235543
+      DJVamp-LowLight_6: 1789937392256377483
+      DJVamp-LowLight_7: 3177200505130231923
+      DJVamp-LowLight_8: -5672214723524898431
+      DJVamp-LowLight_9: -3081547191524660579
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

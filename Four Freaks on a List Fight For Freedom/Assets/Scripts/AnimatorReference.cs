@@ -11,6 +11,11 @@ public class AnimatorReference : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         player = GetComponent<Player>();
     }
+    public void DestroyGameObject()
+    {
+        Destroy(gameObject);
+    }
+
     public void RAHeavyUpDash()
     {
         player.xMovementPossible = false;
@@ -38,5 +43,13 @@ public class AnimatorReference : MonoBehaviour
         if (player.distance < 0) ray.transform.rotation = Quaternion.identity;
         ray.transform.SetParent(gameObject.transform);
         Destroy(ray, 0.3f);
+    }
+    public void DJHeavyHighInstantiateDisc()
+    {
+        player.instantiatedDamage = 15;
+        GameObject bomb = Instantiate(objectsSpawn[0], hitBoxes[0].transform.position, Quaternion.identity);
+        if (player.tag == "Player") bomb.tag = "PlayerInstantiated";
+        if (player.tag == "Enemy") bomb.tag = "EnemyInstantiated";
+        bomb.GetComponent<Attack>().InheritParent(player);
     }
 }

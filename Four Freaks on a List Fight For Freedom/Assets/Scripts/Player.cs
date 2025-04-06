@@ -13,8 +13,8 @@ public class Player : MonoBehaviour
     public float currentHealth;
     public float currentMaxHealth;
     // Posture
-    public float currentMaxPosture;
-    public float currentPosture;
+    public float currentMaxPassive;
+    public float currentPassive;
     // Self
     [Header("Self")]
     [SerializeField] Player player;
