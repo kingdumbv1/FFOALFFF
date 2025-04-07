@@ -1,9 +1,16 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class AnimatorReference : MonoBehaviour
 {
     Rigidbody2D rb;
     Player player;
+    int distanceCheck()
+    {
+        if (player.distance < 0) return 1;
+        if (player.distance > 0) return -1;
+        return 1;
+    }
     [SerializeField] GameObject[] objectsSpawn;
     [SerializeField] GameObject[] hitBoxes;
     private void Start()
@@ -11,6 +18,11 @@ public class AnimatorReference : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         player = GetComponent<Player>();
     }
+    public void LateUpdate()
+    {
+        
+    }
+
     public void DestroyGameObject()
     {
         Destroy(gameObject);
@@ -48,8 +60,18 @@ public class AnimatorReference : MonoBehaviour
     {
         player.instantiatedDamage = 15;
         GameObject bomb = Instantiate(objectsSpawn[0], hitBoxes[0].transform.position, Quaternion.identity);
+        Rigidbody2D bombrb = bomb.GetComponent<Rigidbody2D>();
         if (player.tag == "Player") bomb.tag = "PlayerInstantiated";
         if (player.tag == "Enemy") bomb.tag = "EnemyInstantiated";
-        bomb.GetComponent<Attack>().InheritParent(player);
+        bomb.transform.SetParent(gameObject.transform);
+        Debug.Log(distanceCheck());
+        bombrb.linearVelocityX = Mathf.Cos(35 * Mathf.Deg2Rad) * 4 * distanceCheck();
+        bombrb.linearVelocityY = Mathf.Sin(35 * Mathf.Deg2Rad) * 4;
+    }
+    public void DJHeavyLowInstantiateLine()
+    {
+        
+        LineRenderer line = player.GetComponent<LineRenderer>();
+        line.enabled = true;
     }
 }

@@ -31,8 +31,15 @@ public class Player : MonoBehaviour
     public Animator animator;
     public Transform enemy;
     [Header("Misc")]
+    public bool canAttack;
     public float instantiatedDamage;
     public Vector2 currentDirection;
+    public bool canAttackFalseIgnore(int y, float frameClicked, bool canAttack)
+    {
+        if (currentDirection.y == y && frameClicked == 1)
+        return true;
+        return false;
+    }
     public Test abilityDatabase;
     public GameManager game;
     public AnimatorReference animatorReference;
@@ -42,7 +49,6 @@ public class Player : MonoBehaviour
     public bool isAttacking;
     public float isBlocking;
     public float lightDamage;
-    public bool canAttack;
     public bool canBlock;
     // Movement
     [Header("Other Movement")]
@@ -80,7 +86,6 @@ public class Player : MonoBehaviour
     {
         distance = transform.position.x - enemy.transform.position.x;
         currentDirection.y = Mathf.RoundToInt(currentDirection.y);
-        abilityDatabase.Update(Time.deltaTime);
 
         if (xMovementPossible || !xMovementPossible && isBlocking == 1)
         {
@@ -90,6 +95,7 @@ public class Player : MonoBehaviour
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {
+            moveSpeed = 2.8f;
             animator.SetBool("IsBlockBreaking", false);
             if (!isStaggered) canAttack = true;
             isAttacking = false;
@@ -103,7 +109,7 @@ public class Player : MonoBehaviour
         {
             case 0:
                 // neutral light
-                if (attackClickedFrame == 1 && canAttack)
+                if (attackClickedFrame == 1 && canAttack || canAttackFalseIgnore(0, attackClickedFrame, canAttack))
                 {
                     abilityDatabase.LightMiddle();
                 }
@@ -145,9 +151,9 @@ public class Player : MonoBehaviour
         //turn around
         if (distance < 0)
         {
-            animator.SetFloat("IfRunning", currentDirection.x);
+            animator.SetFloat("IfRunning", Mathf.RoundToInt(currentDirection.x));
         }
-        else if (distance > 0) animator.SetFloat("IfRunning", -currentDirection.x);
+        else if (distance > 0) animator.SetFloat("IfRunning", Mathf.RoundToInt(-currentDirection.x));
 
         //Blocking 
         if (!isStaggered) animator.SetFloat("IfBlocking", isBlocking);
@@ -156,7 +162,7 @@ public class Player : MonoBehaviour
         {
             canAttack = false;
             moveSpeed = 1.5f; 
-        } else moveSpeed = 2.8f;
+        }
 
         //movement
         if (xMovementPossible)

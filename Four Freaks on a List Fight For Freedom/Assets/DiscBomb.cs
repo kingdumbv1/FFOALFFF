@@ -3,19 +3,17 @@ using UnityEngine;
 public class DiscBomb : MonoBehaviour
 {
     [SerializeField] Animator animator;
-    [SerializeField] DiscBombHolder holder;
-
-    private void Awake()
-    {
-        holder = GetComponentInParent<DiscBombHolder>();
-    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Player player = collision.transform.GetComponent<Player>();
         animator.SetTrigger("Explode");
-        gameObject.layer = 0;
-    }
-    private void OnDestroy()
-    {
-        holder.destroy = true;
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+
+        }
+        if (collision.gameObject.CompareTag("Player") )
+        {
+
+        }
     }
 }

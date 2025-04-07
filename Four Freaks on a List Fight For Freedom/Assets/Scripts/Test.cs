@@ -8,6 +8,12 @@ public class Test
     string characterChoice;
     Animator animator;
     AnimatorReference animReferance;
+    public bool canAttackFalseIgnore(int y, float frameClicked)
+    {
+        if (player.currentDirection.y == y && frameClicked == 1)
+            return true;
+        return false;
+    }
 
     public Test(Player self, string chosenCharacter, AnimatorReference animatorReference)
     {
@@ -130,7 +136,7 @@ public class Test
                 break;
             case "dj":
                 animator.SetTrigger("HeavyHigh");
-                player.canAttack= false;
+                player.canAttack = false;
                 break;
             case "outlaw":
                 animator.SetTrigger("HeavyHigh");
@@ -162,7 +168,9 @@ public class Test
 
                 break;
             case "dj":
+                player.heavyDamage = 2;
                 animator.SetTrigger("HeavyMiddle");
+                player.canAttack = false;
                 break;
             case "outlaw":
                 animator.SetTrigger("HeavyMiddle");
@@ -187,17 +195,14 @@ public class Test
                 animator.SetTrigger("HeavyLow");
                 break;
             case "dj":
-
+                canAttackFalseIgnore(0, player.heavyAttackClickedFrame);
+                animator.SetTrigger("HeavyLow");
+                // if (lineEnabled && attackClicked
                 break;
             case "outlaw":
 
                 break;
         }
 
-    }
-
-    public void Update(float deltaTime)
-    {
-        
     }
 }

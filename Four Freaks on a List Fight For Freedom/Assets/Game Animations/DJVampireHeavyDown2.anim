@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BombExplode
+  m_Name: DJVampireHeavyDown2
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -23,15 +23,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.41666666
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -40,7 +31,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.5833333
+        time: 0.6666667
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -51,28 +42,30 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Enabled
-    path: Bomb Hitbox
-    classID: 58
-    script: {fileID: 0}
+    attribute: isHeavyAttacking
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 5e1492f4ee5d9034aa3a265ed7779803, type: 3}
     flags: 0
   m_PPtrCurves:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 3623416637303205442, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
+      value: {fileID: 5322643399909044489, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
     - time: 0.083333336
-      value: {fileID: 4559519745247837601, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
+      value: {fileID: -943529494066041422, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
     - time: 0.16666667
-      value: {fileID: 6619216353628200599, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
+      value: {fileID: 7678995735419471400, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
     - time: 0.25
-      value: {fileID: -3793316124809178686, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
+      value: {fileID: 7487684385613824572, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
     - time: 0.33333334
-      value: {fileID: 1626478715366939182, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
+      value: {fileID: 231572686688928927, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
     - time: 0.41666666
-      value: {fileID: 8028427452063965115, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
+      value: {fileID: 7305198325218594864, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
     - time: 0.5
-      value: {fileID: 3832873812322593905, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
+      value: {fileID: 319197490601698842, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
+    - time: 0.5833333
+      value: {fileID: -2846769634521453264, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -86,10 +79,10 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1368165704
-      attribute: 3305885265
-      script: {fileID: 0}
-      typeID: 58
+      path: 0
+      attribute: 3066524125
+      script: {fileID: 11500000, guid: 5e1492f4ee5d9034aa3a265ed7779803, type: 3}
+      typeID: 114
       customType: 0
       isPPtrCurve: 0
       isIntCurve: 0
@@ -104,19 +97,20 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 3623416637303205442, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
-    - {fileID: 4559519745247837601, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
-    - {fileID: 6619216353628200599, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
-    - {fileID: -3793316124809178686, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
-    - {fileID: 1626478715366939182, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
-    - {fileID: 8028427452063965115, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
-    - {fileID: 3832873812322593905, guid: 7a4702959cdb0d94a83e1d12cee6147a, type: 3}
+    - {fileID: 5322643399909044489, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
+    - {fileID: -943529494066041422, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
+    - {fileID: 7678995735419471400, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
+    - {fileID: 7487684385613824572, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
+    - {fileID: 231572686688928927, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
+    - {fileID: 7305198325218594864, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
+    - {fileID: 319197490601698842, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
+    - {fileID: -2846769634521453264, guid: 578e1d7403d9aa345b3f9597f82e20fe, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5833333
+    m_StopTime: 0.6666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -138,15 +132,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.41666666
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -155,7 +140,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.5833333
+        time: 0.6666667
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -166,19 +151,12 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Enabled
-    path: Bomb Hitbox
-    classID: 58
-    script: {fileID: 0}
+    attribute: isHeavyAttacking
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 5e1492f4ee5d9034aa3a265ed7779803, type: 3}
     flags: 0
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.5833333
-    functionName: DestroyGameObject
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
