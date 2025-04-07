@@ -8,12 +8,6 @@ public class Test
     string characterChoice;
     Animator animator;
     AnimatorReference animReferance;
-    public bool canAttackFalseIgnore(int y, float frameClicked)
-    {
-        if (player.currentDirection.y == y && frameClicked == 1)
-            return true;
-        return false;
-    }
 
     public Test(Player self, string chosenCharacter, AnimatorReference animatorReference)
     {
@@ -195,7 +189,6 @@ public class Test
                 animator.SetTrigger("HeavyLow");
                 break;
             case "dj":
-                canAttackFalseIgnore(0, player.heavyAttackClickedFrame);
                 animator.SetTrigger("HeavyLow");
                 // if (lineEnabled && attackClicked
                 break;

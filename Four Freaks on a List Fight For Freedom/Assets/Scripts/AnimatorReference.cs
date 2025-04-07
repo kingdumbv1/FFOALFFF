@@ -70,7 +70,6 @@ public class AnimatorReference : MonoBehaviour
     }
     public void DJHeavyLowInstantiateLine()
     {
-        
         LineRenderer line = player.GetComponent<LineRenderer>();
         line.enabled = true;
     }
