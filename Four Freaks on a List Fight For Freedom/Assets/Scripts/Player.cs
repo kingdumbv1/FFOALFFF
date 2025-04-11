@@ -31,18 +31,16 @@ public class Player : MonoBehaviour
     public Animator animator;
     public Transform enemy;
     [Header("Misc")]
+    public bool isHit;
+    public bool invulnerable;
+    public bool isGrounded;
     public bool canAttack;
     public float instantiatedDamage;
     public Vector2 currentDirection;
-    public bool canAttackFalseIgnore(int y, float frameClicked, bool canAttack)
-    {
-        if (currentDirection.y == y && frameClicked == 1)
-        return true;
-        return false;
-    }
     public Test abilityDatabase;
     public GameManager game;
     public AnimatorReference animatorReference;
+    public float knockback;
     [Header("Light Attack / Blocking")]
     // Light Attacks - Blocking
     public float attackClickedFrame;
@@ -69,8 +67,6 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(chosenCharacter);
-
         if (gameObject.tag == "Player") enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
         if (gameObject.tag == "Enemy") enemy = GameObject.FindGameObjectWithTag("Player").transform;
 
@@ -84,9 +80,9 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        Debug.DrawRay(transform.position, Vector2.down * 0.8f, Color.red);
         distance = transform.position.x - enemy.transform.position.x;
         currentDirection.y = Mathf.RoundToInt(currentDirection.y);
-
         if (xMovementPossible || !xMovementPossible && isBlocking == 1)
         {
             if (distance < 0) transform.rotation = Quaternion.identity;
@@ -102,6 +98,7 @@ public class Player : MonoBehaviour
             isHeavyAttacking = false;
             blockBreak = false;
             if (!isStaggered) xMovementPossible = true;
+            invulnerable = false;
         }
 
         //Directional Combat Input
@@ -109,7 +106,7 @@ public class Player : MonoBehaviour
         {
             case 0:
                 // neutral light
-                if (attackClickedFrame == 1 && canAttack || canAttackFalseIgnore(0, attackClickedFrame, canAttack))
+                if (attackClickedFrame == 1 && canAttack)
                 {
                     abilityDatabase.LightMiddle();
                 }
@@ -171,6 +168,16 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == 0) 
+        isGrounded = true;
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == 0)
+        isGrounded = false;
+    }
     public void Dash(InputAction.CallbackContext context)
     {
         float dashfloat = context.ReadValue<float>();
@@ -195,22 +202,38 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(float damage, float knockback)
     {
-        currentHealth -= damage;
-        StartCoroutine("HitIndicated", 0.2f);
+        isHit = true;
+        if (!invulnerable)
+        {
+            currentHealth -= damage;
+            StartCoroutine(Hurt(0.2f, knockback));
+            
+        }
+        StartCoroutine(HitIndicated(0.2f));
     }
 
-    IEnumerator HitIndicated(float seconds)
+    IEnumerator Hurt(float seconds, float knockback)
     {
+        int roundedDistanceKnockback()
+        {
+            if (distance > 0) return 1;
+            if (distance < 0) return -1;
+            return 0;
+        }
         spriteRend.color = Color.red;
         isStaggered = true;
         xMovementPossible = false;
-        rb.AddForce(Vector2.right * 3.5f * Mathf.Clamp(distance, -1, 1), ForceMode2D.Impulse);
+        rb.AddForce(Vector2.right * knockback * roundedDistanceKnockback(), ForceMode2D.Impulse);
         yield return new WaitForSeconds(seconds);
         xMovementPossible = true;
         isStaggered = false;
         spriteRend.color = Color.white;
     }
-
+    IEnumerator HitIndicated(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        isHit = false;
+    }
     public void BlockBroke(bool isBlockBreaking)
     {
         animator.SetTrigger("BlockBroke");
@@ -232,7 +255,6 @@ public class Player : MonoBehaviour
     }
     public void HeavyAttack(InputAction.CallbackContext context)
     {
-        Debug.Log(heavyAttackClickedFrame);
         heavyAttackClickedFrame = context.ReadValue<float>();
     }
     public void Block(InputAction.CallbackContext context)

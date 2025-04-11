@@ -217,7 +217,7 @@ Transform:
   m_GameObject: {fileID: 6412149206234720528}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.5407, y: -0.83903, z: 0}
+  m_LocalPosition: {x: -6.5407, y: -0.83903, z: -5}
   m_LocalScale: {x: 2.6971, y: 2.6971, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -566,8 +566,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 100
   currentMaxHealth: 100
-  currentMaxPosture: 50
-  currentPosture: 50
+  currentMaxPassive: 0
+  currentPassive: 0
   player: {fileID: 6293866594578880152}
   chosenCharacter: prototype
   moveSpeed: 2.8
@@ -577,15 +577,17 @@ MonoBehaviour:
   spriteRend: {fileID: 0}
   animator: {fileID: 0}
   enemy: {fileID: 0}
+  isGrounded: 0
+  canAttack: 0
   instantiatedDamage: 0
   currentDirection: {x: 0, y: 0}
   game: {fileID: 0}
   animatorReference: {fileID: 0}
+  knockback: 0
   attackClickedFrame: 0
   isAttacking: 0
   isBlocking: 0
   lightDamage: 10
-  canAttack: 0
   canBlock: 0
   canMove: 1
   isStaggered: 0
@@ -611,7 +613,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: {fileID: 0}
   passive: {fileID: 0}
-  ult: {fileID: 0}
   player: {fileID: 0}
 --- !u!114 &-7984464322791812188
 MonoBehaviour:

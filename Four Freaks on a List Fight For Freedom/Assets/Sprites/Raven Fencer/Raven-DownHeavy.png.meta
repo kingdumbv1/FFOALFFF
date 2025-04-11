@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 392bc1a38ef60e5458261c9ac03530ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -582144788355381930
+    second: Raven-DownHeavy_0
+  - first:
+      213: -3854210653889223843
+    second: Raven-DownHeavy_1
+  - first:
+      213: -4133400146200068484
+    second: Raven-DownHeavy_2
+  - first:
+      213: -8803806321472132911
+    second: Raven-DownHeavy_3
+  - first:
+      213: -9009736624929736771
+    second: Raven-DownHeavy_4
+  - first:
+      213: -7702307630414467538
+    second: Raven-DownHeavy_5
+  - first:
+      213: 5776124475202998079
+    second: Raven-DownHeavy_6
+  - first:
+      213: -8517607246620823275
+    second: Raven-DownHeavy_7
+  - first:
+      213: 1385076998432003405
+    second: Raven-DownHeavy_8
+  - first:
+      213: -4830430957966218102
+    second: Raven-DownHeavy_9
+  - first:
+      213: 469886721148316901
+    second: Raven-DownHeavy_10
+  - first:
+      213: 1324696589404373512
+    second: Raven-DownHeavy_11
+  - first:
+      213: 2318622846570003706
+    second: Raven-DownHeavy_12
+  - first:
+      213: -1334744404165228393
+    second: Raven-DownHeavy_13
+  - first:
+      213: -173189001304908248
+    second: Raven-DownHeavy_14
+  - first:
+      213: 688023508744691835
+    second: Raven-DownHeavy_15
+  - first:
+      213: -5277889122515818629
+    second: Raven-DownHeavy_16
+  - first:
+      213: -7701447781024351786
+    second: Raven-DownHeavy_17
+  - first:
+      213: 3059658975131433006
+    second: Raven-DownHeavy_18
+  - first:
+      213: -7748163690598701307
+    second: Raven-DownHeavy_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Raven-DownHeavy_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 13
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6558b3a366ecbe7f0800000000000000
+      internalID: -582144788355381930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 13
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53286da4d7138ac0800000000000000
+      internalID: -3854210653889223843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 13
+        width: 30
+        height: 32
+      alignment: 9
+      pivot: {x: 0.48480684, y: 0.49050468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e723b777633a6c0800000000000000
+      internalID: -4133400146200068484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 13
+        width: 27
+        height: 37
+      alignment: 9
+      pivot: {x: 0.52250725, y: 0.4548332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8a0519bc892d580800000000000000
+      internalID: -8803806321472132911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 13
+        width: 25
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5724768, y: 0.45479548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db77c37764cf6f280800000000000000
+      internalID: -9009736624929736771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_5
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 13
+        width: 24
+        height: 37
+      alignment: 9
+      pivot: {x: 0.60453415, y: 0.4510284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e6d5ac408eb1590800000000000000
+      internalID: -7702307630414467538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 13
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.56432873, y: 0.52177817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f0ae26b9ae82050800000000000000
+      internalID: 5776124475202998079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 13
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5987269, y: 0.49564433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5117fd066516bc980800000000000000
+      internalID: -8517607246620823275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_8
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 7
+        width: 25
+        height: 38
+      alignment: 9
+      pivot: {x: 0.56690186, y: 0.57702595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d459a1e0138c83310800000000000000
+      internalID: 1385076998432003405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_9
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 10
+        width: 31
+        height: 35
+      alignment: 9
+      pivot: {x: 0.46373922, y: 0.5602223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8caf5ee2acd6fcb0800000000000000
+      internalID: -4830430957966218102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_10
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 13
+        width: 41
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35605678, y: 0.51317364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ece7babb7f558600800000000000000
+      internalID: 469886721148316901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_11
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 13
+        width: 39
+        height: 32
+      alignment: 9
+      pivot: {x: 0.37029245, y: 0.5263473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8028e9e8784426210800000000000000
+      internalID: 1324696589404373512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 13
+        width: 28
+        height: 37
+      alignment: 9
+      pivot: {x: 0.52509636, y: 0.44303307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcf8e1c1376d2020800000000000000
+      internalID: 2318622846570003706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_13
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 13
+        width: 24
+        height: 37
+      alignment: 9
+      pivot: {x: 0.6171036, y: 0.44303307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7988ac349090a7de0800000000000000
+      internalID: -1334744404165228393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_14
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 13
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.55405134, y: 0.51317364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e573a5585b89df0800000000000000
+      internalID: -173189001304908248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_15
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 13
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.61124676, y: 0.51317364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7068d36cb95c8900800000000000000
+      internalID: 688023508744691835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_16
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 7
+        width: 25
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5899365, y: 0.59984225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77eb887ecb21c6b0800000000000000
+      internalID: -5277889122515818629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_17
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 10
+        width: 31
+        height: 35
+      alignment: 9
+      pivot: {x: 0.46827352, y: 0.5642372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9b2d31c06fe1590800000000000000
+      internalID: -7701447781024351786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_18
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 13
+        width: 41
+        height: 32
+      alignment: 9
+      pivot: {x: 0.34920445, y: 0.52634734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e287b8a80a7167a20800000000000000
+      internalID: 3059658975131433006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-DownHeavy_19
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 13
+        width: 39
+        height: 32
+      alignment: 9
+      pivot: {x: 0.37750086, y: 0.5307385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507e848cc2ef87490800000000000000
+      internalID: -7748163690598701307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: be815710967e3124c824f0939fc78904
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Raven-DownHeavy_0: -582144788355381930
+      Raven-DownHeavy_1: -3854210653889223843
+      Raven-DownHeavy_10: 469886721148316901
+      Raven-DownHeavy_11: 1324696589404373512
+      Raven-DownHeavy_12: 2318622846570003706
+      Raven-DownHeavy_13: -1334744404165228393
+      Raven-DownHeavy_14: -173189001304908248
+      Raven-DownHeavy_15: 688023508744691835
+      Raven-DownHeavy_16: -5277889122515818629
+      Raven-DownHeavy_17: -7701447781024351786
+      Raven-DownHeavy_18: 3059658975131433006
+      Raven-DownHeavy_19: -7748163690598701307
+      Raven-DownHeavy_2: -4133400146200068484
+      Raven-DownHeavy_3: -8803806321472132911
+      Raven-DownHeavy_4: -9009736624929736771
+      Raven-DownHeavy_5: -7702307630414467538
+      Raven-DownHeavy_6: 5776124475202998079
+      Raven-DownHeavy_7: -8517607246620823275
+      Raven-DownHeavy_8: 1385076998432003405
+      Raven-DownHeavy_9: -4830430957966218102
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

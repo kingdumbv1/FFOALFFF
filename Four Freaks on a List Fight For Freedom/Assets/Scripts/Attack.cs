@@ -20,8 +20,8 @@ public class Attack : MonoBehaviour
                 {
                     if (enemy.isBlocking == 0)
                     {
-                        if (player.isAttacking) enemy.TakeDamage(player.lightDamage, 0); 
-                        if (player.isHeavyAttacking) enemy.TakeDamage(player.heavyDamage, 0);
+                        if (player.isAttacking) enemy.TakeDamage(player.lightDamage, player.knockback); 
+                        if (player.isHeavyAttacking) enemy.TakeDamage(player.heavyDamage, player.knockback);
                     }
                     if (enemy.isBlocking == 1 && player.isAttacking)
                     {
@@ -32,7 +32,7 @@ public class Attack : MonoBehaviour
                     if (player.isHeavyAttacking && enemy.isBlocking == 1 && player.blockBreak == true)
                     {
                         enemy.BlockBroke(true);
-                        enemy.TakeDamage(player.heavyDamage / 2, 0);
+                        enemy.TakeDamage(player.heavyDamage / 2, player.knockback / 1.5f);
                     }
                 }
 
@@ -48,8 +48,8 @@ public class Attack : MonoBehaviour
                 {
                     if (enemy.isBlocking == 0) // hitting an unblocked
                     {
-                        if (player.isAttacking) enemy.TakeDamage(player.lightDamage, 0);
-                        if (player.isHeavyAttacking) enemy.TakeDamage(player.heavyDamage, 0);
+                        if (player.isAttacking) enemy.TakeDamage(player.lightDamage, player.knockback);
+                        if (player.isHeavyAttacking) enemy.TakeDamage(player.heavyDamage, player.knockback);
                     }
                     if (enemy.isBlocking == 1 && player.isAttacking) // Hitting a blocked person
                     {
@@ -60,7 +60,7 @@ public class Attack : MonoBehaviour
                     if (player.isHeavyAttacking && enemy.isBlocking == 1 && player.blockBreak == true) // blockbreaking
                     {
                         enemy.BlockBroke(true);
-                        enemy.TakeDamage(player.heavyDamage / 2, 0);
+                        enemy.TakeDamage(player.heavyDamage / 2, player.knockback / 1.5f);
                     }
                 }
 
@@ -71,12 +71,13 @@ public class Attack : MonoBehaviour
         {
             if (collision.CompareTag("Enemy"))
             {
+                Debug.Log("Triggered");
                 Player enemy = collision.GetComponent<Player>();
                 if (enemy != null)
                 {
                     if (enemy.isBlocking == 0) // hitting an unblocked
                     {
-                        enemy.TakeDamage(player.instantiatedDamage, 0);
+                        enemy.TakeDamage(player.instantiatedDamage, player.knockback);
                     }
                     if (enemy.isBlocking == 1 && player.isAttacking) // Hitting a blocked person
                     {
@@ -86,7 +87,7 @@ public class Attack : MonoBehaviour
                     if (player.isHeavyAttacking && enemy.isBlocking == 1 && player.blockBreak == true) // blockbreaking
                     {
                         enemy.BlockBroke(true);
-                        enemy.TakeDamage(player.heavyDamage / 2, 0);
+                        enemy.TakeDamage(player.heavyDamage / 2, player.knockback / 1.5f);
                     }
                 }
             }
@@ -94,6 +95,7 @@ public class Attack : MonoBehaviour
 
         if (gameObject.CompareTag("EnemyInstantiated"))
         {
+            Debug.Log("Triggered");
             if (collision.CompareTag("Player"))
             {
                 Player enemy = collision.GetComponent<Player>();
@@ -101,7 +103,7 @@ public class Attack : MonoBehaviour
                 {
                     if (enemy.isBlocking == 0) // hitting an unblocked
                     {
-                        enemy.TakeDamage(player.instantiatedDamage, 0);
+                        enemy.TakeDamage(player.instantiatedDamage, player.knockback);
                     }
                     if (enemy.isBlocking == 1 && player.isAttacking) // Hitting a blocked person
                     {
@@ -111,7 +113,7 @@ public class Attack : MonoBehaviour
                     if (player.isHeavyAttacking && enemy.isBlocking == 1 && player.blockBreak == true) // blockbreaking
                     {
                         enemy.BlockBroke(true);
-                        enemy.TakeDamage(player.heavyDamage / 2, 0);
+                        enemy.TakeDamage(player.heavyDamage / 2, player.knockback / 1.5f);
                     }
                 }
             }

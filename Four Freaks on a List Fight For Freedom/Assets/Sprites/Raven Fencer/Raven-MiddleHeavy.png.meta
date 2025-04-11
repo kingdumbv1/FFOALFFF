@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 840cfa5f3ebb8d049a01e654115d60f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5221310792158990260
+    second: Raven-MiddleHeavy_0
+  - first:
+      213: -411402647587341062
+    second: Raven-MiddleHeavy_1
+  - first:
+      213: -7040168899051876920
+    second: Raven-MiddleHeavy_2
+  - first:
+      213: -6646575680893116462
+    second: Raven-MiddleHeavy_3
+  - first:
+      213: -3284551258352211697
+    second: Raven-MiddleHeavy_4
+  - first:
+      213: 560785490684416189
+    second: Raven-MiddleHeavy_5
+  - first:
+      213: 9137674208218866124
+    second: Raven-MiddleHeavy_6
+  - first:
+      213: 7885582180900683194
+    second: Raven-MiddleHeavy_7
+  - first:
+      213: -6165429133133964174
+    second: Raven-MiddleHeavy_8
+  - first:
+      213: 9179335330659113419
+    second: Raven-MiddleHeavy_9
+  - first:
+      213: 7207325368186370186
+    second: Raven-MiddleHeavy_10
+  - first:
+      213: 1021403501607103771
+    second: Raven-MiddleHeavy_11
+  - first:
+      213: -5112953604803858923
+    second: Raven-MiddleHeavy_12
+  - first:
+      213: 1497123904319911093
+    second: Raven-MiddleHeavy_13
+  - first:
+      213: -109329414735439190
+    second: Raven-MiddleHeavy_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfcc847082d57840800000000000000
+      internalID: 5221310792158990260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcb6e2c8776a4af0800000000000000
+      internalID: -411402647587341062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd824dcfab4c4e90800000000000000
+      internalID: -7040168899051876920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df9d9f12ae92c3a0800000000000000
+      internalID: -6646575680893116462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_4
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 0
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09aa57680eea62d0800000000000000
+      internalID: -3284551258352211697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0107fbe6f48c700800000000000000
+      internalID: 560785490684416189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_6
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc16226674a8fce70800000000000000
+      internalID: 9137674208218866124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_7
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd3cb3c6373f6d60800000000000000
+      internalID: 7885582180900683194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_8
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 0
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c94b78edeff6aa0800000000000000
+      internalID: -6165429133133964174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_9
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 0
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9112a59dc836f70800000000000000
+      internalID: 9179335330659113419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_10
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 0
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88f86f7c30950460800000000000000
+      internalID: 7207325368186370186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_11
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 0
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1da1a5b211cc2e00800000000000000
+      internalID: 1021403501607103771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_12
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 0
+        width: 68
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51eec9839c32b09b0800000000000000
+      internalID: -5112953604803858923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_13
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4fbb5424ad6c410800000000000000
+      internalID: 1497123904319911093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raven-MiddleHeavy_14
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 0
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa513ff9759b7ef0800000000000000
+      internalID: -109329414735439190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Raven-MiddleHeavy_0: 5221310792158990260
+      Raven-MiddleHeavy_1: -411402647587341062
+      Raven-MiddleHeavy_10: 7207325368186370186
+      Raven-MiddleHeavy_11: 1021403501607103771
+      Raven-MiddleHeavy_12: -5112953604803858923
+      Raven-MiddleHeavy_13: 1497123904319911093
+      Raven-MiddleHeavy_14: -109329414735439190
+      Raven-MiddleHeavy_2: -7040168899051876920
+      Raven-MiddleHeavy_3: -6646575680893116462
+      Raven-MiddleHeavy_4: -3284551258352211697
+      Raven-MiddleHeavy_5: 560785490684416189
+      Raven-MiddleHeavy_6: 9137674208218866124
+      Raven-MiddleHeavy_7: 7885582180900683194
+      Raven-MiddleHeavy_8: -6165429133133964174
+      Raven-MiddleHeavy_9: 9179335330659113419
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
