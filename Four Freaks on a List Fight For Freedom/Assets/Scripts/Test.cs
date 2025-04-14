@@ -10,10 +10,15 @@ public class Test
     string characterChoice;
     Animator animator;
     AnimatorReference animReference;
+    int distanceCheck()
+    {
+        if (player.distance < 0) return 1;
+        if (player.distance > 0) return -1;
+        return 1;
+    }
 
     public Test(Player self, string chosenCharacter, AnimatorReference animatorReference)
     {
-
         player = self;
         characterChoice = chosenCharacter;
         animator = player.animator;
@@ -43,7 +48,7 @@ public class Test
                 if (player.isGrounded)
                 {
                     player.knockback = 3.5f;
-                    player.lightDamage = 3;
+                    player.lightDamage = 4;
                     animator.SetTrigger("HighPrimary");
                     player.canAttack = false;
                     player.rb.AddForce(Vector2.up * player.jumpHeight, ForceMode2D.Impulse);
@@ -57,7 +62,10 @@ public class Test
                 player.canAttack = false;
                 break;
             case "outlaw":
+                player.knockback = 2;
+                player.lightDamage = 4;
                 animator.SetTrigger("HighPrimary");
+                player.canAttack = false;
                 break;
         }
     }
@@ -78,7 +86,7 @@ public class Test
                 break;
             case "rockstar":
                 player.knockback = 3.5f;
-                player.lightDamage = 3;
+                player.lightDamage = 4;
                 animator.SetTrigger("MiddlePrimary");
                 player.canAttack = false;
                 break;
@@ -89,7 +97,10 @@ public class Test
                 player.canAttack = false;
                 break;
             case "outlaw":
+                player.knockback = 4;
+                player.lightDamage = 2;
                 animator.SetTrigger("MiddlePrimary");
+                player.canAttack = false;
                 break;
         }
     }
@@ -111,12 +122,11 @@ public class Test
             case "rockstar":
                 if (animReference.cooldown >= 1.5f)
                 {
-                    player.lightDamage = 3;
+                    player.lightDamage = 4;
                     player.knockback = 3.5f;
                     animator.SetTrigger("LowPrimary");
                     player.canAttack = false;
-                    player.xMovementPossible = false;
-                    player.rb.AddForce(Vector2.left * player.jumpHeight * Mathf.Clamp(-player.distance, -1, 1), ForceMode2D.Impulse);
+                    player.rb.AddForce(Vector2.left * player.jumpHeight * distanceCheck(), ForceMode2D.Impulse);
                     animReference.cooldown = 0;
                 }
                 break;
@@ -127,7 +137,10 @@ public class Test
                 player.canAttack = false;
                 break;
             case "outlaw":
+                player.knockback = 2;
+                player.lightDamage = 4;
                 animator.SetTrigger("LowPrimary");
+                player.canAttack = false;
                 break;
         }
     }
@@ -148,8 +161,8 @@ public class Test
                 player.canAttack = false;
                 break;
             case "rockstar":
-                player.knockback = 3.5f;
-                player.heavyDamage = 6;
+                player.knockback = 2f;
+                player.heavyDamage = 2.5f;
                 animator.SetTrigger("HeavyHigh");
                 player.xMovementPossible = false;
                 player.canAttack = false;
@@ -160,7 +173,10 @@ public class Test
                 player.canAttack = false;
                 break;
             case "outlaw":
+                player.knockback = 0;
+                player.heavyDamage = 3;
                 animator.SetTrigger("HeavyHigh");
+                player.canAttack = false;
                 break;
         }
     }
@@ -188,7 +204,7 @@ public class Test
                 }
                 break;
             case "rockstar":
-                player.heavyDamage = 7;
+                player.heavyDamage = 4;
                 player.knockback = 3.5f;
                 animator.SetTrigger("HeavyMiddle");
                 player.canAttack = false;
@@ -202,6 +218,9 @@ public class Test
                 player.canAttack = false;
                 break;
             case "outlaw":
+                player.knockback = 0;
+                player.instantiatedDamage = 0.75f;
+                player.canAttack = false;
                 animator.SetTrigger("HeavyMiddle");
                 break;
         }
@@ -243,7 +262,7 @@ public class Test
                 }
                 break;
             case "outlaw":
-
+                animator.SetTrigger("HeavyLow");
                 break;
         }
 

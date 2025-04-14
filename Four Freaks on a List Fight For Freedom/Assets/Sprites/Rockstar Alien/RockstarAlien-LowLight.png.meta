@@ -1,43 +1,37 @@
 fileFormatVersion: 2
-guid: e0c937c5af927244499084d3f5f9b865
+guid: ba38a46c30098444e93fd0defe42e493
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2937408337622644684
-    second: RockstarAlien-Blocking_0
+      213: 8195765897010155208
+    second: RockstarAlien-LowLight_0
   - first:
-      213: 2312112289678325597
-    second: RockstarAlien-Blocking_1
+      213: -1758784519631319700
+    second: RockstarAlien-LowLight_1
   - first:
-      213: -8416556987193427544
-    second: RockstarAlien-Blocking_2
+      213: -7428572096919412386
+    second: RockstarAlien-LowLight_2
   - first:
-      213: -1152128918642510906
-    second: RockstarAlien-Blocking_3
+      213: -2960373249608701857
+    second: RockstarAlien-LowLight_3
   - first:
-      213: -7921169203859694160
-    second: RockstarAlien-Blocking_4
+      213: -9132440443807229637
+    second: RockstarAlien-LowLight_4
   - first:
-      213: 8419091560301336776
-    second: RockstarAlien-Blocking_5
+      213: -6065674622462402098
+    second: RockstarAlien-LowLight_5
   - first:
-      213: 6274516482838342780
-    second: RockstarAlien-Blocking_6
+      213: -102377743519509291
+    second: RockstarAlien-LowLight_6
   - first:
-      213: 6466332280365681434
-    second: RockstarAlien-Blocking_7
+      213: -82639002896084187
+    second: RockstarAlien-LowLight_7
   - first:
-      213: -7588170922727150492
-    second: RockstarAlien-Blocking_8
+      213: 5687039313691607314
+    second: RockstarAlien-LowLight_8
   - first:
-      213: -5783194399618059633
-    second: RockstarAlien-Blocking_9
-  - first:
-      213: -6346541147979477959
-    second: RockstarAlien-Blocking_10
-  - first:
-      213: -3302768692357386340
-    second: RockstarAlien-Blocking_11
+      213: -1207335625275407233
+    second: RockstarAlien-LowLight_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,265 +127,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_0
+      name: RockstarAlien-LowLight_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 2
+        x: 27
+        y: 6
         width: 33
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4384bb31eaa3c37d0800000000000000
-      internalID: -2937408337622644684
+      spriteID: 8ce0d8909a53db170800000000000000
+      internalID: 8195765897010155208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_1
+      name: RockstarAlien-LowLight_1
       rect:
         serializedVersion: 2
-        x: 84
-        y: 2
-        width: 36
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d57771b90e5461020800000000000000
-      internalID: 2312112289678325597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_2
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 2
-        width: 37
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a9f0825302623b80800000000000000
-      internalID: -8416556987193427544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_3
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 2
-        width: 38
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6c3bbdc4ad0d200f0800000000000000
-      internalID: -1152128918642510906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_4
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 2
-        width: 38
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0bddd26c39a521290800000000000000
-      internalID: -7921169203859694160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_5
-      rect:
-        serializedVersion: 2
-        x: 348
-        y: 2
-        width: 40
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c81047fa2f96d470800000000000000
-      internalID: 8419091560301336776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_6
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 0
+        x: 105
+        y: 3
         width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d4bee3cca8797e0800000000000000
+      internalID: -1758784519631319700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-LowLight_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 41
+        height: 47
+      alignment: 9
+      pivot: {x: 0.66633457, y: 0.5610947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e516dbe390968e890800000000000000
+      internalID: -7428572096919412386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-LowLight_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1
+        width: 41
+        height: 46
+      alignment: 9
+      pivot: {x: 0.701352, y: 0.546817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f582186d634aae6d0800000000000000
+      internalID: -2960373249608701857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-LowLight_4
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3995765dcd034180800000000000000
+      internalID: -9132440443807229637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-LowLight_5
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 6
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1e605711562dba0800000000000000
+      internalID: -6065674622462402098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-LowLight_6
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 6
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d41d941cf7449ef0800000000000000
+      internalID: -102377743519509291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-LowLight_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 6
+        width: 38
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7ca9e05f7f831750800000000000000
-      internalID: 6274516482838342780
+      spriteID: 52359c3c3486adef0800000000000000
+      internalID: -82639002896084187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_7
+      name: RockstarAlien-LowLight_8
       rect:
         serializedVersion: 2
-        x: 480
-        y: 2
-        width: 34
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1b86dae2f60db950800000000000000
-      internalID: 6466332280365681434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_8
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 2
-        width: 36
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46c66e7efb661b690800000000000000
-      internalID: -7588170922727150492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_9
-      rect:
-        serializedVersion: 2
-        x: 610
-        y: 2
-        width: 36
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f82bcbf8557fdbfa0800000000000000
-      internalID: -5783194399618059633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_10
-      rect:
-        serializedVersion: 2
-        x: 676
-        y: 2
+        x: 661
+        y: 6
         width: 38
-        height: 41
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93c884a837e8ce7a0800000000000000
-      internalID: -6346541147979477959
+      spriteID: 2110544ef1c6cee40800000000000000
+      internalID: 5687039313691607314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_11
+      name: RockstarAlien-LowLight_9
       rect:
         serializedVersion: 2
-        x: 742
-        y: 2
-        width: 34
-        height: 41
+        x: 741
+        y: 6
+        width: 38
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9fa1c48f553a22d0800000000000000
-      internalID: -3302768692357386340
+      spriteID: f7409c245aeae3fe0800000000000000
+      internalID: -1207335625275407233
       vertices: []
       indices: 
       edges: []
@@ -400,7 +350,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 646be3696b40f184eac3fe9a37c3036e
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +360,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RockstarAlien-Blocking_0: -2937408337622644684
-      RockstarAlien-Blocking_1: 2312112289678325597
-      RockstarAlien-Blocking_10: -6346541147979477959
-      RockstarAlien-Blocking_11: -3302768692357386340
-      RockstarAlien-Blocking_2: -8416556987193427544
-      RockstarAlien-Blocking_3: -1152128918642510906
-      RockstarAlien-Blocking_4: -7921169203859694160
-      RockstarAlien-Blocking_5: 8419091560301336776
-      RockstarAlien-Blocking_6: 6274516482838342780
-      RockstarAlien-Blocking_7: 6466332280365681434
-      RockstarAlien-Blocking_8: -7588170922727150492
-      RockstarAlien-Blocking_9: -5783194399618059633
+      RockstarAlien-LowLight_0: 8195765897010155208
+      RockstarAlien-LowLight_1: -1758784519631319700
+      RockstarAlien-LowLight_2: -7428572096919412386
+      RockstarAlien-LowLight_3: -2960373249608701857
+      RockstarAlien-LowLight_4: -9132440443807229637
+      RockstarAlien-LowLight_5: -6065674622462402098
+      RockstarAlien-LowLight_6: -102377743519509291
+      RockstarAlien-LowLight_7: -82639002896084187
+      RockstarAlien-LowLight_8: 5687039313691607314
+      RockstarAlien-LowLight_9: -1207335625275407233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

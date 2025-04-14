@@ -16,8 +16,8 @@ public class FindMedian : MonoBehaviour
     {
         if (foundPlayer != null && foundPlayer2 != null)
         {
-            foundPlayerPosition = new Vector3(foundPlayer.position.x + 1.5f, foundPlayer.position.y + 1.5f, -10);
-            foundPlayer2Position = new Vector3(foundPlayer2.position.x + 1.5f, foundPlayer2.position.y + 1.5f, -10);
+            foundPlayerPosition = new Vector3(foundPlayer.position.x, foundPlayer.position.y + 2, -10);
+            foundPlayer2Position = new Vector3(foundPlayer2.position.x, foundPlayer2.position.y + 2, -10);
             transform.position = (foundPlayerPosition + foundPlayer2Position) / 2.0f;
         } else return;
     }

@@ -3,6 +3,12 @@ using UnityEngine;
 public class Attack : MonoBehaviour
 {
     [SerializeField] Player player;
+    int distanceCheck()
+    {
+        if (player.distance < 0) return 1;
+        if (player.distance > 0) return -1;
+        return 1;
+    }
     private void Start()
     {
         player = GetComponentInParent<Player>();
@@ -27,7 +33,7 @@ public class Attack : MonoBehaviour
                     {
                         Debug.Log("Called");
                         enemy.xMovementPossible = false;
-                        enemy.rb.AddForce(Vector2.right * 1.5f * Mathf.Clamp(enemy.distance, -1, 1), ForceMode2D.Impulse);
+                        enemy.rb.AddForce(Vector2.right * 1.5f * distanceCheck(), ForceMode2D.Impulse);
                     }
                     if (player.isHeavyAttacking && enemy.isBlocking == 1 && player.blockBreak == true)
                     {

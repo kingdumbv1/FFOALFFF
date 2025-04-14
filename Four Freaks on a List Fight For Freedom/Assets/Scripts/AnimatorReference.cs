@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class AnimatorReference : MonoBehaviour
 {
@@ -43,7 +44,7 @@ public class AnimatorReference : MonoBehaviour
     public void RAHeavyMiddleInstantiateWaves()
     {
         player.instantiatedDamage = 2;
-        GameObject soundwave = Instantiate(objectsSpawn[0], player.transform.position, Quaternion.identity);
+        GameObject soundwave = Instantiate(objectsSpawn[0], hitBoxes[1].transform.position, Quaternion.identity);
         soundwave.transform.SetParent(gameObject.transform);
         if (player.tag == "Player") soundwave.tag = "PlayerInstantiated";
         if (player.tag == "Enemy") soundwave.tag = "EnemyInstantiated";
@@ -51,16 +52,16 @@ public class AnimatorReference : MonoBehaviour
     }
     public void RAHeavyLowInstantiateRay()
     {
-        player.instantiatedDamage = 8;
+        player.instantiatedDamage = 5;
         player.xMovementPossible = false;
-        player.rb.AddForce(Vector2.left * player.jumpHeight * Mathf.Clamp(-player.distance, -1, 1), ForceMode2D.Impulse);
+        player.rb.AddForce(Vector2.left * player.jumpHeight * distanceCheck(), ForceMode2D.Impulse);
         GameObject ray = Instantiate(objectsSpawn[1], hitBoxes[1].transform.position, Quaternion.identity);
-        if (player.tag == "Player") ray.tag = "PlayerInstantiated";
-        if (player.tag == "Enemy") ray.tag = "EnemyInstantiated";
+        if (player.tag == "Player") ray.transform.GetChild(0).tag = "PlayerInstantiated";
+        if (player.tag == "Enemy") ray.transform.GetChild(0).tag = "EnemyInstantiated";
         if (player.distance > 0) ray.transform.rotation = Quaternion.Euler(0, 180, 0);
         if (player.distance < 0) ray.transform.rotation = Quaternion.identity;
         ray.transform.SetParent(gameObject.transform);
-        Destroy(ray, 0.3f);
+        Destroy(ray, 1);
     }
     public void DJHeavyHighInstantiateDisc()
     {
@@ -95,9 +96,9 @@ public class AnimatorReference : MonoBehaviour
     }
     public void RFHeavyLowCounter()
     {
-        StartCoroutine(Counter(Time.deltaTime));
+        StartCoroutine(Counter());
     }
-    private IEnumerator Counter(float seconds)
+    private IEnumerator Counter()
     {
         while (player.invulnerable)
         {
@@ -112,5 +113,24 @@ public class AnimatorReference : MonoBehaviour
             }
         }
         
+    }
+    public void MOHeavyHigh()
+    {
+        GameObject kickHitbox = Instantiate(objectsSpawn[0], hitBoxes[1].transform.position, Quaternion.identity);
+        KickMagicOutlaw hitbox = kickHitbox.GetComponent<KickMagicOutlaw>();
+        hitbox.InheritParent(player);
+        Destroy(kickHitbox, 0.35f);
+    }
+    public void MOHeavyMiddle()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            GameObject bullet = Instantiate(objectsSpawn[1], hitBoxes[1].transform.position, Quaternion.identity);
+            if (player.tag == "Player") bullet.transform.tag = "PlayerInstantiated";
+            if (player.tag == "Enemy") bullet.transform.tag = "EnemyInstantiated";
+            bullet.transform.SetParent(gameObject.transform);
+            BulletMagicOutlaw bulletScript = bullet.GetComponent<BulletMagicOutlaw>();
+            bulletScript.InheritParents(player, player.enemy);
+        }
     }
 }

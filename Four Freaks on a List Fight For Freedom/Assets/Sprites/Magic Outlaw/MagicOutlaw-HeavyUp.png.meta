@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 4cb1b03b7f0c2f04587accf7ba417b7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6322793626238528925
+    second: MagicOutlaw-HeavyUp_0
+  - first:
+      213: 7932948790205865773
+    second: MagicOutlaw-HeavyUp_1
+  - first:
+      213: -5380980711627051360
+    second: MagicOutlaw-HeavyUp_2
+  - first:
+      213: 5806129404990941783
+    second: MagicOutlaw-HeavyUp_3
+  - first:
+      213: 2730873902007639574
+    second: MagicOutlaw-HeavyUp_4
+  - first:
+      213: -157382020004609610
+    second: MagicOutlaw-HeavyUp_5
+  - first:
+      213: -3431684817989338403
+    second: MagicOutlaw-HeavyUp_6
+  - first:
+      213: 1860453878398868392
+    second: MagicOutlaw-HeavyUp_7
+  - first:
+      213: 5344593176313277788
+    second: MagicOutlaw-HeavyUp_8
+  - first:
+      213: 6555290127091694818
+    second: MagicOutlaw-HeavyUp_9
+  - first:
+      213: -7659739427864029799
+    second: MagicOutlaw-HeavyUp_10
+  - first:
+      213: 961157831778360882
+    second: MagicOutlaw-HeavyUp_11
+  - first:
+      213: -1219723144866510861
+    second: MagicOutlaw-HeavyUp_12
+  - first:
+      213: 1333436474556489461
+    second: MagicOutlaw-HeavyUp_13
+  - first:
+      213: -5175891637143897249
+    second: MagicOutlaw-HeavyUp_14
+  - first:
+      213: 436231651902936580
+    second: MagicOutlaw-HeavyUp_15
+  - first:
+      213: -4426015862399972804
+    second: MagicOutlaw-HeavyUp_16
+  - first:
+      213: 3119851251407576429
+    second: MagicOutlaw-HeavyUp_17
+  - first:
+      213: -3512973231451808904
+    second: MagicOutlaw-HeavyUp_18
+  - first:
+      213: -4478981582079117761
+    second: MagicOutlaw-HeavyUp_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_0
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 58
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d2d00bd431fb750800000000000000
+      internalID: 6322793626238528925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_1
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 48
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fd595e4ee771e60800000000000000
+      internalID: 7932948790205865773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_2
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 45
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aead3c6d8ae255b0800000000000000
+      internalID: -5380980711627051360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_3
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 34
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a6f608ee3839050800000000000000
+      internalID: 5806129404990941783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61edc87585306e520800000000000000
+      internalID: 2730873902007639574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1879bf2edd0ddf0800000000000000
+      internalID: -157382020004609610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_6
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddaf4a207d43060d0800000000000000
+      internalID: -3431684817989338403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_7
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab56fef1f8a1d910800000000000000
+      internalID: 1860453878398868392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_8
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d212f4d2fcb2a40800000000000000
+      internalID: 5344593176313277788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_9
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 2
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecfce0a3a119fa50800000000000000
+      internalID: 6555290127091694818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_10
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 7
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9955c1ac29323b590800000000000000
+      internalID: -7659739427864029799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_11
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 11
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23edb30a4f7b65d00800000000000000
+      internalID: 961157831778360882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_12
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 14
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7c8e9134ca21fe0800000000000000
+      internalID: -1219723144866510861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_13
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 16
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe1d74a861518210800000000000000
+      internalID: 1333436474556489461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_14
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 16
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b7f14aaf98b28b0800000000000000
+      internalID: -5175891637143897249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_15
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 14
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406d47b406ecd0600800000000000000
+      internalID: 436231651902936580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_16
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 14
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ac76fe502a392c0800000000000000
+      internalID: -4426015862399972804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_17
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 4
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dd438fe20fb4b20800000000000000
+      internalID: 3119851251407576429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_18
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 16
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bdbd165796f3fc0800000000000000
+      internalID: -3512973231451808904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyUp_19
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 0
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3638a45bf577d1c0800000000000000
+      internalID: -4478981582079117761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MagicOutlaw-HeavyUp_0: 6322793626238528925
+      MagicOutlaw-HeavyUp_1: 7932948790205865773
+      MagicOutlaw-HeavyUp_10: -7659739427864029799
+      MagicOutlaw-HeavyUp_11: 961157831778360882
+      MagicOutlaw-HeavyUp_12: -1219723144866510861
+      MagicOutlaw-HeavyUp_13: 1333436474556489461
+      MagicOutlaw-HeavyUp_14: -5175891637143897249
+      MagicOutlaw-HeavyUp_15: 436231651902936580
+      MagicOutlaw-HeavyUp_16: -4426015862399972804
+      MagicOutlaw-HeavyUp_17: 3119851251407576429
+      MagicOutlaw-HeavyUp_18: -3512973231451808904
+      MagicOutlaw-HeavyUp_19: -4478981582079117761
+      MagicOutlaw-HeavyUp_2: -5380980711627051360
+      MagicOutlaw-HeavyUp_3: 5806129404990941783
+      MagicOutlaw-HeavyUp_4: 2730873902007639574
+      MagicOutlaw-HeavyUp_5: -157382020004609610
+      MagicOutlaw-HeavyUp_6: -3431684817989338403
+      MagicOutlaw-HeavyUp_7: 1860453878398868392
+      MagicOutlaw-HeavyUp_8: 5344593176313277788
+      MagicOutlaw-HeavyUp_9: 6555290127091694818
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,43 +1,58 @@
 fileFormatVersion: 2
-guid: e0c937c5af927244499084d3f5f9b865
+guid: 654e11684329fe546bb441e30a564280
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2937408337622644684
-    second: RockstarAlien-Blocking_0
+      213: 974793748798794813
+    second: RockstarAlien-UpLight_0
   - first:
-      213: 2312112289678325597
-    second: RockstarAlien-Blocking_1
+      213: 7592348383709217422
+    second: RockstarAlien-UpLight_1
   - first:
-      213: -8416556987193427544
-    second: RockstarAlien-Blocking_2
+      213: -3340615178294533473
+    second: RockstarAlien-UpLight_2
   - first:
-      213: -1152128918642510906
-    second: RockstarAlien-Blocking_3
+      213: -1363332626925954858
+    second: RockstarAlien-UpLight_3
   - first:
-      213: -7921169203859694160
-    second: RockstarAlien-Blocking_4
+      213: -418257086347970978
+    second: RockstarAlien-UpLight_4
   - first:
-      213: 8419091560301336776
-    second: RockstarAlien-Blocking_5
+      213: 5877993606337624701
+    second: RockstarAlien-UpLight_5
   - first:
-      213: 6274516482838342780
-    second: RockstarAlien-Blocking_6
+      213: 4328388027673046608
+    second: RockstarAlien-UpLight_6
   - first:
-      213: 6466332280365681434
-    second: RockstarAlien-Blocking_7
+      213: -5327819988882593029
+    second: RockstarAlien-UpLight_7
   - first:
-      213: -7588170922727150492
-    second: RockstarAlien-Blocking_8
+      213: 6694026030139063906
+    second: RockstarAlien-UpLight_8
   - first:
-      213: -5783194399618059633
-    second: RockstarAlien-Blocking_9
+      213: -7858056539542483201
+    second: RockstarAlien-UpLight_9
   - first:
-      213: -6346541147979477959
-    second: RockstarAlien-Blocking_10
+      213: 3306184678507319645
+    second: RockstarAlien-UpLight_10
   - first:
-      213: -3302768692357386340
-    second: RockstarAlien-Blocking_11
+      213: -2373646893561782971
+    second: RockstarAlien-UpLight_11
+  - first:
+      213: 4264146711348219366
+    second: RockstarAlien-UpLight_12
+  - first:
+      213: 3541975119220201351
+    second: RockstarAlien-UpLight_13
+  - first:
+      213: 8255415122000585731
+    second: RockstarAlien-UpLight_14
+  - first:
+      213: 6894841684418822444
+    second: RockstarAlien-UpLight_15
+  - first:
+      213: -5807256257754634631
+    second: RockstarAlien-UpLight_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,7 +120,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -133,11 +148,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_0
+      name: RockstarAlien-UpLight_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 2
+        x: 58
+        y: 3
         width: 33
         height: 42
       alignment: 0
@@ -148,18 +163,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4384bb31eaa3c37d0800000000000000
-      internalID: -2937408337622644684
+      spriteID: d3c6c66ffb9278d00800000000000000
+      internalID: 974793748798794813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_1
+      name: RockstarAlien-UpLight_1
       rect:
         serializedVersion: 2
-        x: 84
-        y: 2
+        x: 284
+        y: 3
         width: 36
         height: 42
       alignment: 0
@@ -170,18 +185,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d57771b90e5461020800000000000000
-      internalID: 2312112289678325597
+      spriteID: e82cff501a07d5960800000000000000
+      internalID: 7592348383709217422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_2
+      name: RockstarAlien-UpLight_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 2
+        x: 510
+        y: 3
         width: 37
         height: 42
       alignment: 0
@@ -192,18 +207,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a9f0825302623b80800000000000000
-      internalID: -8416556987193427544
+      spriteID: f92e976d130c3a1d0800000000000000
+      internalID: -3340615178294533473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_3
+      name: RockstarAlien-UpLight_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 2
+        x: 736
+        y: 3
         width: 38
         height: 42
       alignment: 0
@@ -214,18 +229,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c3bbdc4ad0d200f0800000000000000
-      internalID: -1152128918642510906
+      spriteID: 6d8d065f238741de0800000000000000
+      internalID: -1363332626925954858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_4
+      name: RockstarAlien-UpLight_4
       rect:
         serializedVersion: 2
-        x: 282
-        y: 2
+        x: 962
+        y: 3
         width: 38
         height: 42
       alignment: 0
@@ -236,18 +251,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bddd26c39a521290800000000000000
-      internalID: -7921169203859694160
+      spriteID: e56707f556d023af0800000000000000
+      internalID: -418257086347970978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_5
+      name: RockstarAlien-UpLight_5
       rect:
         serializedVersion: 2
-        x: 348
-        y: 2
+        x: 1188
+        y: 3
         width: 40
         height: 42
       alignment: 0
@@ -258,19 +273,195 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c81047fa2f96d470800000000000000
-      internalID: 8419091560301336776
+      spriteID: d7a75c1ca04d29150800000000000000
+      internalID: 5877993606337624701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_6
+      name: RockstarAlien-UpLight_6
       rect:
         serializedVersion: 2
-        x: 414
-        y: 0
-        width: 34
+        x: 1416
+        y: 3
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e61877af5811c30800000000000000
+      internalID: 4328388027673046608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-UpLight_7
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 3
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa6d67b2f7cf06b0800000000000000
+      internalID: -5327819988882593029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-UpLight_8
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 3
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e38ab3535f5ec50800000000000000
+      internalID: 6694026030139063906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-UpLight_9
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 3
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe82a7063392f290800000000000000
+      internalID: -7858056539542483201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-UpLight_10
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 3
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51944cb27de1ed20800000000000000
+      internalID: 3306184678507319645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-UpLight_11
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 3
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d5a07f9bc1f0fd0800000000000000
+      internalID: -2373646893561782971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-UpLight_12
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 2
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed8f0077da4d2b30800000000000000
+      internalID: 4264146711348219366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-UpLight_13
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 3
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7875460da9f972130800000000000000
+      internalID: 3541975119220201351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-UpLight_14
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 1
+        width: 51
         height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -280,19 +471,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7ca9e05f7f831750800000000000000
-      internalID: 6274516482838342780
+      spriteID: 304ab3c7050219270800000000000000
+      internalID: 8255415122000585731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_7
+      name: RockstarAlien-UpLight_15
       rect:
         serializedVersion: 2
-        x: 480
-        y: 2
-        width: 34
+        x: 3229
+        y: 0
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2107564bf56faf50800000000000000
+      internalID: 6894841684418822444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockstarAlien-UpLight_16
+      rect:
+        serializedVersion: 2
+        x: 3455
+        y: 3
+        width: 47
         height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -302,96 +515,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1b86dae2f60db950800000000000000
-      internalID: 6466332280365681434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_8
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 2
-        width: 36
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46c66e7efb661b690800000000000000
-      internalID: -7588170922727150492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_9
-      rect:
-        serializedVersion: 2
-        x: 610
-        y: 2
-        width: 36
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f82bcbf8557fdbfa0800000000000000
-      internalID: -5783194399618059633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_10
-      rect:
-        serializedVersion: 2
-        x: 676
-        y: 2
-        width: 38
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93c884a837e8ce7a0800000000000000
-      internalID: -6346541147979477959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_11
-      rect:
-        serializedVersion: 2
-        x: 742
-        y: 2
-        width: 34
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9fa1c48f553a22d0800000000000000
-      internalID: -3302768692357386340
+      spriteID: 976eed4a33b786fa0800000000000000
+      internalID: -5807256257754634631
       vertices: []
       indices: 
       edges: []
@@ -410,18 +535,23 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RockstarAlien-Blocking_0: -2937408337622644684
-      RockstarAlien-Blocking_1: 2312112289678325597
-      RockstarAlien-Blocking_10: -6346541147979477959
-      RockstarAlien-Blocking_11: -3302768692357386340
-      RockstarAlien-Blocking_2: -8416556987193427544
-      RockstarAlien-Blocking_3: -1152128918642510906
-      RockstarAlien-Blocking_4: -7921169203859694160
-      RockstarAlien-Blocking_5: 8419091560301336776
-      RockstarAlien-Blocking_6: 6274516482838342780
-      RockstarAlien-Blocking_7: 6466332280365681434
-      RockstarAlien-Blocking_8: -7588170922727150492
-      RockstarAlien-Blocking_9: -5783194399618059633
+      RockstarAlien-UpLight_0: 974793748798794813
+      RockstarAlien-UpLight_1: 7592348383709217422
+      RockstarAlien-UpLight_10: 3306184678507319645
+      RockstarAlien-UpLight_11: -2373646893561782971
+      RockstarAlien-UpLight_12: 4264146711348219366
+      RockstarAlien-UpLight_13: 3541975119220201351
+      RockstarAlien-UpLight_14: 8255415122000585731
+      RockstarAlien-UpLight_15: 6894841684418822444
+      RockstarAlien-UpLight_16: -5807256257754634631
+      RockstarAlien-UpLight_2: -3340615178294533473
+      RockstarAlien-UpLight_3: -1363332626925954858
+      RockstarAlien-UpLight_4: -418257086347970978
+      RockstarAlien-UpLight_5: 5877993606337624701
+      RockstarAlien-UpLight_6: 4328388027673046608
+      RockstarAlien-UpLight_7: -5327819988882593029
+      RockstarAlien-UpLight_8: 6694026030139063906
+      RockstarAlien-UpLight_9: -7858056539542483201
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,1911 @@
+fileFormatVersion: 2
+guid: 7dfd56b0b81d533498e712b949757f8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7163117599133220963
+    second: MagicOutlaw-HeavyMiddle_0
+  - first:
+      213: 1488270192470391781
+    second: MagicOutlaw-HeavyMiddle_1
+  - first:
+      213: -3129358523133921296
+    second: MagicOutlaw-HeavyMiddle_2
+  - first:
+      213: 5838162356673543998
+    second: MagicOutlaw-HeavyMiddle_3
+  - first:
+      213: -1911199181692041183
+    second: MagicOutlaw-HeavyMiddle_4
+  - first:
+      213: -8411829279659003605
+    second: MagicOutlaw-HeavyMiddle_5
+  - first:
+      213: 90343650341860029
+    second: MagicOutlaw-HeavyMiddle_6
+  - first:
+      213: -4409371144677020562
+    second: MagicOutlaw-HeavyMiddle_7
+  - first:
+      213: 8044151327900727844
+    second: MagicOutlaw-HeavyMiddle_8
+  - first:
+      213: -3619909799660015994
+    second: MagicOutlaw-HeavyMiddle_9
+  - first:
+      213: -6332802671213041339
+    second: MagicOutlaw-HeavyMiddle_10
+  - first:
+      213: -4816163299828010501
+    second: MagicOutlaw-HeavyMiddle_11
+  - first:
+      213: -5815570600633549357
+    second: MagicOutlaw-HeavyMiddle_12
+  - first:
+      213: -5552153610091213085
+    second: MagicOutlaw-HeavyMiddle_13
+  - first:
+      213: 3693482449676345043
+    second: MagicOutlaw-HeavyMiddle_14
+  - first:
+      213: -91004881766461825
+    second: MagicOutlaw-HeavyMiddle_15
+  - first:
+      213: -339413718579215143
+    second: MagicOutlaw-HeavyMiddle_16
+  - first:
+      213: -182746776680090395
+    second: MagicOutlaw-HeavyMiddle_17
+  - first:
+      213: -3204232633618297394
+    second: MagicOutlaw-HeavyMiddle_18
+  - first:
+      213: 6505191214903889212
+    second: MagicOutlaw-HeavyMiddle_19
+  - first:
+      213: -2947320766710119059
+    second: MagicOutlaw-HeavyMiddle_20
+  - first:
+      213: -6770635982891437501
+    second: MagicOutlaw-HeavyMiddle_21
+  - first:
+      213: -2695337786214866215
+    second: MagicOutlaw-HeavyMiddle_22
+  - first:
+      213: -6482301511142144802
+    second: MagicOutlaw-HeavyMiddle_23
+  - first:
+      213: 5338174048647084231
+    second: MagicOutlaw-HeavyMiddle_24
+  - first:
+      213: 7637361705994662284
+    second: MagicOutlaw-HeavyMiddle_25
+  - first:
+      213: 952825999579820196
+    second: MagicOutlaw-HeavyMiddle_26
+  - first:
+      213: 6207312894587693631
+    second: MagicOutlaw-HeavyMiddle_27
+  - first:
+      213: -2559799130711653402
+    second: MagicOutlaw-HeavyMiddle_28
+  - first:
+      213: -4965028269365799625
+    second: MagicOutlaw-HeavyMiddle_29
+  - first:
+      213: 6900977989026323013
+    second: MagicOutlaw-HeavyMiddle_30
+  - first:
+      213: -4139586156605835634
+    second: MagicOutlaw-HeavyMiddle_31
+  - first:
+      213: 8331351787637856504
+    second: MagicOutlaw-HeavyMiddle_32
+  - first:
+      213: 1594318559558342420
+    second: MagicOutlaw-HeavyMiddle_33
+  - first:
+      213: -594847857146079956
+    second: MagicOutlaw-HeavyMiddle_34
+  - first:
+      213: 3475546864603436305
+    second: MagicOutlaw-HeavyMiddle_35
+  - first:
+      213: -6361911153030565632
+    second: MagicOutlaw-HeavyMiddle_36
+  - first:
+      213: -4261578076806102211
+    second: MagicOutlaw-HeavyMiddle_37
+  - first:
+      213: -5477890986973316129
+    second: MagicOutlaw-HeavyMiddle_38
+  - first:
+      213: -4484977011484652917
+    second: MagicOutlaw-HeavyMiddle_39
+  - first:
+      213: 6522496159860952454
+    second: MagicOutlaw-HeavyMiddle_40
+  - first:
+      213: 2406691631260581072
+    second: MagicOutlaw-HeavyMiddle_41
+  - first:
+      213: -6405718302646975654
+    second: MagicOutlaw-HeavyMiddle_42
+  - first:
+      213: -8015278837437558543
+    second: MagicOutlaw-HeavyMiddle_43
+  - first:
+      213: -9204744479336595121
+    second: MagicOutlaw-HeavyMiddle_44
+  - first:
+      213: -5666950979972905361
+    second: MagicOutlaw-HeavyMiddle_45
+  - first:
+      213: -2320301946717778192
+    second: MagicOutlaw-HeavyMiddle_46
+  - first:
+      213: 7217558690623043842
+    second: MagicOutlaw-HeavyMiddle_47
+  - first:
+      213: 5556475395436700265
+    second: MagicOutlaw-HeavyMiddle_48
+  - first:
+      213: -9167139546112776185
+    second: MagicOutlaw-HeavyMiddle_49
+  - first:
+      213: -5474568863088121632
+    second: MagicOutlaw-HeavyMiddle_50
+  - first:
+      213: -5631963051496069684
+    second: MagicOutlaw-HeavyMiddle_51
+  - first:
+      213: -4827584247150138760
+    second: MagicOutlaw-HeavyMiddle_52
+  - first:
+      213: 4005141223976114890
+    second: MagicOutlaw-HeavyMiddle_53
+  - first:
+      213: 3070937322776129085
+    second: MagicOutlaw-HeavyMiddle_54
+  - first:
+      213: 2077937961387300379
+    second: MagicOutlaw-HeavyMiddle_55
+  - first:
+      213: -9159637384887324562
+    second: MagicOutlaw-HeavyMiddle_56
+  - first:
+      213: 8829131018737577832
+    second: MagicOutlaw-HeavyMiddle_57
+  - first:
+      213: -9130651491478463225
+    second: MagicOutlaw-HeavyMiddle_58
+  - first:
+      213: 2933316043266172534
+    second: MagicOutlaw-HeavyMiddle_59
+  - first:
+      213: -3489368195120231927
+    second: MagicOutlaw-HeavyMiddle_60
+  - first:
+      213: 7757759053971758602
+    second: MagicOutlaw-HeavyMiddle_61
+  - first:
+      213: -7516867156071391703
+    second: MagicOutlaw-HeavyMiddle_62
+  - first:
+      213: -6627488355934818647
+    second: MagicOutlaw-HeavyMiddle_63
+  - first:
+      213: -4990930212959622699
+    second: MagicOutlaw-HeavyMiddle_64
+  - first:
+      213: -6094067683954809329
+    second: MagicOutlaw-HeavyMiddle_65
+  - first:
+      213: -1758156455271595494
+    second: MagicOutlaw-HeavyMiddle_66
+  - first:
+      213: 5053604476424138115
+    second: MagicOutlaw-HeavyMiddle_67
+  - first:
+      213: -840538493273828631
+    second: MagicOutlaw-HeavyMiddle_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3604fac2181886360800000000000000
+      internalID: 7163117599133220963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebfff7dad567a410800000000000000
+      internalID: 1488270192470391781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7f2c5d0094294d0800000000000000
+      internalID: -3129358523133921296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_3
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f75924bb1550150800000000000000
+      internalID: 5838162356673543998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_4
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1288a30687e0a75e0800000000000000
+      internalID: -1911199181692041183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_5
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21f1b286dd234b80800000000000000
+      internalID: -8411829279659003605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_6
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2b6524217f04100800000000000000
+      internalID: 90343650341860029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_7
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c2ba64e44cec2c0800000000000000
+      internalID: -4409371144677020562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_8
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a7203530192af60800000000000000
+      internalID: 8044151327900727844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_9
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 2
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e2f40673f73cdc0800000000000000
+      internalID: -3619909799660015994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_10
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 2
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549a3bde58d5d18a0800000000000000
+      internalID: -6332802671213041339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_11
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 2
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf17a75fefc892db0800000000000000
+      internalID: -4816163299828010501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_12
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 2
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd3807d951fa4fa0800000000000000
+      internalID: -5815570600633549357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_13
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 2
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee4c1c45b9c2f2b0800000000000000
+      internalID: -5552153610091213085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_14
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 2
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de191518b2e14330800000000000000
+      internalID: 3693482449676345043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_15
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 2
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ecb7dca8facbef0800000000000000
+      internalID: -91004881766461825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_16
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 2
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4013075092a4bf0800000000000000
+      internalID: -339413718579215143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_17
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4b22c56c0c67df0800000000000000
+      internalID: -182746776680090395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_18
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd877f75674883d0800000000000000
+      internalID: -3204232633618297394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_19
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 2
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d8658a1f4174a50800000000000000
+      internalID: 6505191214903889212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_20
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 41
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d658c15d0630917d0800000000000000
+      internalID: -2947320766710119059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_21
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 2
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3423748227ed902a0800000000000000
+      internalID: -6770635982891437501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_22
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 41
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2a9fe509c389ad0800000000000000
+      internalID: -2695337786214866215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_23
+      rect:
+        serializedVersion: 2
+        x: 3795
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4056dce1d3a06a0800000000000000
+      internalID: -6482301511142144802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_24
+      rect:
+        serializedVersion: 2
+        x: 3848
+        y: 20
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c871dea301051a40800000000000000
+      internalID: 5338174048647084231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_25
+      rect:
+        serializedVersion: 2
+        x: 3859
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81bbf2d10c5df960800000000000000
+      internalID: 7637361705994662284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_26
+      rect:
+        serializedVersion: 2
+        x: 3975
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a036b5c23e193d00800000000000000
+      internalID: 952825999579820196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_27
+      rect:
+        serializedVersion: 2
+        x: 4018
+        y: 21
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ae99b903ec42650800000000000000
+      internalID: 6207312894587693631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_28
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e30495c044c97cd0800000000000000
+      internalID: -2559799130711653402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_29
+      rect:
+        serializedVersion: 2
+        x: 4155
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735dda8481da81bb0800000000000000
+      internalID: -4965028269365799625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_30
+      rect:
+        serializedVersion: 2
+        x: 4203
+        y: 18
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a14b60be235cf50800000000000000
+      internalID: 6900977989026323013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_31
+      rect:
+        serializedVersion: 2
+        x: 4225
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e867262b25c3d86c0800000000000000
+      internalID: -4139586156605835634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_32
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f858f83f48ee9370800000000000000
+      internalID: 8331351787637856504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_33
+      rect:
+        serializedVersion: 2
+        x: 4335
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41799496848202610800000000000000
+      internalID: 1594318559558342420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_34
+      rect:
+        serializedVersion: 2
+        x: 4379
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25d76b860daeb7f0800000000000000
+      internalID: -594847857146079956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_35
+      rect:
+        serializedVersion: 2
+        x: 4395
+        y: 19
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11519e8857f9b3030800000000000000
+      internalID: 3475546864603436305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_36
+      rect:
+        serializedVersion: 2
+        x: 4419
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001740f5383f5b7a0800000000000000
+      internalID: -6361911153030565632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_37
+      rect:
+        serializedVersion: 2
+        x: 4450
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3341656155dbd4c0800000000000000
+      internalID: -4261578076806102211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_38
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb3423ab2f9af3b0800000000000000
+      internalID: -5477890986973316129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_39
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 19
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a0aa4ab2922c1c0800000000000000
+      internalID: -4484977011484652917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_40
+      rect:
+        serializedVersion: 2
+        x: 4615
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d8c5123bf848a50800000000000000
+      internalID: 6522496159860952454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_41
+      rect:
+        serializedVersion: 2
+        x: 4642
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc31359949466120800000000000000
+      internalID: 2406691631260581072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_42
+      rect:
+        serializedVersion: 2
+        x: 4695
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53428784215a17a0800000000000000
+      internalID: -6405718302646975654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_43
+      rect:
+        serializedVersion: 2
+        x: 4738
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f014d63d5204c090800000000000000
+      internalID: -8015278837437558543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_44
+      rect:
+        serializedVersion: 2
+        x: 4754
+        y: 20
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4187e43aad224080800000000000000
+      internalID: -9204744479336595121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_45
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66c927cb12fa51b0800000000000000
+      internalID: -5666950979972905361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_46
+      rect:
+        serializedVersion: 2
+        x: 4807
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe4d364ca1accfd0800000000000000
+      internalID: -2320301946717778192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_47
+      rect:
+        serializedVersion: 2
+        x: 4834
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209be1c836be92460800000000000000
+      internalID: 7217558690623043842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_48
+      rect:
+        serializedVersion: 2
+        x: 4875
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962e334cee09c1d40800000000000000
+      internalID: 5556475395436700265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_49
+      rect:
+        serializedVersion: 2
+        x: 4923
+        y: 19
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70823830727c7c080800000000000000
+      internalID: -9167139546112776185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_50
+      rect:
+        serializedVersion: 2
+        x: 4939
+        y: 21
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8e731ef9c6604b0800000000000000
+      internalID: -5474568863088121632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_51
+      rect:
+        serializedVersion: 2
+        x: 4957
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5a37fa17f37d1b0800000000000000
+      internalID: -5631963051496069684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_52
+      rect:
+        serializedVersion: 2
+        x: 5009
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a285174b9f00db0800000000000000
+      internalID: -4827584247150138760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_53
+      rect:
+        serializedVersion: 2
+        x: 5028
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca9e5a19be159730800000000000000
+      internalID: 4005141223976114890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_54
+      rect:
+        serializedVersion: 2
+        x: 5055
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e6f8b79392e9a20800000000000000
+      internalID: 3070937322776129085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_55
+      rect:
+        serializedVersion: 2
+        x: 5113
+        y: 19
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b161ac5019156dc10800000000000000
+      internalID: 2077937961387300379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_56
+      rect:
+        serializedVersion: 2
+        x: 5133
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60376a045e62e080800000000000000
+      internalID: -9159637384887324562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_57
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f6c3ff1ef578a70800000000000000
+      internalID: 8829131018737577832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_58
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d198248d8694180800000000000000
+      internalID: -9130651491478463225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_59
+      rect:
+        serializedVersion: 2
+        x: 5235
+        y: 2
+        width: 71
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676a5d4666b35b820800000000000000
+      internalID: 2933316043266172534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_60
+      rect:
+        serializedVersion: 2
+        x: 5329
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a005f2d16439fc0800000000000000
+      internalID: -3489368195120231927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_61
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e9e09d1c819ab60800000000000000
+      internalID: 7757759053971758602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_62
+      rect:
+        serializedVersion: 2
+        x: 5388
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e509ac529bea790800000000000000
+      internalID: -7516867156071391703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_63
+      rect:
+        serializedVersion: 2
+        x: 5415
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aea777447e6604a0800000000000000
+      internalID: -6627488355934818647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_64
+      rect:
+        serializedVersion: 2
+        x: 5534
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9e6c51a67acbab0800000000000000
+      internalID: -4990930212959622699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_65
+      rect:
+        serializedVersion: 2
+        x: 5562
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06afacaab58d6ba0800000000000000
+      internalID: -6094067683954809329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_66
+      rect:
+        serializedVersion: 2
+        x: 5595
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a120affd406c997e0800000000000000
+      internalID: -1758156455271595494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_67
+      rect:
+        serializedVersion: 2
+        x: 5733
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38da5940f72022640800000000000000
+      internalID: 5053604476424138115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicOutlaw-HeavyMiddle_68
+      rect:
+        serializedVersion: 2
+        x: 5775
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e21f5891bec554f0800000000000000
+      internalID: -840538493273828631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ed2c7b39771ee0549a2ad3b63f863b95
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MagicOutlaw-HeavyMiddle_0: 7163117599133220963
+      MagicOutlaw-HeavyMiddle_1: 1488270192470391781
+      MagicOutlaw-HeavyMiddle_10: -6332802671213041339
+      MagicOutlaw-HeavyMiddle_11: -4816163299828010501
+      MagicOutlaw-HeavyMiddle_12: -5815570600633549357
+      MagicOutlaw-HeavyMiddle_13: -5552153610091213085
+      MagicOutlaw-HeavyMiddle_14: 3693482449676345043
+      MagicOutlaw-HeavyMiddle_15: -91004881766461825
+      MagicOutlaw-HeavyMiddle_16: -339413718579215143
+      MagicOutlaw-HeavyMiddle_17: -182746776680090395
+      MagicOutlaw-HeavyMiddle_18: -3204232633618297394
+      MagicOutlaw-HeavyMiddle_19: 6505191214903889212
+      MagicOutlaw-HeavyMiddle_2: -3129358523133921296
+      MagicOutlaw-HeavyMiddle_20: -2947320766710119059
+      MagicOutlaw-HeavyMiddle_21: -6770635982891437501
+      MagicOutlaw-HeavyMiddle_22: -2695337786214866215
+      MagicOutlaw-HeavyMiddle_23: -6482301511142144802
+      MagicOutlaw-HeavyMiddle_24: 5338174048647084231
+      MagicOutlaw-HeavyMiddle_25: 7637361705994662284
+      MagicOutlaw-HeavyMiddle_26: 952825999579820196
+      MagicOutlaw-HeavyMiddle_27: 6207312894587693631
+      MagicOutlaw-HeavyMiddle_28: -2559799130711653402
+      MagicOutlaw-HeavyMiddle_29: -4965028269365799625
+      MagicOutlaw-HeavyMiddle_3: 5838162356673543998
+      MagicOutlaw-HeavyMiddle_30: 6900977989026323013
+      MagicOutlaw-HeavyMiddle_31: -4139586156605835634
+      MagicOutlaw-HeavyMiddle_32: 8331351787637856504
+      MagicOutlaw-HeavyMiddle_33: 1594318559558342420
+      MagicOutlaw-HeavyMiddle_34: -594847857146079956
+      MagicOutlaw-HeavyMiddle_35: 3475546864603436305
+      MagicOutlaw-HeavyMiddle_36: -6361911153030565632
+      MagicOutlaw-HeavyMiddle_37: -4261578076806102211
+      MagicOutlaw-HeavyMiddle_38: -5477890986973316129
+      MagicOutlaw-HeavyMiddle_39: -4484977011484652917
+      MagicOutlaw-HeavyMiddle_4: -1911199181692041183
+      MagicOutlaw-HeavyMiddle_40: 6522496159860952454
+      MagicOutlaw-HeavyMiddle_41: 2406691631260581072
+      MagicOutlaw-HeavyMiddle_42: -6405718302646975654
+      MagicOutlaw-HeavyMiddle_43: -8015278837437558543
+      MagicOutlaw-HeavyMiddle_44: -9204744479336595121
+      MagicOutlaw-HeavyMiddle_45: -5666950979972905361
+      MagicOutlaw-HeavyMiddle_46: -2320301946717778192
+      MagicOutlaw-HeavyMiddle_47: 7217558690623043842
+      MagicOutlaw-HeavyMiddle_48: 5556475395436700265
+      MagicOutlaw-HeavyMiddle_49: -9167139546112776185
+      MagicOutlaw-HeavyMiddle_5: -8411829279659003605
+      MagicOutlaw-HeavyMiddle_50: -5474568863088121632
+      MagicOutlaw-HeavyMiddle_51: -5631963051496069684
+      MagicOutlaw-HeavyMiddle_52: -4827584247150138760
+      MagicOutlaw-HeavyMiddle_53: 4005141223976114890
+      MagicOutlaw-HeavyMiddle_54: 3070937322776129085
+      MagicOutlaw-HeavyMiddle_55: 2077937961387300379
+      MagicOutlaw-HeavyMiddle_56: -9159637384887324562
+      MagicOutlaw-HeavyMiddle_57: 8829131018737577832
+      MagicOutlaw-HeavyMiddle_58: -9130651491478463225
+      MagicOutlaw-HeavyMiddle_59: 2933316043266172534
+      MagicOutlaw-HeavyMiddle_6: 90343650341860029
+      MagicOutlaw-HeavyMiddle_60: -3489368195120231927
+      MagicOutlaw-HeavyMiddle_61: 7757759053971758602
+      MagicOutlaw-HeavyMiddle_62: -7516867156071391703
+      MagicOutlaw-HeavyMiddle_63: -6627488355934818647
+      MagicOutlaw-HeavyMiddle_64: -4990930212959622699
+      MagicOutlaw-HeavyMiddle_65: -6094067683954809329
+      MagicOutlaw-HeavyMiddle_66: -1758156455271595494
+      MagicOutlaw-HeavyMiddle_67: 5053604476424138115
+      MagicOutlaw-HeavyMiddle_68: -840538493273828631
+      MagicOutlaw-HeavyMiddle_7: -4409371144677020562
+      MagicOutlaw-HeavyMiddle_8: 8044151327900727844
+      MagicOutlaw-HeavyMiddle_9: -3619909799660015994
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

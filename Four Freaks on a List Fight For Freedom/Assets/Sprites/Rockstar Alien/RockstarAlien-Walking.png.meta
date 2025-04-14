@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: e0c937c5af927244499084d3f5f9b865
+guid: f6b263df3c7178a4a87eacb23c315231
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2937408337622644684
-    second: RockstarAlien-Blocking_0
+      213: 1775592672394649465
+    second: RockstarAlien-Walking_0
   - first:
-      213: 2312112289678325597
-    second: RockstarAlien-Blocking_1
+      213: -1618642588244686232
+    second: RockstarAlien-Walking_1
   - first:
-      213: -8416556987193427544
-    second: RockstarAlien-Blocking_2
+      213: 8155283817500696746
+    second: RockstarAlien-Walking_2
   - first:
-      213: -1152128918642510906
-    second: RockstarAlien-Blocking_3
+      213: -3670044911260821615
+    second: RockstarAlien-Walking_3
   - first:
-      213: -7921169203859694160
-    second: RockstarAlien-Blocking_4
+      213: -8897026018873715886
+    second: RockstarAlien-Walking_4
   - first:
-      213: 8419091560301336776
-    second: RockstarAlien-Blocking_5
+      213: -8907289063460968234
+    second: RockstarAlien-Walking_5
   - first:
-      213: 6274516482838342780
-    second: RockstarAlien-Blocking_6
+      213: 3792238881429249159
+    second: RockstarAlien-Walking_6
   - first:
-      213: 6466332280365681434
-    second: RockstarAlien-Blocking_7
-  - first:
-      213: -7588170922727150492
-    second: RockstarAlien-Blocking_8
-  - first:
-      213: -5783194399618059633
-    second: RockstarAlien-Blocking_9
-  - first:
-      213: -6346541147979477959
-    second: RockstarAlien-Blocking_10
-  - first:
-      213: -3302768692357386340
-    second: RockstarAlien-Blocking_11
+      213: 5734770170604631118
+    second: RockstarAlien-Walking_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,11 +121,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_0
+      name: RockstarAlien-Walking_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 2
+        x: 5
+        y: 3
         width: 33
         height: 42
       alignment: 0
@@ -148,19 +136,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4384bb31eaa3c37d0800000000000000
-      internalID: -2937408337622644684
+      spriteID: 97f9ed7c02c24a810800000000000000
+      internalID: 1775592672394649465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_1
+      name: RockstarAlien-Walking_1
       rect:
         serializedVersion: 2
-        x: 84
-        y: 2
-        width: 36
+        x: 51
+        y: 3
+        width: 33
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -170,19 +158,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d57771b90e5461020800000000000000
-      internalID: 2312112289678325597
+      spriteID: 86a4b55542d6989e0800000000000000
+      internalID: -1618642588244686232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_2
+      name: RockstarAlien-Walking_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 2
-        width: 37
+        x: 97
+        y: 3
+        width: 33
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,19 +180,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a9f0825302623b80800000000000000
-      internalID: -8416556987193427544
+      spriteID: aa0ee986c636d2170800000000000000
+      internalID: 8155283817500696746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_3
+      name: RockstarAlien-Walking_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 2
-        width: 38
+        x: 143
+        y: 3
+        width: 33
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -214,19 +202,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c3bbdc4ad0d200f0800000000000000
-      internalID: -1152128918642510906
+      spriteID: 19791921991611dc0800000000000000
+      internalID: -3670044911260821615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_4
+      name: RockstarAlien-Walking_4
       rect:
         serializedVersion: 2
-        x: 282
-        y: 2
-        width: 38
+        x: 189
+        y: 3
+        width: 33
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,19 +224,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bddd26c39a521290800000000000000
-      internalID: -7921169203859694160
+      spriteID: 253df9b69f9678480800000000000000
+      internalID: -8897026018873715886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_5
+      name: RockstarAlien-Walking_5
       rect:
         serializedVersion: 2
-        x: 348
-        y: 2
-        width: 40
+        x: 235
+        y: 3
+        width: 33
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -258,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c81047fa2f96d470800000000000000
-      internalID: 8419091560301336776
+      spriteID: 6d8efa42ac3f26480800000000000000
+      internalID: -8907289063460968234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_6
+      name: RockstarAlien-Walking_6
       rect:
         serializedVersion: 2
-        x: 414
-        y: 0
-        width: 34
-        height: 43
+        x: 281
+        y: 3
+        width: 33
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7ca9e05f7f831750800000000000000
-      internalID: 6274516482838342780
+      spriteID: 78cd307ab2db0a430800000000000000
+      internalID: 3792238881429249159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RockstarAlien-Blocking_7
+      name: RockstarAlien-Walking_7
       rect:
         serializedVersion: 2
-        x: 480
-        y: 2
-        width: 34
-        height: 41
+        x: 327
+        y: 3
+        width: 33
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,96 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1b86dae2f60db950800000000000000
-      internalID: 6466332280365681434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_8
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 2
-        width: 36
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46c66e7efb661b690800000000000000
-      internalID: -7588170922727150492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_9
-      rect:
-        serializedVersion: 2
-        x: 610
-        y: 2
-        width: 36
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f82bcbf8557fdbfa0800000000000000
-      internalID: -5783194399618059633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_10
-      rect:
-        serializedVersion: 2
-        x: 676
-        y: 2
-        width: 38
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93c884a837e8ce7a0800000000000000
-      internalID: -6346541147979477959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockstarAlien-Blocking_11
-      rect:
-        serializedVersion: 2
-        x: 742
-        y: 2
-        width: 34
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9fa1c48f553a22d0800000000000000
-      internalID: -3302768692357386340
+      spriteID: e443567061ff59f40800000000000000
+      internalID: 5734770170604631118
       vertices: []
       indices: 
       edges: []
@@ -410,18 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RockstarAlien-Blocking_0: -2937408337622644684
-      RockstarAlien-Blocking_1: 2312112289678325597
-      RockstarAlien-Blocking_10: -6346541147979477959
-      RockstarAlien-Blocking_11: -3302768692357386340
-      RockstarAlien-Blocking_2: -8416556987193427544
-      RockstarAlien-Blocking_3: -1152128918642510906
-      RockstarAlien-Blocking_4: -7921169203859694160
-      RockstarAlien-Blocking_5: 8419091560301336776
-      RockstarAlien-Blocking_6: 6274516482838342780
-      RockstarAlien-Blocking_7: 6466332280365681434
-      RockstarAlien-Blocking_8: -7588170922727150492
-      RockstarAlien-Blocking_9: -5783194399618059633
+      RockstarAlien-Walking_0: 1775592672394649465
+      RockstarAlien-Walking_1: -1618642588244686232
+      RockstarAlien-Walking_2: 8155283817500696746
+      RockstarAlien-Walking_3: -3670044911260821615
+      RockstarAlien-Walking_4: -8897026018873715886
+      RockstarAlien-Walking_5: -8907289063460968234
+      RockstarAlien-Walking_6: 3792238881429249159
+      RockstarAlien-Walking_7: 5734770170604631118
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
