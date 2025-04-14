@@ -76,7 +76,6 @@ public class Player : MonoBehaviour
         animatorReference = GetComponent<AnimatorReference>();
         abilityDatabase = new Test(player, chosenCharacter, animatorReference);
         spriteRend = GetComponent<SpriteRenderer>();
-        game = GameObject.Find("Game Manager").GetComponent<GameManager>();
     }
     void Update()
     {

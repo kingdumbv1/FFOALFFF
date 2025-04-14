@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 6123c1aaaa535904c8d36a45c7729be4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7252521416192571658
+    second: AlienStage-ForeGround_0
+  - first:
+      213: -6009815376536623867
+    second: AlienStage-ForeGround_1
+  - first:
+      213: 6192231891577298026
+    second: AlienStage-ForeGround_2
+  - first:
+      213: 5061040619042398211
+    second: AlienStage-ForeGround_3
+  - first:
+      213: -129966165062923927
+    second: AlienStage-ForeGround_4
+  - first:
+      213: -8576622610218585706
+    second: AlienStage-ForeGround_5
+  - first:
+      213: 686093338160706541
+    second: AlienStage-ForeGround_6
+  - first:
+      213: 3683314262487157045
+    second: AlienStage-ForeGround_7
+  - first:
+      213: 4505305095699382092
+    second: AlienStage-ForeGround_8
+  - first:
+      213: 119747915324591831
+    second: AlienStage-ForeGround_9
+  - first:
+      213: -7291467044789008210
+    second: AlienStage-ForeGround_10
+  - first:
+      213: 5084954671977726466
+    second: AlienStage-ForeGround_11
+  - first:
+      213: 2388284496536825360
+    second: AlienStage-ForeGround_12
+  - first:
+      213: -1534949238450344661
+    second: AlienStage-ForeGround_13
+  - first:
+      213: -4441147718740693984
+    second: AlienStage-ForeGround_14
+  - first:
+      213: 415327008316772626
+    second: AlienStage-ForeGround_15
+  - first:
+      213: -4803431179759599843
+    second: AlienStage-ForeGround_16
+  - first:
+      213: -4609645956009306339
+    second: AlienStage-ForeGround_17
+  - first:
+      213: -1422107268554875299
+    second: AlienStage-ForeGround_18
+  - first:
+      213: 4807144274691206953
+    second: AlienStage-ForeGround_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_0
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 792
+        width: 139
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6cded823ed95b90800000000000000
+      internalID: -7252521416192571658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 713
+        width: 86
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505aad3a1c8d89ca0800000000000000
+      internalID: -6009815376536623867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 1714
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c5f48f81a3fe550800000000000000
+      internalID: 6192231891577298026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_3
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 635
+        width: 197
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30068d3e0ad6c3640800000000000000
+      internalID: 5061040619042398211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_4
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 761
+        width: 5
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969ca922674423ef0800000000000000
+      internalID: -129966165062923927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_5
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 0
+        width: 252
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69176594d27b9f880800000000000000
+      internalID: -8576622610218585706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_6
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 0
+        width: 252
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3b4d7814e758900800000000000000
+      internalID: 686093338160706541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_7
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 0
+        width: 1698
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5394da38ec2cd1330800000000000000
+      internalID: 3683314262487157045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_8
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 0
+        width: 252
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f3be94d1f068e30800000000000000
+      internalID: 4505305095699382092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_9
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 0
+        width: 252
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de0483381e69a100800000000000000
+      internalID: 119747915324591831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_10
+      rect:
+        serializedVersion: 2
+        x: 3989
+        y: 0
+        width: 252
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea842e7ca518fca90800000000000000
+      internalID: -7291467044789008210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_11
+      rect:
+        serializedVersion: 2
+        x: 4279
+        y: 0
+        width: 252
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202023a3553619640800000000000000
+      internalID: 5084954671977726466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_12
+      rect:
+        serializedVersion: 2
+        x: 4689
+        y: 0
+        width: 272
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e66ae8814e42120800000000000000
+      internalID: 2388284496536825360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_13
+      rect:
+        serializedVersion: 2
+        x: 5109
+        y: 0
+        width: 252
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d29e5dcc3c2bae0800000000000000
+      internalID: -1534949238450344661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_14
+      rect:
+        serializedVersion: 2
+        x: 5389
+        y: 0
+        width: 252
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cac651eafdd52c0800000000000000
+      internalID: -4441147718740693984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_15
+      rect:
+        serializedVersion: 2
+        x: 5909
+        y: 0
+        width: 252
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211d85ca6b983c500800000000000000
+      internalID: 415327008316772626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_16
+      rect:
+        serializedVersion: 2
+        x: 6199
+        y: 0
+        width: 252
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fb46baac8c65db0800000000000000
+      internalID: -4803431179759599843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_17
+      rect:
+        serializedVersion: 2
+        x: 6609
+        y: 0
+        width: 272
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17dfbb0d6f3700c0800000000000000
+      internalID: -4609645956009306339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_18
+      rect:
+        serializedVersion: 2
+        x: 7029
+        y: 0
+        width: 252
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e194159f8a34ce0800000000000000
+      internalID: -1422107268554875299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienStage-ForeGround_19
+      rect:
+        serializedVersion: 2
+        x: 7309
+        y: 0
+        width: 252
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fa50d9f3866b240800000000000000
+      internalID: 4807144274691206953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AlienStage-ForeGround_0: -7252521416192571658
+      AlienStage-ForeGround_1: -6009815376536623867
+      AlienStage-ForeGround_10: -7291467044789008210
+      AlienStage-ForeGround_11: 5084954671977726466
+      AlienStage-ForeGround_12: 2388284496536825360
+      AlienStage-ForeGround_13: -1534949238450344661
+      AlienStage-ForeGround_14: -4441147718740693984
+      AlienStage-ForeGround_15: 415327008316772626
+      AlienStage-ForeGround_16: -4803431179759599843
+      AlienStage-ForeGround_17: -4609645956009306339
+      AlienStage-ForeGround_18: -1422107268554875299
+      AlienStage-ForeGround_19: 4807144274691206953
+      AlienStage-ForeGround_2: 6192231891577298026
+      AlienStage-ForeGround_3: 5061040619042398211
+      AlienStage-ForeGround_4: -129966165062923927
+      AlienStage-ForeGround_5: -8576622610218585706
+      AlienStage-ForeGround_6: 686093338160706541
+      AlienStage-ForeGround_7: 3683314262487157045
+      AlienStage-ForeGround_8: 4505305095699382092
+      AlienStage-ForeGround_9: 119747915324591831
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
