@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
     // Block Break Type
     public bool blockBreak;
 
-
+    // use FindObjectOfType<AudioManager>().Play("___");
     void Start()
     {
         if (gameObject.tag == "Player") enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
