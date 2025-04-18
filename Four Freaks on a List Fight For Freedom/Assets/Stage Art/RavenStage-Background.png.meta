@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RavenStage-Background_0: -6795170023348162083
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

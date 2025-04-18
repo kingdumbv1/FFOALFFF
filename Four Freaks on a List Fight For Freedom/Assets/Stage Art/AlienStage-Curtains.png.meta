@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AlienStage-Curtains_0: 3858542447963739018
+      AlienStage-Curtains_1: -3998328222251261934
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
