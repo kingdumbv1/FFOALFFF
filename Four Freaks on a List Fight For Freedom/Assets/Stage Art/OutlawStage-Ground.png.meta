@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OutlawStage-Ground_0: -2540048105938392324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

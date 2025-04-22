@@ -28,7 +28,6 @@ public class BulletMagicOutlaw : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         //random 0 - 180
         int randomDegree = Random.Range(135, 225);
-        Debug.Log(gameObject.name + " " + randomDegree);
         rb.linearVelocityX = Mathf.Cos(randomDegree * Mathf.Deg2Rad) * 5 * -distanceCheck();
         rb.linearVelocityY = Mathf.Sin(randomDegree * Mathf.Deg2Rad) * 5;
         StartCoroutine(TheSwitch());
