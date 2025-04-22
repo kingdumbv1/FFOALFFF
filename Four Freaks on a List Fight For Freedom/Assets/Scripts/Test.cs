@@ -262,6 +262,7 @@ public class Test
                 }
                 break;
             case "outlaw":
+                player.canAttack = false;
                 animator.SetTrigger("HeavyLow");
                 break;
         }

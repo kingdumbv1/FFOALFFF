@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     [Header("Self")]
     [SerializeField] Player player;
     // edit in inspector for choice. Characters: prototype, raven, rockstar, dj, outlaw.
-    [SerializeField] string chosenCharacter;
+    public string chosenCharacter;
     // 
     [Header("Movement")]
     public float moveSpeed = 2.8f;

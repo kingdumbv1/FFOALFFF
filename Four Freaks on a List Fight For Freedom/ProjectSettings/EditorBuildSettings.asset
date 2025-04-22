@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test Area.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/DJ Vampire.unity
+    guid: a51597e533ac82f4b9eb608fc98256ed
+  - enabled: 1
+    path: Assets/Scenes/Magic Outlaw.unity
+    guid: 65df50b6c9bbfc843a49b91add8d5919
+  - enabled: 1
+    path: Assets/Scenes/Raven Fencer.unity
+    guid: c087beefbcf6ff34384f82d6b2be5e5a
+  - enabled: 1
+    path: Assets/Scenes/Rockstar Alien.unity
+    guid: ce9e2491c733fe84f8ffb74d7dea89aa
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 826829a0ded987d488e920da6d611e6f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

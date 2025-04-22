@@ -4,7 +4,6 @@ using UnityEngine;
 public class Orb : MonoBehaviour
 {
     [SerializeField] LineRenderer line;
-    [SerializeField] Vector3 playerOrb;
     [SerializeField] Transform enemy;
     bool enemyCanTakeDmg;
     Player enemyScript;
@@ -18,10 +17,9 @@ public class Orb : MonoBehaviour
 
     private void LateUpdate()
     {
-        playerOrb = transform.position;
         if (line != null && line.enabled == true && enemy != null)
         {
-            line.SetPosition(0, playerOrb);
+            line.SetPosition(0, transform.position);
             line.SetPosition(1, enemy.position);
             if (enemyCanTakeDmg) StartCoroutine("Siphon", 0.1);
         }

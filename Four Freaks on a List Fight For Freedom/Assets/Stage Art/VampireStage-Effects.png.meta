@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 3cc54bf819a2d8d43ba347cbed04dba1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5943729638413320656
+    second: VampireStage-Effects_0
+  - first:
+      213: 5465676037291381353
+    second: VampireStage-Effects_1
+  - first:
+      213: -7537698838536947939
+    second: VampireStage-Effects_2
+  - first:
+      213: -6248847829932305764
+    second: VampireStage-Effects_3
+  - first:
+      213: 8291367365604631477
+    second: VampireStage-Effects_4
+  - first:
+      213: 3974706589416129642
+    second: VampireStage-Effects_5
+  - first:
+      213: 1112373033404744822
+    second: VampireStage-Effects_6
+  - first:
+      213: 5435827214360988013
+    second: VampireStage-Effects_7
+  - first:
+      213: -6954349900302938450
+    second: VampireStage-Effects_8
+  - first:
+      213: -8894737655946881811
+    second: VampireStage-Effects_9
+  - first:
+      213: 6986286142664294504
+    second: VampireStage-Effects_10
+  - first:
+      213: -6789974685283343851
+    second: VampireStage-Effects_11
+  - first:
+      213: -5932481588868548022
+    second: VampireStage-Effects_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VampireStage-Effects_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 391
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1469a6d9e5c7250800000000000000
+      internalID: 5943729638413320656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 749
+        width: 212
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9621e14c56bf9db40800000000000000
+      internalID: 5465676037291381353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_2
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 759
+        width: 212
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d177121c7d6b46790800000000000000
+      internalID: -7537698838536947939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_3
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 609
+        width: 812
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c921a69a102a749a0800000000000000
+      internalID: -6248847829932305764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_4
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 749
+        width: 212
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3612180bad01370800000000000000
+      internalID: 8291367365604631477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_5
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 759
+        width: 212
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a648d8c859ef82730800000000000000
+      internalID: 3974706589416129642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_6
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 609
+        width: 812
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67440d95161ff6f00800000000000000
+      internalID: 1112373033404744822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_7
+      rect:
+        serializedVersion: 2
+        x: 4359
+        y: 749
+        width: 212
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69436c1d00ff6b40800000000000000
+      internalID: 5435827214360988013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_8
+      rect:
+        serializedVersion: 2
+        x: 5009
+        y: 759
+        width: 212
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae8ba48c9f2d7f90800000000000000
+      internalID: -6954349900302938450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_9
+      rect:
+        serializedVersion: 2
+        x: 5339
+        y: 609
+        width: 812
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4defe6a3b8f8480800000000000000
+      internalID: -8894737655946881811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_10
+      rect:
+        serializedVersion: 2
+        x: 6279
+        y: 749
+        width: 212
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8604db85b3644f060800000000000000
+      internalID: 6986286142664294504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_11
+      rect:
+        serializedVersion: 2
+        x: 6929
+        y: 759
+        width: 212
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512aac1aff925c1a0800000000000000
+      internalID: -6789974685283343851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VampireStage-Effects_12
+      rect:
+        serializedVersion: 2
+        x: 7259
+        y: 619
+        width: 421
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4af1f23d679bada0800000000000000
+      internalID: -5932481588868548022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VampireStage-Effects_0: 5943729638413320656
+      VampireStage-Effects_1: 5465676037291381353
+      VampireStage-Effects_10: 6986286142664294504
+      VampireStage-Effects_11: -6789974685283343851
+      VampireStage-Effects_12: -5932481588868548022
+      VampireStage-Effects_2: -7537698838536947939
+      VampireStage-Effects_3: -6248847829932305764
+      VampireStage-Effects_4: 8291367365604631477
+      VampireStage-Effects_5: 3974706589416129642
+      VampireStage-Effects_6: 1112373033404744822
+      VampireStage-Effects_7: 5435827214360988013
+      VampireStage-Effects_8: -6954349900302938450
+      VampireStage-Effects_9: -8894737655946881811
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

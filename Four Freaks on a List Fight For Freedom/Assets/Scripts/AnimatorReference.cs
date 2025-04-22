@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class AnimatorReference : MonoBehaviour
 {
@@ -16,7 +15,7 @@ public class AnimatorReference : MonoBehaviour
         return 1;
     }
     [SerializeField] GameObject[] objectsSpawn;
-    [SerializeField] GameObject[] hitBoxes;
+    public GameObject[] hitBoxes;
     private void Start()
     {
         cooldown = 10;

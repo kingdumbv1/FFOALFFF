@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 3e8cef93157956342b094fae186b7c49
+guid: 0fe200792d7397741af5daf2ae750ed1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3858542447963739018
-    second: AlienStage-Curtains_0
-  - first:
-      213: -3998328222251261934
-    second: AlienStage-Curtains_1
+      213: -3162253373938340161
+    second: OutlawStage-Background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AlienStage-Curtains_0
+      name: OutlawStage-Background_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 671
+        width: 1920
         height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8315a9b9eb4c8530800000000000000
-      internalID: 3858542447963739018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlienStage-Curtains_1
-      rect:
-        serializedVersion: 2
-        x: 1249
-        y: 0
-        width: 671
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2106b497aa51388c0800000000000000
-      internalID: -3998328222251261934
+      spriteID: fbeef9c8f4b6d14d0800000000000000
+      internalID: -3162253373938340161
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AlienStage-Curtains_0: 3858542447963739018
-      AlienStage-Curtains_1: -3998328222251261934
+      OutlawStage-Background_0: -3162253373938340161
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
