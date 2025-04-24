@@ -132,4 +132,15 @@ public class AnimatorReference : MonoBehaviour
             bulletScript.InheritParents(player, player.enemy);
         }
     }
+    public void MOHeavyLow()
+    {
+        GameObject portal = Instantiate(objectsSpawn[2], hitBoxes[0].transform.position, Quaternion.identity);
+        HandPortal script = portal.GetComponent<HandPortal>();
+        script.InheritParent(player);
+        if (player.tag == "Player") portal.transform.tag = "PlayerInstantiated";
+        if (player.tag == "Enemy") portal.transform.tag = "EnemyInstantiated";
+        portal.transform.SetParent(gameObject.transform);
+    }
 }
+
+

@@ -204,6 +204,7 @@ public class Test
                 }
                 break;
             case "rockstar":
+
                 player.heavyDamage = 4;
                 player.knockback = 3.5f;
                 animator.SetTrigger("HeavyMiddle");
@@ -218,6 +219,7 @@ public class Test
                 player.canAttack = false;
                 break;
             case "outlaw":
+                if (animReference.cooldown >= 5)
                 player.knockback = 0;
                 player.instantiatedDamage = 0.75f;
                 player.canAttack = false;
@@ -262,8 +264,14 @@ public class Test
                 }
                 break;
             case "outlaw":
-                player.canAttack = false;
-                animator.SetTrigger("HeavyLow");
+                if (animReference.cooldown2 >= 4)
+                {
+                    player.instantiatedDamage = 4.5f;
+                    player.canAttack = false;
+                    player.blockBreak = true;
+                    animator.SetTrigger("HeavyLow");
+                    animReference.cooldown2 = 0;
+                }
                 break;
         }
 

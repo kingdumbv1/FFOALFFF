@@ -6,6 +6,7 @@ public class Lasso : MonoBehaviour
     [SerializeField] LineRenderer line;
     [SerializeField] Transform enemy;
     [SerializeField] Player player;
+    [SerializeField] SpriteRenderer rend;
     [SerializeField] bool wrangled;
     void OnEnable()
     {
@@ -13,6 +14,10 @@ public class Lasso : MonoBehaviour
         {
             line = GetComponent<LineRenderer>();
             player = GetComponentInParent<Player>();
+        }
+        if (rend == null)
+        {
+            rend = GetComponentInParent<SpriteRenderer>();
         }
     }
     void LateUpdate()
@@ -25,32 +30,24 @@ public class Lasso : MonoBehaviour
     }
     private void Update()
     {
-        if (wrangled)
+        if (wrangled && rend.enabled)
         {
-            
             player.animator.SetBool("IsWrangled", true);
-            player.enemy.gameObject.layer = 8;
-            player.enemy.transform.position = transform.position;
+        }
+
+        if (rend.enabled == false)
+        {
+            wrangled = false;
+            player.animator.SetBool("IsWrangled", false);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(player.enemy.tag))
+        if (collision.CompareTag(player.enemy.tag) && rend.enabled)
         {
             Debug.Log("Wrangled!");
             wrangled = true;
         }
     }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag(player.enemy.tag))
-        {
-            Debug.Log(collision.tag);
-            Debug.Log("Exit");
-            wrangled = false;
-            player.animator.SetBool("IsWrangled", false);
-            if (player.CompareTag("Player")) player.enemy.gameObject.layer = 6;
-            if (player.CompareTag("Enemy")) player.enemy.gameObject.layer = 3;
-        }
-    }
+   
 }

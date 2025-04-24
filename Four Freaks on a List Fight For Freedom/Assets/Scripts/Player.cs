@@ -24,6 +24,8 @@ public class Player : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed = 2.8f;
     public float jumpHeight = 2f;
+    int jump = 0;
+    bool jumpAdding;
     public float distance;
     public Rigidbody2D rb;
     [Header("Animator / Sprites")]
@@ -142,7 +144,14 @@ public class Player : MonoBehaviour
                 break;
         }
 
-        
+        // Jumping
+        if (currentDirection.y == 1) AddJump();
+        if (currentDirection.y == 0) jumpAdding = false;
+        if (jump == 2 && isGrounded)
+        {
+            rb.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+            jump = 0;
+        }
 
         //turn around
         if (distance < 0)
@@ -166,7 +175,6 @@ public class Player : MonoBehaviour
             rb.linearVelocityX = currentDirection.x * moveSpeed;
         }
     }
-
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 0) 
@@ -177,28 +185,23 @@ public class Player : MonoBehaviour
         if (collision.gameObject.layer == 0)
         isGrounded = false;
     }
-    public void Dash(InputAction.CallbackContext context)
+    
+    void AddJump()
     {
-        float dashfloat = context.ReadValue<float>();
-        if (dashfloat == 0) isDashing = false;
-        if (dashfloat == 1) isDashing = true;
-
-        StartCoroutine("Dashing", dashCooldown);
-    }
-
-    public IEnumerator Dashing(float seconds)
-    {
-        if (canDashAgain && isDashing)
+        if (!jumpAdding)
         {
-            xMovementPossible = false;
-            rb.AddForce(Vector2.right * 5 * currentDirection, ForceMode2D.Impulse);
-            canDashAgain = false;
-            yield return new WaitForSeconds(seconds);
-            canDashAgain = true;
-            xMovementPossible = true;
+            StartCoroutine(ResetJump());
+            jumpAdding = true;
+            jump += 1;
+            Debug.Log("Jump = " + jump);
         }
     }
 
+    IEnumerator ResetJump()
+    {
+        yield return new WaitForSeconds(0.5f);
+        jump = 0;
+    }
     public void TakeDamage(float damage, float knockback)
     {
         isHit = true;
