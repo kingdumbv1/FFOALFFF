@@ -450,13 +450,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2532363689812284366, guid: ccf1819bbaa5bf6449b07acc66dd4d27, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7469644011417806324, guid: ccf1819bbaa5bf6449b07acc66dd4d27, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.02
+      value: 6.07
       objectReference: {fileID: 0}
     - target: {fileID: 7469644011417806324, guid: ccf1819bbaa5bf6449b07acc66dd4d27, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.17288727
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 7469644011417806324, guid: ccf1819bbaa5bf6449b07acc66dd4d27, type: 3}
       propertyPath: m_LocalPosition.z
@@ -493,6 +497,14 @@ PrefabInstance:
     - target: {fileID: 7636365481841953236, guid: ccf1819bbaa5bf6449b07acc66dd4d27, type: 3}
       propertyPath: m_Name
       value: DJ Vampire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636365481841953236, guid: ccf1819bbaa5bf6449b07acc66dd4d27, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636365481841953236, guid: ccf1819bbaa5bf6449b07acc66dd4d27, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1233,19 +1245,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1201124443302103608, guid: b480ca026bcdc4041b8f0ea5989c14fc, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1201124443302103608, guid: b480ca026bcdc4041b8f0ea5989c14fc, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568301686378920876, guid: b480ca026bcdc4041b8f0ea5989c14fc, type: 3}
+      propertyPath: m_Size.y
+      value: 0.4147874
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568301686378920876, guid: b480ca026bcdc4041b8f0ea5989c14fc, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.023943603
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568301686378920876, guid: b480ca026bcdc4041b8f0ea5989c14fc, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0007972643
       objectReference: {fileID: 0}
     - target: {fileID: 8526634134845814737, guid: b480ca026bcdc4041b8f0ea5989c14fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.4643316
+      value: -2.38
       objectReference: {fileID: 0}
     - target: {fileID: 8526634134845814737, guid: b480ca026bcdc4041b8f0ea5989c14fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.072054505
+      value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 8526634134845814737, guid: b480ca026bcdc4041b8f0ea5989c14fc, type: 3}
       propertyPath: m_LocalPosition.z
