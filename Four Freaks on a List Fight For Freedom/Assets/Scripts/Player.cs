@@ -192,8 +192,7 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(ResetJump());
             jumpAdding = true;
-            jump += 1;
-            Debug.Log("Jump = " + jump);
+            jump++;
         }
     }
 
