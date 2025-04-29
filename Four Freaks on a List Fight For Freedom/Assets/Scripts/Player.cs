@@ -42,6 +42,7 @@ public class Player : MonoBehaviour
     public Test abilityDatabase;
     public GameManager game;
     public AnimatorReference animatorReference;
+    [SerializeField] ParticleSystem killEffect;
     public float knockback;
     [Header("Light Attack / Blocking")]
     // Light Attacks - Blocking
@@ -92,7 +93,7 @@ public class Player : MonoBehaviour
             if (distance < 0) transform.rotation = Quaternion.identity;
             if (distance > 0) transform.rotation = Quaternion.Euler(0, 180, 0);
         }
-
+        if (currentHealth <= 0) Destroy(gameObject);
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {
             moveSpeed = 2.8f;
@@ -266,4 +267,8 @@ public class Player : MonoBehaviour
         isBlocking = context.ReadValue<float>();
     }
 
+    private void OnDestroy()
+    {
+        Instantiate(killEffect, transform.position, Quaternion.identity);
+    }
 }

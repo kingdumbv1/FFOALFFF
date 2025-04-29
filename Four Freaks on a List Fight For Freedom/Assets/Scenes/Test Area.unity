@@ -1816,7 +1816,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a61908f4edc66d4a9f6a95ed68a1773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Gurt
+    clip: {fileID: 8300000, guid: b7ca7ec0f9a163843a9928c8a0ac1d05, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 0b25d647439066f439aa8da842ff5847, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Menu Music
+    clip: {fileID: 8300000, guid: 346b7a488fca66846ae1b1fdfbb298e5, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Shotgun Shot
+    clip: {fileID: 8300000, guid: e69332363984ece48aee6e76973a91f8, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Shot
+    clip: {fileID: 8300000, guid: 0baa843aa42076c489c78cdeaf0fde35, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: RA Swing
+    clip: {fileID: 8300000, guid: c517b3c00acfd4648b694e571dbb2649, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: RF Middle
+    clip: {fileID: 8300000, guid: 8fef9c347347d8b4fbac210629f049aa, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: RF Swing
+    clip: {fileID: 8300000, guid: dbe648b67d7c1ff4781b5ed6476c52f8, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: RF Sword Spin
+    clip: {fileID: 8300000, guid: c81a8f15e2d86da43bd29ca784242bf5, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: RA Music
+    clip: {fileID: 8300000, guid: c33561007a7b2754daf100bd2ff89740, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
 --- !u!4 &481676915
 Transform:
   m_ObjectHideFlags: 0
@@ -3992,8 +4047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d3ea2b95072a2e43a4f31254be1c537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  enemy: {fileID: 0}
 --- !u!1 &1080265230
 GameObject:
   m_ObjectHideFlags: 0

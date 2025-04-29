@@ -741,6 +741,7 @@ MonoBehaviour:
   currentDirection: {x: 0, y: 0}
   game: {fileID: 0}
   animatorReference: {fileID: 0}
+  killEffect: {fileID: 3956160064322468825, guid: 96a7f2fcebe78e749b6a7adc48c9106d, type: 3}
   knockback: 0
   attackClickedFrame: 0
   isAttacking: 0

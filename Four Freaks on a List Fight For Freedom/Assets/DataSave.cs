@@ -9,6 +9,7 @@ public class DataSave : MonoBehaviour
     [SerializeField] Transform playerSpawner; 
     [SerializeField] GameObject[] Characters;
     [SerializeField] TMP_InputField[] playerInfo;
+    [SerializeField] TMP_InputField[] moves;
     [SerializeField] GameObject[] animations;
     public GameObject player;
     [SerializeField]
@@ -29,6 +30,8 @@ public class DataSave : MonoBehaviour
                 playerInfo[0].text = "Raven Fencer"; // name
                 playerInfo[1].text = "The Raven Fencer is a class for fast paced players who prefer " +
                 "quicker strikes and quickly thought counters."; // description
+                playerInfo[2].text = "The higher the passive the faster he swings";
+
                 foreach (GameObject i in animations)
                 {
                     i.gameObject.SetActive(false);
@@ -42,6 +45,8 @@ public class DataSave : MonoBehaviour
                 playerInfo[0].text = "Rockstar Alien";
                 playerInfo[1].text = "The Rockstar Alien is a rounded out character who excels at " +
                 "being a <jack> of all trades with his combo passive.";
+                playerInfo[2].text = "Higher passive makes larger sound waves";
+
                 foreach (GameObject i in animations)
                 {
                     i.gameObject.SetActive(false);
@@ -55,6 +60,8 @@ public class DataSave : MonoBehaviour
                 playerInfo[0].text = "DJ Vampire";
                 playerInfo[1].text = "DJ Vampire is a blood sucking life stealer whos attacks are " +
                 "strong and heavy hitting while also being smoother at the cost of lower health.";
+                playerInfo[2].text = "Higher passive steals more health from opponents";
+
                 foreach (GameObject i in animations)
                 {
                     i.gameObject.SetActive(false);
@@ -68,6 +75,8 @@ public class DataSave : MonoBehaviour
                 playerInfo[0].text = "Magic Outlaw";
                 playerInfo[1].text = "The Magic Outlaw is a class made for players who enjoy " +
                 "surprising their opponents with unexpected combos and out of the ordinary techniques.";
+                playerInfo[2].text = "Damage boost when taking damage while blocking";
+
                 foreach (GameObject i in animations)
                 {
                     i.gameObject.SetActive(false);
