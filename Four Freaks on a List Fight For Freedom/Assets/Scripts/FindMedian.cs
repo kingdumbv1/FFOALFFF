@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class FindMedian : MonoBehaviour
 {
-    [SerializeField] Transform foundPlayer;
-    [SerializeField] Transform foundPlayer2;
+    public Transform foundPlayer;
+    public Transform foundPlayer2;
     [SerializeField] Vector3 foundPlayerPosition;
     [SerializeField] Vector3 foundPlayer2Position;
 

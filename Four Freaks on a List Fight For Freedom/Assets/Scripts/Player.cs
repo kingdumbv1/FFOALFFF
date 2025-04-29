@@ -69,9 +69,7 @@ public class Player : MonoBehaviour
     // use FindObjectOfType<AudioManager>().Play("___");
     void Start()
     {
-        if (gameObject.tag == "Player") enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
-        if (gameObject.tag == "Enemy") enemy = GameObject.FindGameObjectWithTag("Player").transform;
-
+        StartCoroutine(LoadEnemyOfPlayer());
 
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -79,10 +77,15 @@ public class Player : MonoBehaviour
         abilityDatabase = new Test(player, chosenCharacter, animatorReference);
         spriteRend = GetComponent<SpriteRenderer>();
     }
+    IEnumerator LoadEnemyOfPlayer()
+    {
+        yield return new WaitForEndOfFrame();
+        if (gameObject.tag == "Player") enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
+        if (gameObject.tag == "Enemy") enemy = GameObject.FindGameObjectWithTag("Player").transform;
+    }
     void Update()
     {
-        Debug.DrawRay(transform.position, Vector2.down * 0.8f, Color.red);
-        distance = transform.position.x - enemy.transform.position.x;
+        if (enemy != null) distance = transform.position.x - enemy.transform.position.x;
         currentDirection.y = Mathf.RoundToInt(currentDirection.y);
         if (xMovementPossible || !xMovementPossible && isBlocking == 1)
         {

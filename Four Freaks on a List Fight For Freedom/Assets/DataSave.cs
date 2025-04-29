@@ -1,36 +1,145 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using UnityEngine.UI;
+using TMPro;
+
 public class DataSave : MonoBehaviour
 {
-    GameObject[] Characters;
-    GameObject player;
+    [SerializeField] Transform playerSpawner; 
+    [SerializeField] GameObject[] Characters;
+    [SerializeField] TMP_InputField[] playerInfo;
+    [SerializeField] GameObject[] animations;
+    public GameObject player;
+    [SerializeField]
     List<int> Stages = new List<int>
     {0, 1, 2, 3};
-
-    void SetPlayerCharacter_DJ()
+    [SerializeField] string chosenCharacter;
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+    public void charInfo()
+    {
+        //Characters: prototype, raven, rockstar, dj, outlaw.
+        string playerCharacter = player.GetComponent<Player>().chosenCharacter;
+        switch (playerCharacter)
+        {
+            case "raven":
+                playerInfo[0].text = "Raven Fencer"; // name
+                playerInfo[1].text = "The Raven Fencer is a class for fast paced players who prefer " +
+                "quicker strikes and quickly thought counters."; // description
+                foreach (GameObject i in animations)
+                {
+                    i.gameObject.SetActive(false);
+                    if (i.name == "RFAnim")
+                    {
+                        i.gameObject.SetActive(true);
+                    }
+                }
+                break;
+            case "rockstar":
+                playerInfo[0].text = "Rockstar Alien";
+                playerInfo[1].text = "The Rockstar Alien is a rounded out character who excels at " +
+                "being a <jack> of all trades with his combo passive.";
+                foreach (GameObject i in animations)
+                {
+                    i.gameObject.SetActive(false);
+                    if (i.name == "RAAnim")
+                    {
+                        i.gameObject.SetActive(true);
+                    }
+                }
+                break;
+            case "dj":
+                playerInfo[0].text = "DJ Vampire";
+                playerInfo[1].text = "DJ Vampire is a blood sucking life stealer whos attacks are " +
+                "strong and heavy hitting while also being smoother at the cost of lower health.";
+                foreach (GameObject i in animations)
+                {
+                    i.gameObject.SetActive(false);
+                    if (i.name == "DJAnim")
+                    {
+                        i.gameObject.SetActive(true);
+                    }
+                }
+                break;
+            case "outlaw":
+                playerInfo[0].text = "Magic Outlaw";
+                playerInfo[1].text = "The Magic Outlaw is a class made for players who enjoy " +
+                "surprising their opponents with unexpected combos and out of the ordinary techniques.";
+                foreach (GameObject i in animations)
+                {
+                    i.gameObject.SetActive(false);
+                    if (i.name == "MOAnim")
+                    {
+                        i.gameObject.SetActive(true);
+                    }
+                }
+                break;
+        }
+    }
+    public void SetPlayerCharacter_DJ()
     {
         player = Characters[0];
+        Stages.Clear();
+        for (int i = 0; i < 4; i++)
+        {
+            Stages.Add(i);
+        }
         Stages.Remove(0);
+        
     }
-    void SetPlayerCharacter_MO()
+    public void SetPlayerCharacter_MO()
     {
         player = Characters[1];
+        Stages.Clear();
+        for (int i = 0; i < 4; i++)
+        {
+            Stages.Add(i);
+        }
         Stages.Remove(1);
+       
     }
-    void SetPlayerCharacter_RF()
+    public void SetPlayerCharacter_RF()
     {
         player = Characters[2];
+        Stages.Clear();
+        for (int i = 0; i < 4; i++)
+        {
+            Stages.Add(i);
+        }
         Stages.Remove(2);
+        
     }
-    void SetPlayerCharacter_RA()
+    public void SetPlayerCharacter_RA()
     {
         player = Characters[3];
+        Stages.Clear();
+        for (int i = 0; i < 4; i++)
+        {
+            Stages.Add(i);
+        }
         Stages.Remove(3);
+        
     }
-    void StartGame()
+    public void StartGame()
     {
-        int randomDegree = Random.Range(0, Stages.Count);
-        SceneManager.LoadScene(randomDegree);
+        int Stage = Random.Range(0, 3);
+        if (Stage == 0) chosenCharacter = "Dj Vampire";
+        if (Stage == 1) chosenCharacter = "Magic Outlaw";
+        if (Stage == 2) chosenCharacter = "Raven Fencer";
+        if (Stage == 3) chosenCharacter = "Rockstar Alien";
+        if (!Stages.Contains(Stage))
+        {
+            Stage = Random.Range(0, 3);
+            Debug.Log("Could not load " + player.name + " vs " + chosenCharacter);
+        }
+        if (Stages.Contains(Stage))
+        {
+            SceneManager.LoadScene(Stage + 2);
+            Debug.Log("Loaded " + Stage);
+            Debug.Log(player.name + " vs " + chosenCharacter);
+        }
     }
 }

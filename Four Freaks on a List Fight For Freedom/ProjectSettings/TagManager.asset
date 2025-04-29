@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - PlayerInstantiated
   - EnemyInstantiated
+  - Spawner
   layers:
   - Default
   - TransparentFX
