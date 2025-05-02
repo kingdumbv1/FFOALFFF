@@ -1,14 +1,17 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class Multipklayer : MonoBehaviour
+public class Multiplayer : MonoBehaviour
 {
     CharacterArray characters;
     GameObject player1;
     GameObject player2;
+    PlayerInputManager inputManager;
     int mapSelection;
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
+        inputManager = GetComponent<PlayerInputManager>();
     }
 
     public void SelectPlayer1(string selectedCharacter)
@@ -46,5 +49,9 @@ public class Multipklayer : MonoBehaviour
 
                 break;
         }
+    }
+    public void JoinPlayer()
+    {
+       // inputManager.playerJoinedEvent;
     }
 }

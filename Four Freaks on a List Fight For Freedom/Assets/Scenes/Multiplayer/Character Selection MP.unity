@@ -202,7 +202,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1736306304}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Multipklayer, Assembly-CSharp
         m_MethodName: SelectPlayer2
         m_Mode: 5
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1736306304}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Multipklayer, Assembly-CSharp
         m_MethodName: SelectPlayer2
         m_Mode: 5
@@ -2406,7 +2406,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1736306304}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Multipklayer, Assembly-CSharp
         m_MethodName: SelectPlayer2
         m_Mode: 5
@@ -2539,7 +2539,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1736306304}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Multipklayer, Assembly-CSharp
         m_MethodName: SelectPlayer1
         m_Mode: 5
@@ -2672,7 +2672,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1736306304}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Multipklayer, Assembly-CSharp
         m_MethodName: SelectPlayer1
         m_Mode: 5
@@ -4071,7 +4071,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1736306305}
-  - component: {fileID: 1736306304}
+  - component: {fileID: 1736306307}
+  - component: {fileID: 1736306306}
   m_Layer: 0
   m_Name: DataMultiplayer
   m_TagString: Untagged
@@ -4079,18 +4080,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1736306304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1736306303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e357aea879e59f8419b254611f15f9c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1736306305
 Transform:
   m_ObjectHideFlags: 0
@@ -4106,6 +4095,82 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1736306306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736306303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4d1a9e5784840b4488c4506c51a608e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1736306307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736306303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NotificationBehavior: 2
+  m_MaxPlayerCount: 2
+  m_AllowJoining: 1
+  m_JoinBehavior: 1
+  m_PlayerJoinedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_PlayerLeftEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_JoinAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Join
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 203570f8-d231-4bf2-9527-aa6ae2fa2fb6
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 3bfd22cf-5877-4792-91ef-685e69c20cb0
+        m_Path: 
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Join
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_PlayerPrefab: {fileID: 7925372356517070005, guid: b0d1cbcedbb78394a8f04db9d2726b40, type: 3}
+  m_SplitScreen: 0
+  m_MaintainAspectRatioInSplitScreen: 0
+  m_FixedNumberOfSplitScreens: -1
+  m_SplitScreenRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &1737698225
 GameObject:
   m_ObjectHideFlags: 0
@@ -4190,7 +4255,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1736306304}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Multipklayer, Assembly-CSharp
         m_MethodName: SelectPlayer1
         m_Mode: 5
@@ -4388,7 +4453,7 @@ GameObject:
   - component: {fileID: 1846628135}
   - component: {fileID: 1846628134}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Ready P1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4717,7 +4782,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1736306304}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Multipklayer, Assembly-CSharp
         m_MethodName: SelectPlayer1
         m_Mode: 5
@@ -4780,7 +4845,7 @@ GameObject:
   - component: {fileID: 1935142592}
   - component: {fileID: 1935142591}
   m_Layer: 5
-  m_Name: Button (8)
+  m_Name: Ready P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5092,7 +5157,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1736306304}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Multipklayer, Assembly-CSharp
         m_MethodName: SelectPlayer2
         m_Mode: 5

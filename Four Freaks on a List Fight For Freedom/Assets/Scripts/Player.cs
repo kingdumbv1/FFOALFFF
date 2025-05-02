@@ -71,7 +71,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         StartCoroutine(LoadEnemyOfPlayer());
-
+        
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         animatorReference = GetComponent<AnimatorReference>();
@@ -269,6 +269,6 @@ public class Player : MonoBehaviour
 
     private void OnDestroy()
     {
-        Instantiate(killEffect, transform.position, Quaternion.identity);
+        Destroy(Instantiate(killEffect, transform.position, Quaternion.identity), 1);
     }
 }
