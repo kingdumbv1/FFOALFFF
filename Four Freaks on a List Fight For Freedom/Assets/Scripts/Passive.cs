@@ -8,6 +8,7 @@ public class Passive : MonoBehaviour
     [SerializeField] Player player;
     bool canAddAgain = true;
     [SerializeField] int passiveInt = 0;
+    [SerializeField] int passiveTarget = 0;
     private void Start()
     {
         player = GetComponent<Player>();
@@ -32,6 +33,7 @@ public class Passive : MonoBehaviour
             case "raven":
                 playerIntText.text = passiveInt.ToString();
                 player.animator.speed = 1 + ((float)passiveInt / 10);
+                player.currentMaxPassive = 50 * (passiveInt + 1);
                 Debug.Log(player.animator.speed);
                 if (player.animator.GetCurrentAnimatorStateInfo(0).IsName("RavenFencerHeavyDown"))
                 {
@@ -44,37 +46,41 @@ public class Passive : MonoBehaviour
                 }
                     break;
             case "rockstar":
-                if (canAddAgain)
+                int input()
                 {
-                    for (int i = 0; i < 3; i++)
+                    if (player.attackClickedFrame == 1)
                     {
-                        int randomInt = Random.Range(-1, 1);
-                        string randomString = "";
-                        string randomInput(int randomInt)
-                        {
-                            if (player.attackClickedFrame == 1)
-                            {
-                                if (player.currentDirection.y == 1 && randomInt == 1) return "W";
-
-                                if (player.currentDirection.y == 0 && randomInt == 0) return " ";
-
-                                if (player.currentDirection.y == -1 && randomInt == -1) return "S";
-                            }
-                            return " ";
-                        }
-
-                        randomString += randomInput(randomInt);
-                        
-                        if (i == 2)
-                        {
-                            canAddAgain = false;
-                            playerIntText.text = passiveInt.ToString() + randomString;
-                            StartCoroutine(CanAddAgainTrue(randomString));
-                            Debug.Log(randomString);
-                        }
+                        if (player.currentDirection.y == 1)
+                            return 2;
+                        if (player.currentDirection.y == 0)
+                            return 1;
+                        if (player.currentDirection.y == -1)
+                            return 0;
+                       
+                    }
+                    return 1;
+                }
+                int[] comboString =
+                    {0, 0, 0};
+                if (canAddAgain && passiveInt == passiveTarget)
+                {
+                    Debug.Log("canAddAgain is " + canAddAgain + " and passiveInt is " + passiveInt + " Target is " + passiveTarget); ;
+                    passiveTarget++;
+                    comboString = new int[]
+                    {Random.Range(0,3), Random.Range(0,3), Random.Range(0,3)};
+                    Debug.Log(comboString[0] + ", " + comboString[1] + ", " + comboString[2]);
+                    canAddAgain = false;
+                    StartCoroutine(CanAddAgainTrue(""));
+                }
+                foreach (int i in comboString)
+                {
+                    int currentComboInteger = 0;
+                    if (input() == i)
+                    {
+                        comboString[currentComboInteger].CompareTo(input());
+                        currentComboInteger++;
                     }
                 }
-                
                 break;
             case "dj":
                 playerIntText.text = passiveInt.ToString();
@@ -83,7 +89,7 @@ public class Passive : MonoBehaviour
             case "outlaw":
                 playerIntText.text = passiveInt.ToString();
                 if (passiveInt > 0) player.multiplier = 1 + (float)passiveInt / 8;
-                if (player.isBlocking == 1 && canAddAgain && player.isHit)
+                if (player.isBlocking == 1 && canAddAgain)
                 {
                     player.currentPassive += 10;
                     canAddAgain = false;

@@ -20,7 +20,6 @@ public class PlayerHealthBar : MonoBehaviour
         }
         if (passiveFillImage != null)
         {
-            Debug.Log(passiveFillImage.name);
             passiveFillImage.fillAmount = player.currentPassive * 0.02f;
         }
         //passive.fillAmount = player.currentPassive * 0.02f;
