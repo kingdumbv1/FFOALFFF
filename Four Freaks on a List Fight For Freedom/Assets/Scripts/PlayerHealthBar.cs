@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class PlayerHealthBar : MonoBehaviour
 {
-    public Image health;
-    public Image passive;
+    public Image healthFillImage;
+    public Image passiveFillImage;
     [SerializeField] Player player;
 
     private void Start()
@@ -14,9 +14,14 @@ public class PlayerHealthBar : MonoBehaviour
 
     private void Update()
     {
-        if (health != null)
+        if (healthFillImage != null)
         {
-            health.fillAmount = player.currentHealth * 0.01f;
+            healthFillImage.fillAmount = player.currentHealth * 0.01f;
+        }
+        if (passiveFillImage != null)
+        {
+            Debug.Log(passiveFillImage.name);
+            passiveFillImage.fillAmount = player.currentPassive * 0.02f;
         }
         //passive.fillAmount = player.currentPassive * 0.02f;
     }

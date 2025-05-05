@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 3940312248438842219}
   - component: {fileID: 7664978415819997596}
   - component: {fileID: 7312198846400650212}
+  - component: {fileID: -8902781887928384540}
   m_Layer: 3
   m_Name: Magic Outlaw (1)
   m_TagString: Player
@@ -333,7 +334,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -352,7 +353,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329448136662158983}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e1492f4ee5d9034aa3a265ed7779803, type: 3}
   m_Name: 
@@ -360,7 +361,7 @@ MonoBehaviour:
   currentHealth: 100
   currentMaxHealth: 100
   currentMaxPassive: 50
-  currentPassive: 50
+  currentPassive: 0
   player: {fileID: 6833814812336732620}
   chosenCharacter: outlaw
   moveSpeed: 2.8
@@ -407,8 +408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a7c63ce2dea19468c1f630bcd0bd0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: {fileID: 0}
-  passive: {fileID: 0}
+  healthFillImage: {fileID: 0}
+  passiveFillImage: {fileID: 0}
   player: {fileID: 0}
 --- !u!114 &7664978415819997596
 MonoBehaviour:
@@ -455,6 +456,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8902781887928384540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329448136662158983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7033a6e2615c16d4ca500a91100a7b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerIntText: {fileID: 0}
+  player: {fileID: 0}
+  passiveInt: 0
 --- !u!1 &437389570100340344
 GameObject:
   m_ObjectHideFlags: 0

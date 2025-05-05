@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     public Animator animator;
     public Transform enemy;
     [Header("Misc")]
+    public float multiplier = 1;
     public bool isHit;
     public bool invulnerable;
     public bool isGrounded;
@@ -94,6 +95,8 @@ public class Player : MonoBehaviour
             if (distance > 0) transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         if (currentHealth <= 0) Destroy(gameObject);
+        currentPassive = Mathf.Clamp(currentPassive, 0, currentMaxPassive);
+        currentHealth = Mathf.Clamp(currentHealth, 0, currentMaxHealth);
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {
             moveSpeed = 2.8f;
@@ -178,6 +181,7 @@ public class Player : MonoBehaviour
         {
             rb.linearVelocityX = currentDirection.x * moveSpeed;
         }
+        if (currentHealth <= 0) Destroy(Instantiate(killEffect, transform.position, Quaternion.identity), 1);
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
@@ -208,7 +212,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(float damage, float knockback)
     {
         isHit = true;
-        if (!invulnerable)
+        if (!invulnerable && isBlocking != 1)
         {
             currentHealth -= damage;
             StartCoroutine(Hurt(0.2f, knockback));
@@ -267,8 +271,5 @@ public class Player : MonoBehaviour
         isBlocking = context.ReadValue<float>();
     }
 
-    private void OnDestroy()
-    {
-        Destroy(Instantiate(killEffect, transform.position, Quaternion.identity), 1);
-    }
+    
 }

@@ -2057,6 +2057,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3063047086822645868, guid: 65b201fa4a5d8754c966c248c97d0cc7, type: 3}
+      propertyPath: m_Name
+      value: P2 Passive Int
+      objectReference: {fileID: 0}
     - target: {fileID: 3581032356372898819, guid: 65b201fa4a5d8754c966c248c97d0cc7, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2068,6 +2072,18 @@ PrefabInstance:
     - target: {fileID: 3581032356372898819, guid: 65b201fa4a5d8754c966c248c97d0cc7, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581032356372898819, guid: 65b201fa4a5d8754c966c248c97d0cc7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4756622163631192955, guid: 65b201fa4a5d8754c966c248c97d0cc7, type: 3}
+      propertyPath: m_HandleRect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4756622163631192955, guid: 65b201fa4a5d8754c966c248c97d0cc7, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6864243046274563523, guid: 65b201fa4a5d8754c966c248c97d0cc7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2174,7 +2190,8 @@ PrefabInstance:
       value: UI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4545744566977898552, guid: 65b201fa4a5d8754c966c248c97d0cc7, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65b201fa4a5d8754c966c248c97d0cc7, type: 3}
@@ -8753,6 +8770,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2037555311
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 329448136662158983, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_Name
+      value: Magic Outlaw (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.3706846
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.66820914
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.7547
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 671500923f892914183fd0cc0759edee, type: 3}
 --- !u!1 &2042049056
 GameObject:
   m_ObjectHideFlags: 0
@@ -9057,63 +9131,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &2133770667
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 329448136662158983, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_Name
-      value: Magic Outlaw (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.8375838
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.0396223
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.7547
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373235436074253896, guid: 671500923f892914183fd0cc0759edee, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 671500923f892914183fd0cc0759edee, type: 3}
 --- !u!1 &2136200676
 GameObject:
   m_ObjectHideFlags: 0
@@ -9220,4 +9237,4 @@ SceneRoots:
   - {fileID: 1285102517}
   - {fileID: 553503492}
   - {fileID: 795247276}
-  - {fileID: 2133770667}
+  - {fileID: 2037555311}

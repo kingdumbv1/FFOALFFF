@@ -45,6 +45,8 @@ public class BulletMagicOutlaw : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         switched = true;
+        yield return new WaitForSeconds(2);
+        Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -566,7 +566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 100
   currentMaxHealth: 100
-  currentMaxPassive: 0
+  currentMaxPassive: 50
   currentPassive: 0
   player: {fileID: 6293866594578880152}
   chosenCharacter: prototype
@@ -577,12 +577,15 @@ MonoBehaviour:
   spriteRend: {fileID: 0}
   animator: {fileID: 0}
   enemy: {fileID: 0}
+  isHit: 0
+  invulnerable: 0
   isGrounded: 0
   canAttack: 0
   instantiatedDamage: 0
   currentDirection: {x: 0, y: 0}
   game: {fileID: 0}
   animatorReference: {fileID: 0}
+  killEffect: {fileID: 0}
   knockback: 0
   attackClickedFrame: 0
   isAttacking: 0
@@ -611,8 +614,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a7c63ce2dea19468c1f630bcd0bd0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: {fileID: 0}
-  passive: {fileID: 0}
+  healthFillImage: {fileID: 0}
+  passiveFillImage: {fileID: 0}
   player: {fileID: 0}
 --- !u!114 &-7984464322791812188
 MonoBehaviour:
@@ -626,6 +629,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f089dcfc3ca322c41a0abc04a4c43ad8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldown: 0
+  cooldown2: 0
+  cooldown3: 0
   objectsSpawn: []
   hitBoxes: []
 --- !u!1 &7709173089337867417

@@ -108,7 +108,9 @@ public class AnimatorReference : MonoBehaviour
                 Debug.Log("wow");
                 player.heavyDamage = 5;
                 player.rb.AddForce(Vector2.left * 2.5f * distanceCheck(), ForceMode2D.Impulse);
-                player.animator.SetTrigger("Countered");
+                player.animator.SetBool("Countered", true);
+                yield return new WaitForEndOfFrame();
+                player.animator.SetBool("Countered", false);
             }
         }
         

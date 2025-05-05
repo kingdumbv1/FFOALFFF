@@ -5,7 +5,9 @@ using UnityEngine.UI;
 public class ArrayOfHealthbars : MonoBehaviour
 {
     [SerializeField] GameObject[] healthbars;
+    [SerializeField] GameObject[] passives;
     [SerializeField] Transform[] healthbarSpawnAreas;
+    [SerializeField] Transform[] passiveSpawnAreas;
     [SerializeField] FindMedian cameraMedian;
 
     private void Start()
@@ -22,70 +24,102 @@ public class ArrayOfHealthbars : MonoBehaviour
         Player player = cameraMedian.foundPlayer.GetComponent<Player>();
         if (player.chosenCharacter == "rockstar")
         {
-            GameObject playerhealthbar = Instantiate(healthbars[0], healthbarSpawnAreas[0].position, Quaternion.identity);
+            GameObject instantiatedHealthBar = Instantiate(healthbars[0], healthbarSpawnAreas[0].position, Quaternion.identity);
+            GameObject instantiatedPassive = Instantiate(passives[0], passiveSpawnAreas[0].position, Quaternion.identity);
             PlayerHealthBar playerHealth = cameraMedian.foundPlayer.GetComponent<PlayerHealthBar>();
-            playerHealth.health = playerhealthbar.GetComponent<Image>();
-            playerhealthbar.transform.SetParent(transform);
-            playerhealthbar.name = "Player Health";
+            playerHealth.healthFillImage = instantiatedHealthBar.GetComponent<Image>();
+            playerHealth.passiveFillImage = instantiatedPassive.GetComponent<Child>().image;
+            instantiatedHealthBar.transform.SetParent(transform);
+            instantiatedHealthBar.name = "Player Health";
+            instantiatedPassive.transform.SetParent(transform);
+            instantiatedPassive.name = "Player Passive";
 
         }
         if (player.chosenCharacter == "raven")
         {
-            GameObject playerhealthbar = Instantiate(healthbars[1], healthbarSpawnAreas[0].position, Quaternion.identity);
+            GameObject instantiatedHealthBar = Instantiate(healthbars[1], healthbarSpawnAreas[0].position, Quaternion.identity);
+            GameObject instantiatedPassive = Instantiate(passives[1], passiveSpawnAreas[0].position, Quaternion.identity);
             PlayerHealthBar playerHealth = cameraMedian.foundPlayer.GetComponent<PlayerHealthBar>();
-            playerHealth.health = playerhealthbar.GetComponent<Image>();
-            playerhealthbar.transform.SetParent(transform);
-            playerhealthbar.name = "Player Health";
+            playerHealth.healthFillImage = instantiatedHealthBar.GetComponent<Image>();
+            playerHealth.passiveFillImage = instantiatedPassive.GetComponent<Child>().image;
+            instantiatedHealthBar.transform.SetParent(transform);
+            instantiatedHealthBar.name = "Player Health";
+            instantiatedPassive.transform.SetParent(transform);
+            instantiatedPassive.name = "Player Passive";
         }
         if (player.chosenCharacter == "outlaw")
         {
-            GameObject playerhealthbar = Instantiate(healthbars[2], healthbarSpawnAreas[0].position, Quaternion.identity);
+            GameObject instantiatedHealthBar = Instantiate(healthbars[2], healthbarSpawnAreas[0].position, Quaternion.identity);
+            GameObject instantiatedPassive = Instantiate(passives[2], passiveSpawnAreas[0].position, Quaternion.identity);
             PlayerHealthBar playerHealth = cameraMedian.foundPlayer.GetComponent<PlayerHealthBar>();
-            playerHealth.health = playerhealthbar.GetComponent<Image>();
-            playerhealthbar.transform.SetParent(transform);
-            playerhealthbar.name = "Player Health";
+            playerHealth.healthFillImage = instantiatedHealthBar.GetComponent<Image>();
+            playerHealth.passiveFillImage = instantiatedPassive.GetComponent<Child>().image;
+            instantiatedHealthBar.transform.SetParent(transform);
+            instantiatedHealthBar.name = "Player Health";
+            instantiatedPassive.transform.SetParent(transform);
+            instantiatedPassive.name = "Player Passive";
         }
         if (player.chosenCharacter == "dj")
         {
-            GameObject playerhealthbar = Instantiate(healthbars[3], healthbarSpawnAreas[0].position, Quaternion.identity);
+            GameObject instantiatedHealthBar = Instantiate(healthbars[3], healthbarSpawnAreas[0].position, Quaternion.identity);
+            GameObject instantiatedPassive = Instantiate(passives[3], passiveSpawnAreas[0].position, Quaternion.identity);
             PlayerHealthBar playerHealth = cameraMedian.foundPlayer.GetComponent<PlayerHealthBar>();
-            playerHealth.health = playerhealthbar.GetComponent<Image>();
-            playerhealthbar.transform.SetParent(transform);
-            playerhealthbar.name = "Player Health";
+            playerHealth.healthFillImage = instantiatedHealthBar.GetComponent<Image>();
+            playerHealth.passiveFillImage = instantiatedPassive.GetComponent<Child>().image;
+            instantiatedHealthBar.transform.SetParent(transform);
+            instantiatedHealthBar.name = "Player Health";
+            instantiatedPassive.transform.SetParent(transform);
+            instantiatedPassive.name = "Player Passive";
         }
         // Player 2
         Player player2 = cameraMedian.foundPlayer2.GetComponent<Player>();
         if (player2.chosenCharacter == "rockstar")
         {
-            GameObject player2healthbar = Instantiate(healthbars[0], healthbarSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
+            GameObject instantiatedHealthBar2 = Instantiate(healthbars[0], healthbarSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
+            GameObject instantiatedPassive2 = Instantiate(passives[0], passiveSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
             PlayerHealthBar playerHealth = cameraMedian.foundPlayer2.GetComponent<PlayerHealthBar>();
-            playerHealth.health = player2healthbar.GetComponent<Image>();
-            player2healthbar.transform.SetParent(transform);
-            player2healthbar.name = "Enemy Health";
+            playerHealth.healthFillImage = instantiatedHealthBar2.GetComponent<Image>();
+            playerHealth.passiveFillImage = instantiatedPassive2.GetComponent<Child>().image;
+            instantiatedHealthBar2.transform.SetParent(transform);
+            instantiatedHealthBar2.name = "Enemy Health";
+            instantiatedPassive2.transform.SetParent(transform);
+            instantiatedPassive2.name = "Enemy Passive";
         }
         if (player2.chosenCharacter == "raven")
         {
-            GameObject player2healthbar = Instantiate(healthbars[1], healthbarSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
+            GameObject instantiatedHealthBar2 = Instantiate(healthbars[1], healthbarSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
+            GameObject instantiatedPassive2 = Instantiate(passives[1], passiveSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
             PlayerHealthBar playerHealth = cameraMedian.foundPlayer2.GetComponent<PlayerHealthBar>();
-            playerHealth.health = player2healthbar.GetComponent<Image>();
-            player2healthbar.transform.SetParent(transform);
-            player2healthbar.name = "Enemy Health";
+            playerHealth.healthFillImage = instantiatedHealthBar2.GetComponent<Image>();
+            playerHealth.passiveFillImage = instantiatedPassive2.GetComponent<Child>().image;
+            instantiatedHealthBar2.transform.SetParent(transform);
+            instantiatedHealthBar2.name = "Enemy Health";
+            instantiatedPassive2.transform.SetParent(transform);
+            instantiatedPassive2.name = "Enemy Passive";
         }
         if (player2.chosenCharacter == "outlaw")
         {
-            GameObject player2healthbar = Instantiate(healthbars[2], healthbarSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
+            GameObject instantiatedHealthBar2 = Instantiate(healthbars[2], healthbarSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
+            GameObject instantiatedPassive2 = Instantiate(passives[2], passiveSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
             PlayerHealthBar playerHealth = cameraMedian.foundPlayer2.GetComponent<PlayerHealthBar>();
-            playerHealth.health = player2healthbar.GetComponent<Image>();
-            player2healthbar.transform.SetParent(transform);
-            player2healthbar.name = "Enemy Health";
+            playerHealth.healthFillImage = instantiatedHealthBar2.GetComponent<Image>();
+            playerHealth.passiveFillImage = instantiatedPassive2.GetComponent<Child>().image;
+            instantiatedHealthBar2.transform.SetParent(transform);
+            instantiatedHealthBar2.name = "Enemy Health";
+            instantiatedPassive2.transform.SetParent(transform);
+            instantiatedPassive2.name = "Enemy Passive";
         }
         if (player2.chosenCharacter == "dj")
         {
-            GameObject player2healthbar = Instantiate(healthbars[3], healthbarSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
+            GameObject instantiatedHealthBar2 = Instantiate(healthbars[3], healthbarSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
+            GameObject instantiatedPassive2 = Instantiate(passives[3], passiveSpawnAreas[1].position, Quaternion.Euler(0, 180, 0));
             PlayerHealthBar playerHealth = cameraMedian.foundPlayer2.GetComponent<PlayerHealthBar>();
-            playerHealth.health = player2healthbar.GetComponent<Image>();
-            player2healthbar.transform.SetParent(transform);
-            player2healthbar.name = "Enemy Health";
+            playerHealth.healthFillImage = instantiatedHealthBar2.GetComponent<Image>();
+            playerHealth.passiveFillImage = instantiatedPassive2.GetComponent<Child>().image;
+            instantiatedHealthBar2.transform.SetParent(transform);
+            instantiatedHealthBar2.name = "Enemy Health";
+            instantiatedPassive2.transform.SetParent(transform);
+            instantiatedPassive2.name = "Enemy Passive";
         }
     }
 }
