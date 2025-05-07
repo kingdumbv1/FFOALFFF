@@ -51,7 +51,7 @@ public class AnimatorReference : MonoBehaviour
     }
     public void RAHeavyLowInstantiateRay()
     {
-        player.instantiatedDamage = 5;
+        player.instantiatedDamage = 4;
         player.xMovementPossible = false;
         player.rb.AddForce(Vector2.left * player.jumpHeight * distanceCheck(), ForceMode2D.Impulse);
         GameObject ray = Instantiate(objectsSpawn[1], hitBoxes[1].transform.position, Quaternion.identity);
@@ -64,7 +64,7 @@ public class AnimatorReference : MonoBehaviour
     }
     public void DJHeavyHighInstantiateDisc()
     {
-        player.instantiatedDamage = 15;
+        player.instantiatedDamage = 4.5f;
         GameObject bomb = Instantiate(objectsSpawn[0], hitBoxes[0].transform.position, Quaternion.identity);
         Rigidbody2D bombrb = bomb.GetComponent<Rigidbody2D>();
         if (player.tag == "Player") bomb.transform.GetChild(0).tag = "PlayerInstantiated";
@@ -124,7 +124,8 @@ public class AnimatorReference : MonoBehaviour
     }
     public void MOHeavyMiddle()
     {
-        for (int i = 0; i < 5; i++)
+        Passive passive = GetComponent<Passive>();
+        for (int i = 0; i < passive.MOShellCount; i++)
         {
             GameObject bullet = Instantiate(objectsSpawn[1], hitBoxes[1].transform.position, Quaternion.identity);
             if (player.tag == "Player") bullet.transform.tag = "PlayerInstantiated";

@@ -14,6 +14,7 @@ public class PlayerHealthBar : MonoBehaviour
 
     private void Update()
     {
+        //healthFillImage.
         if (healthFillImage != null)
         {
             healthFillImage.fillAmount = player.currentHealth * 0.01f;

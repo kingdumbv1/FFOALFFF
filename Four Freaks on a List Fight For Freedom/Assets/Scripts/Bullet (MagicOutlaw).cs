@@ -37,7 +37,10 @@ public class BulletMagicOutlaw : MonoBehaviour
         if (switched)
         {
             t += Time.deltaTime / 2;
-            transform.position = new Vector3(Mathf.Lerp(transform.position.x, enemy.position.x, t), Mathf.Lerp(transform.position.y, enemy.position.y, t), -5);
+            if (enemy != null)
+            {
+                transform.position = new Vector3(Mathf.Lerp(transform.position.x, enemy.position.x, t), Mathf.Lerp(transform.position.y, enemy.position.y, t), -5);
+            }
         }
     }
     
@@ -50,9 +53,12 @@ public class BulletMagicOutlaw : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (switched && collision.CompareTag(enemy.tag))
+        if (enemy != null)
         {
-            Destroy(gameObject);
+            if (switched && collision.CompareTag(enemy.tag))
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

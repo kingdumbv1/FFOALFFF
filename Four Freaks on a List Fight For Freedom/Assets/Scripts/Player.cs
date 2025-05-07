@@ -95,7 +95,7 @@ public class Player : MonoBehaviour
             if (distance > 0) transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         if (currentHealth <= 0) Destroy(gameObject);
-        currentPassive = Mathf.Clamp(currentPassive, 0, currentMaxPassive);
+        currentPassive = Mathf.Clamp(currentPassive, -5, currentMaxPassive);
         currentHealth = Mathf.Clamp(currentHealth, 0, currentMaxHealth);
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {

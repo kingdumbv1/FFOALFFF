@@ -40,30 +40,32 @@ public class Test
                 break;
             case "raven":
                 player.knockback = 3.5f;
-                player.lightDamage = 3;
+                player.lightDamage = 1.5f;
                 animator.SetTrigger("HighPrimary");
                 player.canAttack = false;
                 break;
             case "rockstar":
                 if (player.isGrounded)
                 {
+                    Passive passive = player.transform.GetComponent<Passive>();
                     player.knockback = 3.5f;
-                    player.lightDamage = 4;
+                    player.lightDamage = 2;
                     animator.SetTrigger("HighPrimary");
                     player.canAttack = false;
                     player.rb.AddForce(Vector2.up * player.jumpHeight, ForceMode2D.Impulse);
                     player.rb.AddForce(Vector2.right * player.jumpHeight / 1.5f, ForceMode2D.Impulse);
+                    passive.input = 3;
                 }
                 break;
             case "dj":
                 player.knockback = 3.5f;
-                player.lightDamage = 3;
+                player.lightDamage = 1.5f;
                 animator.SetTrigger("HighPrimary");
                 player.canAttack = false;
                 break;
             case "outlaw":
                 player.knockback = 2;
-                player.lightDamage = 4;
+                player.lightDamage = 2.5f;
                 animator.SetTrigger("HighPrimary");
                 player.canAttack = false;
                 break;
@@ -80,24 +82,26 @@ public class Test
                 break;
             case "raven":
                 player.knockback = 3.5f;
-                player.lightDamage = 3;
+                player.lightDamage = 1.5f;
                 animator.SetTrigger("MiddlePrimary");
                 player.canAttack = false;
                 break;
             case "rockstar":
+                Passive passive = player.transform.GetComponent<Passive>();
                 player.knockback = 3.5f;
-                player.lightDamage = 4;
+                player.lightDamage = 2;
                 animator.SetTrigger("MiddlePrimary");
                 player.canAttack = false;
+                passive.input = 2;
                 break;
             case "dj":
                 player.knockback = 3.5f;
-                player.lightDamage = 3;
+                player.lightDamage = 1.5f;
                 animator.SetTrigger("MiddlePrimary");
                 player.canAttack = false;
                 break;
             case "outlaw":
-                player.knockback = 4;
+                player.knockback = 1;
                 player.lightDamage = 2;
                 animator.SetTrigger("MiddlePrimary");
                 player.canAttack = false;
@@ -115,30 +119,32 @@ public class Test
                 break;
             case "raven":
                 player.knockback = 3.5f;
-                player.lightDamage = 3;
+                player.lightDamage = 1.5f;
                 animator.SetTrigger("LowPrimary");
                 player.canAttack = false;
                 break;
             case "rockstar":
                 if (animReference.cooldown >= 1.5f)
                 {
-                    player.lightDamage = 4;
+                    Passive passive = player.transform.GetComponent<Passive>();
+                    player.lightDamage = 2;
                     player.knockback = 3.5f;
                     animator.SetTrigger("LowPrimary");
                     player.canAttack = false;
                     player.rb.AddForce(Vector2.left * player.jumpHeight * distanceCheck(), ForceMode2D.Impulse);
                     animReference.cooldown = 0;
+                    passive.input = 1;
                 }
                 break;
             case "dj":
-                player.knockback = 3.5f;
+                player.knockback = 1.5f;
                 player.lightDamage = 3;
                 animator.SetTrigger("LowPrimary");
                 player.canAttack = false;
                 break;
             case "outlaw":
                 player.knockback = 2;
-                player.lightDamage = 4;
+                player.lightDamage = 2.5f;
                 animator.SetTrigger("LowPrimary");
                 player.canAttack = false;
                 break;
@@ -174,7 +180,7 @@ public class Test
                 break;
             case "outlaw":
                 player.knockback = 0;
-                player.heavyDamage = 3;
+                player.heavyDamage = 3.5f;
                 animator.SetTrigger("HeavyHigh");
                 player.canAttack = false;
                 break;
@@ -197,8 +203,8 @@ public class Test
             case "raven":
                 if (animReference.cooldown2 >= 5)
                 {
-                    player.heavyDamage = 15;
-                    player.knockback = 10;
+                    player.heavyDamage = 8;
+                    player.knockback = 7;
                     animator.SetTrigger("HeavyMiddle");
                     player.canAttack = false;
                 }
@@ -221,7 +227,7 @@ public class Test
             case "outlaw":
                 if (animReference.cooldown >= 5)
                 player.knockback = 0;
-                player.instantiatedDamage = 0.75f;
+                player.instantiatedDamage = 0.35f;
                 player.canAttack = false;
                 animator.SetTrigger("HeavyMiddle");
                 break;
@@ -257,7 +263,7 @@ public class Test
                 {
                     player.blockBreak = true;
                     player.knockback = 0;
-                    player.heavyDamage = 1;
+                    player.heavyDamage = 0.5f;
                     animator.SetTrigger("HeavyLow");
                     player.canAttack = false;
                     animReference.cooldown = 0;
@@ -266,7 +272,7 @@ public class Test
             case "outlaw":
                 if (animReference.cooldown2 >= 4)
                 {
-                    player.instantiatedDamage = 4.5f;
+                    player.instantiatedDamage = 3.5f;
                     player.canAttack = false;
                     player.blockBreak = true;
                     animator.SetTrigger("HeavyLow");

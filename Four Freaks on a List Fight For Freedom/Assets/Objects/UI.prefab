@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 1288487576680173897}
   - component: {fileID: 2403807458702086315}
   m_Layer: 5
-  m_Name: 'P2 Passive Int '
+  m_Name: P2 Passive Int
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
