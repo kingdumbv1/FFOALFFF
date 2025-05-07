@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
 
 public class DataSave : MonoBehaviour
 {
@@ -134,14 +135,14 @@ public class DataSave : MonoBehaviour
     }
     public void StartGame()
     {
-        int Stage = Random.Range(0, 3);
+        int Stage = Random.Range(0, 4);
         if (Stage == 0) chosenCharacter = "Dj Vampire";
         if (Stage == 1) chosenCharacter = "Magic Outlaw";
         if (Stage == 2) chosenCharacter = "Raven Fencer";
         if (Stage == 3) chosenCharacter = "Rockstar Alien";
         if (!Stages.Contains(Stage))
         {
-            Stage = Random.Range(0, 3);
+            Stage = Random.Range(0, 4);
             Debug.Log("Could not load " + player.name + " vs " + chosenCharacter);
         }
         if (Stages.Contains(Stage))
@@ -150,5 +151,11 @@ public class DataSave : MonoBehaviour
             Debug.Log("Loaded " + Stage);
             Debug.Log(player.name + " vs " + chosenCharacter);
         }
+    }
+
+    IEnumerator NextStage()
+    {
+        yield return new WaitForSeconds(2);
+        //Stages.Remove();
     }
 }

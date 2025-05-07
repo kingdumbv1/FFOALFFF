@@ -272,7 +272,7 @@ public class Test
             case "outlaw":
                 if (animReference.cooldown2 >= 4)
                 {
-                    player.instantiatedDamage = 3.5f;
+                    player.instantiatedDamage = 3f;
                     player.canAttack = false;
                     player.blockBreak = true;
                     animator.SetTrigger("HeavyLow");

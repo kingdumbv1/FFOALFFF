@@ -44,6 +44,7 @@ public class Player : MonoBehaviour
     public GameManager game;
     public AnimatorReference animatorReference;
     [SerializeField] ParticleSystem killEffect;
+    [SerializeField] ParticleSystem hitEffect;
     public float knockback;
     [Header("Light Attack / Blocking")]
     // Light Attacks - Blocking
@@ -230,6 +231,7 @@ public class Player : MonoBehaviour
             return 0;
         }
         spriteRend.color = Color.red;
+        Destroy(Instantiate(hitEffect, transform.position, Quaternion.identity), 1);
         isStaggered = true;
         xMovementPossible = false;
         rb.AddForce(Vector2.right * knockback * roundedDistanceKnockback(), ForceMode2D.Impulse);
