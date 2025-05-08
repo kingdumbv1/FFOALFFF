@@ -1,26 +1,25 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Audio;
 
 public class SoundManager : MonoBehaviour
 {
-    public Sound[] sounds;
+    public AudioSource[] sounds;
 
     private void Awake()
     {
-        foreach (Sound s in sounds)
-        {
-            gameObject.AddComponent<AudioSource>();
-            s.source = gameObject.AddComponent<AudioSource>();
-
-            s.source.volume = s.volume;
-            s.source.pitch = s.pitch;
-        }
+        DontDestroyOnLoad(gameObject);
     }
 
-    public void Play(string name)
+    public void Play(int bob, float time)
     {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
-        s.source.Play();
+        StartCoroutine(PlaySound(bob, time));
+    }
+    IEnumerator PlaySound(int s, float seconds)
+    {
+        sounds[s].enabled = true;
+        yield return new WaitForSeconds(seconds);
+        sounds[s].enabled = false;
     }
 }

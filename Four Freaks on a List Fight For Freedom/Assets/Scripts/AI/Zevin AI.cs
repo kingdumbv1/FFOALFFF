@@ -1,85 +1,45 @@
 using System.Collections;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class ZevinAI : MonoBehaviour
 {
     Player player;
+    Player enemy;
     bool canAttack = true;
-    Vector2[] movementTypes =
+    int[] movementTypes =
     {
-        Vector2.zero, // 0
-        new Vector2(0.65f, 0), // 1 
-        new Vector2(0.65f, 1), // 2
-        new Vector2(0, 1), // 3
-        new Vector2(-0.65f, 0), // 4 
-        new Vector2(-0.65f, -1), // 5
-        new Vector2(0, -1) // 6
+        1, // 0
+        0, // 1 
+        -1, // 2
     };
     private void Start()
     {
         player = GetComponent<Player>();
+        StartCoroutine(GetEnemy());
     }
 
     private void Update()
     {
         if (!player.isAttacking)
         {
-            if (player.distance < 0) player.currentDirection = movementTypes[1];
-            if (player.distance > 0) player.currentDirection = movementTypes[4];
+            if (player.distance < 0) player.currentDirection.x = movementTypes[0];
+            if (player.distance > 0) player.currentDirection.x = movementTypes[2];
         }
-        if (player.isHit) player.currentDirection = movementTypes[0];
+        if (player.isHit) player.currentDirection.x = movementTypes[1];
 
-        LayerMask pLayer = LayerMask.GetMask("Player1");
-        RaycastHit2D checkLeft = Physics2D.Raycast(transform.position, Vector2.left, 10f, pLayer);
-        RaycastHit2D checkRight = Physics2D.Raycast(transform.position, Vector2.right, 10f, pLayer);
-        if (Mathf.Abs(player.distance) > 1.2f)
+        if (Mathf.Abs(player.distance) < 1.3f)
         {
-            if (checkLeft)
+            if (canAttack && enemy.isBlocking == 1)
             {
-                Player enemy = checkLeft.transform.GetComponent<Player>();
-                if (enemy.isBlocking == 0)
-                {
-                    if (canAttack) StartCoroutine(HeavyAttack());
-                }
+                player.currentDirection.x = movementTypes[1];
+                BlockBreak();
             }
-            if (checkRight)
+            if (canAttack && enemy.isBlocking == 0)
             {
-                Player enemy = checkRight.transform.GetComponent<Player>();
-                if (enemy.isBlocking == 0)
-                {
-                    if (canAttack) StartCoroutine(HeavyAttack());
-                }
-            }
-        }
-        if (Mathf.Abs(player.distance) < 1.2f)
-        {
-            if (checkLeft)
-            {
-                Player enemy = checkLeft.transform.GetComponent<Player>();
-                if (enemy.isBlocking == 1)
-                {
-                    BlockBreak();
-                    player.heavyAttackClickedFrame = 0;
-                }
-                else
-                {
-                    if (canAttack) StartCoroutine(Attack());
-                    player.heavyAttackClickedFrame = 0;
-                }
-            }
-            if (checkRight)
-            {
-                Player enemy = checkRight.transform.GetComponent<Player>();
-                if (enemy.isBlocking == 1)
-                {
-                    BlockBreak();
-                }
-                else
-                {
-                    if (canAttack) StartCoroutine(Attack());
-                    player.heavyAttackClickedFrame = 0;
-                }
+                player.currentDirection.x = movementTypes[1];
+                StartCoroutine(Attack());
             }
         }
     }
@@ -87,15 +47,15 @@ public class ZevinAI : MonoBehaviour
 
     IEnumerator Attack()
     {
-        Debug.Log("is attacking" + player.distance + " " + player.attackClickedFrame);
         int randomChoice = Random.Range(0, 3);
-        Vector2[] attackTypes =
+        int[] attackTypes =
         {
-            movementTypes[0],
-            movementTypes[3],
-            movementTypes[6],
+            1,
+            0,
+            -1
         };
-        player.currentDirection = attackTypes[randomChoice];
+        player.currentDirection.y = attackTypes[randomChoice];
+        Debug.Log(attackTypes[randomChoice]);
         player.attackClickedFrame = 1;
         canAttack = false;
         yield return new WaitForSeconds(2);
@@ -108,13 +68,7 @@ public class ZevinAI : MonoBehaviour
         {
             case "dj":
                 int randomChoice = Random.Range(0, 3);
-                Vector2[] attackTypes =
-                {
-                    movementTypes[1],
-                    movementTypes[2],
-                    movementTypes[5],
-                };
-                player.currentDirection = attackTypes[randomChoice];
+                player.currentDirection.y = movementTypes[randomChoice];
                 player.heavyAttackClickedFrame = 1;
                 canAttack = false;
                 yield return new WaitForSeconds(2);
@@ -138,20 +92,19 @@ public class ZevinAI : MonoBehaviour
         switch (player.chosenCharacter)
         {
             case "dj":
-                player.currentDirection = movementTypes[5];
+                player.currentDirection.y = movementTypes[2];
                 player.heavyAttackClickedFrame = 1;
                 break;
             case "rockstar":
-                player.currentDirection = movementTypes[0];
+                player.currentDirection.y = movementTypes[1];
                 player.heavyAttackClickedFrame = 1;
                 break;
             case "outlaw":
-                player.currentDirection = movementTypes[6];
+                player.currentDirection.y = movementTypes[2];
                 player.heavyAttackClickedFrame = 1;
                 break;
             case "raven":
-                player.currentDirection = movementTypes[5];
-                player.heavyAttackClickedFrame = 1;
+                StartCoroutine(CounterBreak());
                 break;
         }
     }
@@ -161,8 +114,8 @@ public class ZevinAI : MonoBehaviour
         switch (player.chosenCharacter)
         {
             case "dj":
-                player.currentDirection = movementTypes[5];
-                player.heavyAttackClickedFrame = 1;
+                //player.currentDirection = movementTypes[5];
+                //player.heavyAttackClickedFrame = 1;
                 break;
             case "rockstar":
 
@@ -178,5 +131,35 @@ public class ZevinAI : MonoBehaviour
     void Block()
     {
         player.isBlocking = 1;
+    }
+    IEnumerator GetEnemy()
+    {
+        yield return new WaitForSeconds(0.1f);
+        enemy = player.enemy.GetComponent<Player>();
+    }
+
+    IEnumerator CounterBreak()
+    {
+        player.currentDirection.y = movementTypes[0];
+        player.heavyAttackClickedFrame = 1;
+        yield return new WaitForSeconds(0.1f);
+        player.heavyAttackClickedFrame = 0;
+        yield return new WaitForSeconds(0.4f);
+        player.heavyAttackClickedFrame = 1;
+        yield return new WaitForSeconds(0.1f);
+        player.heavyAttackClickedFrame = 0;
+    }
+
+    private void OnDestroy()
+    {
+        if (player.currentHealth <= 0)
+        {
+            DataSave data = GameObject.FindFirstObjectByType<DataSave>();
+            if (player.chosenCharacter == "dj") data.Stages.Remove(0);
+            if (player.chosenCharacter == "rockstar") data.Stages.Remove(3);
+            if (player.chosenCharacter == "raven") data.Stages.Remove(2);
+            if (player.chosenCharacter == "outlaw") data.Stages.Remove(1);
+            data.StartCoroutine("NextStage");
+        }
     }
 }

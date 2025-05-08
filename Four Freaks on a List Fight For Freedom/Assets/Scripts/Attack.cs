@@ -21,7 +21,6 @@ public class Attack : MonoBehaviour
             if (collision.CompareTag("Enemy"))
             {
                 Player enemy = collision.GetComponent<Player>();
-                Debug.Log("Triggered " + enemy.isBlocking);
                 if (enemy != null)
                 {
                     if (enemy.isBlocking == 0)
@@ -77,7 +76,6 @@ public class Attack : MonoBehaviour
         {
             if (collision.CompareTag("Enemy"))
             {
-                Debug.Log("Triggered");
                 Player enemy = collision.GetComponent<Player>();
                 if (enemy != null)
                 {

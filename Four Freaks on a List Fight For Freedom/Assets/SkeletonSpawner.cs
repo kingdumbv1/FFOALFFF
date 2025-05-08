@@ -17,7 +17,6 @@ public class SkeletonSpawner : MonoBehaviour
         randomFloat -= Time.deltaTime;
         if (0 >= randomFloat)
         {
-            Debug.Log(randomFloat);
             animator.SetTrigger("Spawn");
             randomFloat = Random.Range(10, 21);
         }

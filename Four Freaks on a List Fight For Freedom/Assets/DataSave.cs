@@ -14,7 +14,7 @@ public class DataSave : MonoBehaviour
     [SerializeField] GameObject[] animations;
     public GameObject player;
     [SerializeField]
-    List<int> Stages = new List<int>
+    public List<int> Stages = new List<int>
     {0, 1, 2, 3};
     [SerializeField] string chosenCharacter;
     private void Awake()
@@ -148,14 +148,32 @@ public class DataSave : MonoBehaviour
         if (Stages.Contains(Stage))
         {
             SceneManager.LoadScene(Stage + 2);
-            Debug.Log("Loaded " + Stage);
             Debug.Log(player.name + " vs " + chosenCharacter);
         }
     }
 
-    IEnumerator NextStage()
+    public IEnumerator NextStage()
     {
         yield return new WaitForSeconds(2);
-        //Stages.Remove();
+        int stage = Random.Range(0, 4);
+        while (!Stages.Contains(stage))
+        {
+            Debug.Log("missing stage " + stage);
+            Debug.Log("There are " + Stages.Count + " stages left");
+            yield return new WaitForEndOfFrame();
+            stage = Random.Range(0, 4);
+            if (Stages.Count == 0)
+            {
+                SceneManager.LoadScene(0);
+                SoundManager s = GameObject.FindFirstObjectByType<SoundManager>();
+                Destroy(s);
+                Destroy(gameObject);
+            }
+        }
+        if (Stages.Contains(stage))
+        {
+            Debug.Log("found stage " + stage);
+            SceneManager.LoadScene(stage + 2);
+        }
     }
 }

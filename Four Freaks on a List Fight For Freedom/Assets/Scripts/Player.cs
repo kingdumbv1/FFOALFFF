@@ -79,6 +79,7 @@ public class Player : MonoBehaviour
         animatorReference = GetComponent<AnimatorReference>();
         abilityDatabase = new Test(player, chosenCharacter, animatorReference);
         spriteRend = GetComponent<SpriteRenderer>();
+        distance = 10;
     }
     IEnumerator LoadEnemyOfPlayer()
     {
@@ -216,6 +217,7 @@ public class Player : MonoBehaviour
         if (!invulnerable && isBlocking != 1)
         {
             currentHealth -= damage;
+            if (gameObject !=null)
             StartCoroutine(Hurt(0.2f, knockback));
             
         }
@@ -231,7 +233,7 @@ public class Player : MonoBehaviour
             return 0;
         }
         spriteRend.color = Color.red;
-        Destroy(Instantiate(hitEffect, transform.position, Quaternion.identity), 1);
+        Destroy(Instantiate(hitEffect, transform.position, Quaternion.identity), 1f);
         isStaggered = true;
         xMovementPossible = false;
         rb.AddForce(Vector2.right * knockback * roundedDistanceKnockback(), ForceMode2D.Impulse);

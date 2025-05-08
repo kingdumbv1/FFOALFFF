@@ -9,6 +9,7 @@ TagManager:
   - PlayerInstantiated
   - EnemyInstantiated
   - Spawner
+  - Music
   layers:
   - Default
   - TransparentFX

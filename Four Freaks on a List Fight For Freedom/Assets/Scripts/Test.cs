@@ -210,13 +210,15 @@ public class Test
                 }
                 break;
             case "rockstar":
-
-                player.heavyDamage = 4;
-                player.knockback = 3.5f;
-                animator.SetTrigger("HeavyMiddle");
-                player.canAttack = false;
-                player.blockBreak = true;
-
+                if (animReference.cooldown2 >= 4)
+                { 
+                    player.heavyDamage = 4;
+                    player.knockback = 3.5f;
+                    animator.SetTrigger("HeavyMiddle");
+                    player.canAttack = false;
+                    player.blockBreak = true;
+                    animReference.cooldown2 = 0;
+                }
                 break;
             case "dj":
                 player.heavyDamage = 2;
