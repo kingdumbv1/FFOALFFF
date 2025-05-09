@@ -67,8 +67,8 @@ public class ZevinAI : MonoBehaviour
         switch (player.chosenCharacter)
         {
             case "dj":
-                int randomChoice = Random.Range(0, 3);
-                player.currentDirection.y = movementTypes[randomChoice];
+                int djRandomChoice = Random.Range(0, 3);
+                player.currentDirection.y = movementTypes[djRandomChoice];
                 player.heavyAttackClickedFrame = 1;
                 canAttack = false;
                 yield return new WaitForSeconds(2);
@@ -76,13 +76,31 @@ public class ZevinAI : MonoBehaviour
                 canAttack = true;
                 break;
             case "rockstar":
-
+                int raRandomChoice = Random.Range(0, 3);
+                player.currentDirection.y = movementTypes[raRandomChoice];
+                player.heavyAttackClickedFrame = 1;
+                canAttack = false;
+                yield return new WaitForSeconds(2);
+                player.heavyAttackClickedFrame = 0;
+                canAttack = true;
                 break;
             case "outlaw":
-
+                int moRandomChoice = Random.Range(0, 3);
+                player.currentDirection.y = movementTypes[moRandomChoice];
+                player.heavyAttackClickedFrame = 1;
+                canAttack = false;
+                yield return new WaitForSeconds(2);
+                player.heavyAttackClickedFrame = 0;
+                canAttack = true;
                 break;
             case "raven":
-
+                int rfRandomChoice = Random.Range(0, 3);
+                player.currentDirection.y = movementTypes[rfRandomChoice];
+                player.heavyAttackClickedFrame = 1;
+                canAttack = false;
+                yield return new WaitForSeconds(2);
+                player.heavyAttackClickedFrame = 0;
+                canAttack = true;
                 break;
         }
     }

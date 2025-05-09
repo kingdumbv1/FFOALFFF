@@ -10,6 +10,7 @@ public class Test
     string characterChoice;
     Animator animator;
     AnimatorReference animReference;
+    SoundManager soundManager;
     int distanceCheck()
     {
         if (player.distance < 0) return 1;
