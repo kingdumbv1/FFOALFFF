@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: cd51e222f7372e84b98685c930f39509
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8087236505176930743
+    second: tumbleweed_0
+  - first:
+      213: -8859895111632999801
+    second: tumbleweed_1
+  - first:
+      213: 3001762598073570486
+    second: tumbleweed_2
+  - first:
+      213: 2222278052660780538
+    second: tumbleweed_3
+  - first:
+      213: -5349317500735620752
+    second: tumbleweed_4
+  - first:
+      213: 103020391222318958
+    second: tumbleweed_5
+  - first:
+      213: 2338002996920890680
+    second: tumbleweed_6
+  - first:
+      213: 8542488218969685153
+    second: tumbleweed_7
+  - first:
+      213: 3649995323952749861
+    second: tumbleweed_8
+  - first:
+      213: -6791270491345282322
+    second: tumbleweed_9
+  - first:
+      213: 4525194578402780415
+    second: tumbleweed_10
+  - first:
+      213: -4620086551063565025
+    second: tumbleweed_11
+  - first:
+      213: -5709068112904519814
+    second: tumbleweed_12
+  - first:
+      213: -5390557998448378496
+    second: tumbleweed_13
+  - first:
+      213: -6158855560059644911
+    second: tumbleweed_14
+  - first:
+      213: -8376535874359256974
+    second: tumbleweed_15
+  - first:
+      213: 2100230788536975569
+    second: tumbleweed_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tumbleweed_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 10
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b974a1e0c2ab3070800000000000000
+      internalID: 8087236505176930743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 11
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a25e376545b0580800000000000000
+      internalID: -8859895111632999801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 11
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b49a3ecd2768a920800000000000000
+      internalID: 3001762598073570486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 10
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd1ef06d1e17de10800000000000000
+      internalID: 2222278052660780538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 8
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0797fd1331863c5b0800000000000000
+      internalID: -5349317500735620752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 6
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e679d6fff700e6100800000000000000
+      internalID: 103020391222318958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 6
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835b443a651427020800000000000000
+      internalID: 2338002996920890680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 10
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acb5ad66c30d8670800000000000000
+      internalID: 8542488218969685153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_8
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 9
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d5a0c986367a230800000000000000
+      internalID: 3649995323952749861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_9
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 10
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea95c5487f80c1a0800000000000000
+      internalID: -6791270491345282322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 10
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4a8395e78bcce30800000000000000
+      internalID: 4525194578402780415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 10
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1deb4492c722efb0800000000000000
+      internalID: -4620086551063565025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 8
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ff0db9cc055c0b0800000000000000
+      internalID: -5709068112904519814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_13
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08df7519f04e035b0800000000000000
+      internalID: -5390557998448378496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_14
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 5
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11494b7cf79578aa0800000000000000
+      internalID: -6158855560059644911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_15
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 6
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2781088c00190cb80800000000000000
+      internalID: -8376535874359256974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumbleweed_16
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 8
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0c51156c4852d10800000000000000
+      internalID: 2100230788536975569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tumbleweed_0: 8087236505176930743
+      tumbleweed_1: -8859895111632999801
+      tumbleweed_10: 4525194578402780415
+      tumbleweed_11: -4620086551063565025
+      tumbleweed_12: -5709068112904519814
+      tumbleweed_13: -5390557998448378496
+      tumbleweed_14: -6158855560059644911
+      tumbleweed_15: -8376535874359256974
+      tumbleweed_16: 2100230788536975569
+      tumbleweed_2: 3001762598073570486
+      tumbleweed_3: 2222278052660780538
+      tumbleweed_4: -5349317500735620752
+      tumbleweed_5: 103020391222318958
+      tumbleweed_6: 2338002996920890680
+      tumbleweed_7: 8542488218969685153
+      tumbleweed_8: 3649995323952749861
+      tumbleweed_9: -6791270491345282322
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
