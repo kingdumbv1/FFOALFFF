@@ -909,3 +909,4 @@ MonoBehaviour:
   - {fileID: 1292633728550412854}
   - {fileID: 7996610052906051367}
   cameraMedian: {fileID: 0}
+  settings: {fileID: 0}

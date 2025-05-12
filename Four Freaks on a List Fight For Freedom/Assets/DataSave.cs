@@ -151,6 +151,10 @@ public class DataSave : MonoBehaviour
             Debug.Log(player.name + " vs " + chosenCharacter);
         }
     }
+    public void ExitSelectCharacter()
+    {
+        SceneManager.LoadScene(0);
+    }
 
     public IEnumerator NextStage()
     {

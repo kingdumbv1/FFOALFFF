@@ -2,13 +2,17 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 using TMPro;
+using UnityEngine.InputSystem.UI;
+using UnityEngine.EventSystems;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] TMP_Dropdown resolutionDropDown;
     Resolution[] resolutions;
-
+    GameObject lights;
+    GameObject selectScreen;
     float currentRefreshRate;
     int currentResolutionIndex;
     
@@ -33,7 +37,8 @@ public class GameManager : MonoBehaviour
         resolutionDropDown.value = currentResolutionIndex;
         resolutionDropDown.RefreshShownValue();
 
-
+        selectScreen = GameObject.Find("Select Screen").gameObject;
+        lights = GameObject.Find("Lights").gameObject;
     }
     public void SetResolution(int resolutionIndex)
     {
@@ -49,9 +54,27 @@ public class GameManager : MonoBehaviour
     {
 
     }
-    public void Settings()
+    public void Settings(GameObject settings)
     {
+        if (!settings.activeInHierarchy)
+        {
+            EventSystem eventsys = FindFirstObjectByType<EventSystem>();
+            Debug.Log("settings is " + !settings.activeInHierarchy);
+            settings.SetActive(true);
+            lights.SetActive(false);
+            selectScreen.SetActive(false);
+            eventsys.SetSelectedGameObject(GameObject.Find("Exit (Settings)"));
 
+        }
+        else if (settings.activeInHierarchy)
+        {
+            EventSystem eventsys = FindFirstObjectByType<EventSystem>();
+            Debug.Log("settings is " + !settings.activeInHierarchy);
+            settings.SetActive(false);
+            lights.SetActive(true);
+            selectScreen.SetActive(true);
+            eventsys.SetSelectedGameObject(GameObject.Find("Settings Button"));
+        }
     }
     public void Tutorial()
     {

@@ -254,10 +254,6 @@ MonoBehaviour:
     m_ActionName: 'Player/Crouch[/Keyboard/c]'
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: f1ba0d36-48eb-4cd5-b651-1c94a6531f70
-    m_ActionName: 'Player/Jump[/Keyboard/space]'
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 2776c80d-3c14-4091-8c56-d04ced07a2b0
     m_ActionName: 'Player/Previous[/Keyboard/1]'
   - m_PersistentCalls:
@@ -344,7 +340,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 776554426289656141}
         m_TargetAssemblyTypeName: Player, Assembly-CSharp
-        m_MethodName: Dash
+        m_MethodName: PauseGame
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -354,8 +350,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: e5080efc-5edd-49ac-8882-254135dc21b2
-    m_ActionName: 'Player/Dash[/Keyboard/q]'
+    m_ActionId: 51a5eedc-5ea7-4869-8fd5-fdf225cf3089
+    m_ActionName: 'Player/Pause[/Keyboard/escape]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -459,6 +455,7 @@ MonoBehaviour:
   spriteRend: {fileID: 0}
   animator: {fileID: 0}
   enemy: {fileID: 0}
+  pauseFrame: 0
   multiplier: 1
   isHit: 0
   invulnerable: 0

@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     public Animator animator;
     public Transform enemy;
     [Header("Misc")]
+    public float pauseFrame;
     public float multiplier = 1;
     public bool isHit;
     public bool invulnerable;
@@ -195,6 +196,13 @@ public class Player : MonoBehaviour
         if (collision.gameObject.layer == 0)
         isGrounded = false;
     }
+
+    void Pause()
+    {
+        GameObject settings = GameObject.Find("UI").GetComponent<ArrayOfHealthbars>().settings;
+        if (!settings.activeInHierarchy) settings.SetActive(true);
+
+    }
     
     void AddJump()
     {
@@ -265,6 +273,11 @@ public class Player : MonoBehaviour
     {
         attackClickedFrame = context.ReadValue<float>();
         
+    }
+
+    public void PauseGame(InputAction.CallbackContext context)
+    {
+        pauseFrame = context.ReadValue<float>();
     }
     public void HeavyAttack(InputAction.CallbackContext context)
     {

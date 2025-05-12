@@ -173,11 +173,14 @@ public class ZevinAI : MonoBehaviour
         if (player.currentHealth <= 0)
         {
             DataSave data = GameObject.FindFirstObjectByType<DataSave>();
-            if (player.chosenCharacter == "dj") data.Stages.Remove(0);
-            if (player.chosenCharacter == "rockstar") data.Stages.Remove(3);
-            if (player.chosenCharacter == "raven") data.Stages.Remove(2);
-            if (player.chosenCharacter == "outlaw") data.Stages.Remove(1);
-            data.StartCoroutine("NextStage");
+            if (data != null)
+            {
+                if (player.chosenCharacter == "dj") data.Stages.Remove(0);
+                if (player.chosenCharacter == "rockstar") data.Stages.Remove(3);
+                if (player.chosenCharacter == "raven") data.Stages.Remove(2);
+                if (player.chosenCharacter == "outlaw") data.Stages.Remove(1);
+                data.StartCoroutine("NextStage");
+            }
         }
     }
 }

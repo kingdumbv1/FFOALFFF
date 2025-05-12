@@ -9,7 +9,7 @@ public class ArrayOfHealthbars : MonoBehaviour
     [SerializeField] Transform[] healthbarSpawnAreas;
     [SerializeField] Transform[] passiveSpawnAreas;
     [SerializeField] FindMedian cameraMedian;
-
+    public GameObject settings;
     private void Start()
     {
         StartCoroutine(Load());

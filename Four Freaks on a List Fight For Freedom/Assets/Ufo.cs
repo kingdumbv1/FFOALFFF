@@ -3,24 +3,39 @@ using UnityEngine;
 public class Ufo : MonoBehaviour
 {
     Animator anim;
+    bool isLerping;
     float startLerp;
     float endLerp;
-    int randomInt;
-    LayerMask layer;
+    float t;
+    LayerMask pLayer;
     void Start()
     {
         anim = GetComponent<Animator>();
-        layer = 3;
-        randomInt = Random.Range(1, 3);
+        startLerp = -19.37f;
+        endLerp = 22.53f;
+        isLerping = true;
     }
     void Update()
     {
-        RaycastHit2D ray = Physics2D.Raycast(transform.position, Vector2.down, 20, layer);
-
-        if (ray && randomInt == 1)
+        LayerMask pLayer = LayerMask.GetMask("Player1");
+        RaycastHit2D ray = Physics2D.Raycast(transform.position, Vector2.down, 50, pLayer);
+        if (isLerping)
         {
-            anim.SetTrigger("Attack");
-            randomInt = Random.Range(1, 3);
+            t += 0.1f * Time.deltaTime;
+            transform.position = new Vector3(Mathf.Lerp(startLerp, endLerp, t), 0, -5);
         }
+        if (t > 1.0f)
+        {
+            float temp = endLerp;
+            endLerp = startLerp;
+            startLerp = temp;
+            t = 0.0f;
+        }
+        if (ray)
+        {
+            isLerping = false;
+            anim.SetTrigger("Attack");
+        }
+        if (!ray) isLerping = true;
     }
 }
