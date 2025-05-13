@@ -18,7 +18,7 @@ public class Multiplayer : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
         inputManager = GetComponent<PlayerInputManager>();
-        characterArray = GetComponent<CharacterArray>();
+        characterArray = GameObject.FindFirstObjectByType<CharacterArray>();
     }
 
     public void SelectPlayer1(string selectedCharacter)
