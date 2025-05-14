@@ -55,7 +55,6 @@ public class ZevinAI : MonoBehaviour
             -1
         };
         player.currentDirection.y = attackTypes[randomChoice];
-        Debug.Log(attackTypes[randomChoice]);
         player.attackClickedFrame = 1;
         canAttack = false;
         yield return new WaitForSeconds(2);

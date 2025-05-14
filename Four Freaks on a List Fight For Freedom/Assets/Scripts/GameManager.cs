@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene(1);
+        
     }
     public void Multiplayer()
     {

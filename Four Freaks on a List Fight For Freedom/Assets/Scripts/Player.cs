@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 
 public class Player : MonoBehaviour
 {
@@ -33,7 +34,15 @@ public class Player : MonoBehaviour
     public Animator animator;
     public Transform enemy;
     [Header("Misc")]
-    public float pauseFrame;
+    public EventSystem eventSystem;
+    public ArrayOfHealthbars arrayofh;
+    // Pause stuff
+    public GameObject pauseMenu;
+    public GameObject UI;
+    public bool isPaused;
+    public bool pauseFrame;
+    public bool canClickAgain;
+    //
     public float multiplier = 1;
     public bool isHit;
     public bool invulnerable;
@@ -74,7 +83,12 @@ public class Player : MonoBehaviour
     void Start()
     {
         StartCoroutine(LoadEnemyOfPlayer());
-        
+
+        arrayofh = FindFirstObjectByType<ArrayOfHealthbars>();
+        arrayofh.PlayerTransfer(this);
+        eventSystem = FindFirstObjectByType<EventSystem>();
+        pauseMenu = GameObject.Find("UI").GetComponent<ArrayOfHealthbars>().pauseMenu;
+        UI = GameObject.Find("UI");
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         animatorReference = GetComponent<AnimatorReference>();
@@ -111,6 +125,9 @@ public class Player : MonoBehaviour
             if (!isStaggered) xMovementPossible = true;
             invulnerable = false;
         }
+
+        // Pausing
+        Pause();
 
         //Directional Combat Input
         switch (currentDirection.y)
@@ -199,8 +216,34 @@ public class Player : MonoBehaviour
 
     void Pause()
     {
-        GameObject settings = GameObject.Find("UI").GetComponent<ArrayOfHealthbars>().settings;
-        if (!settings.activeInHierarchy) settings.SetActive(true);
+        if (pauseFrame)
+        {
+            Debug.Log("Pausing");
+            if (!isPaused)
+            {
+                isPaused = true;
+                pauseMenu.SetActive(true);
+
+                GameObject playButton = pauseMenu.transform.GetChild(3).gameObject;
+                PauseScript pauseScript = pauseMenu.GetComponent<PauseScript>();
+                pauseScript.TransferPlayer(this);
+                UI.SetActive(false);
+                Time.timeScale = 0f;
+                if (playButton ==  null)
+                {
+                    Debug.Log(pauseMenu.transform.GetChild(3).gameObject);
+                }
+                else if (playButton != null) eventSystem.SetSelectedGameObject(playButton);
+                isPaused = true;
+            }
+            else if (isPaused)
+            {
+                isPaused = false;
+                pauseMenu.SetActive(false);
+                UI.SetActive(true);
+                Time.timeScale = 1f;
+            }
+        }
 
     }
     
@@ -277,7 +320,16 @@ public class Player : MonoBehaviour
 
     public void PauseGame(InputAction.CallbackContext context)
     {
-        pauseFrame = context.ReadValue<float>();
+        float currentPause = context.ReadValue<float>();
+        if (currentPause > 0 && canClickAgain) StartCoroutine(PauseWait());
+        if (currentPause < 1) canClickAgain = true;
+    }
+    IEnumerator PauseWait()
+    {
+        pauseFrame = true;
+        yield return new WaitForEndOfFrame();
+        pauseFrame = false;
+        canClickAgain = false;
     }
     public void HeavyAttack(InputAction.CallbackContext context)
     {

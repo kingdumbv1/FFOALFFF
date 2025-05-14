@@ -140,20 +140,27 @@ public class DataSave : MonoBehaviour
         if (Stage == 1) chosenCharacter = "Magic Outlaw";
         if (Stage == 2) chosenCharacter = "Raven Fencer";
         if (Stage == 3) chosenCharacter = "Rockstar Alien";
-        if (!Stages.Contains(Stage))
+        if (player != null)
         {
-            Stage = Random.Range(0, 4);
-            Debug.Log("Could not load " + player.name + " vs " + chosenCharacter);
-        }
-        if (Stages.Contains(Stage))
-        {
-            SceneManager.LoadScene(Stage + 2);
-            Debug.Log(player.name + " vs " + chosenCharacter);
+            if (!Stages.Contains(Stage))
+            {
+                Stage = Random.Range(0, 4);
+                Debug.Log("Could not load " + player.name + " vs " + chosenCharacter);
+                GameLog.Log("Could not load " + player.name + " vs " + chosenCharacter);
+            }
+            if (Stages.Contains(Stage))
+            {
+                SceneManager.LoadScene(Stage + 2);
+                Debug.Log(player.name + " vs " + chosenCharacter);
+                GameLog.Log(player.name + " vs " + chosenCharacter);
+            }
         }
     }
     public void ExitSelectCharacter()
     {
+        GameObject data = FindAnyObjectByType<DataSave>().gameObject;
         SceneManager.LoadScene(0);
+        Destroy(data);
     }
 
     public IEnumerator NextStage()
@@ -168,9 +175,9 @@ public class DataSave : MonoBehaviour
             stage = Random.Range(0, 4);
             if (Stages.Count == 0)
             {
+                GameObject data = FindFirstObjectByType<DataSave>().gameObject;
                 SceneManager.LoadScene(0);
-                SoundManager s = GameObject.FindFirstObjectByType<SoundManager>();
-                Destroy(s);
+                Destroy(data);
                 Destroy(gameObject);
             }
         }
