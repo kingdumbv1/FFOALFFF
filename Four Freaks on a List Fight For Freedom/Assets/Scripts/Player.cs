@@ -35,7 +35,6 @@ public class Player : MonoBehaviour
     public Transform enemy;
     [Header("Misc")]
     public EventSystem eventSystem;
-    public ArrayOfHealthbars arrayofh;
     // Pause stuff
     public GameObject pauseMenu;
     public GameObject UI;
@@ -84,8 +83,6 @@ public class Player : MonoBehaviour
     {
         StartCoroutine(LoadEnemyOfPlayer());
 
-        arrayofh = FindFirstObjectByType<ArrayOfHealthbars>();
-        arrayofh.PlayerTransfer(this);
         eventSystem = FindFirstObjectByType<EventSystem>();
         pauseMenu = GameObject.Find("UI").GetComponent<ArrayOfHealthbars>().pauseMenu;
         UI = GameObject.Find("UI");
@@ -177,6 +174,7 @@ public class Player : MonoBehaviour
         if (jump == 2 && isGrounded)
         {
             rb.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+            AudioManager.Instance.Play(8);
             jump = 0;
         }
 
@@ -287,6 +285,7 @@ public class Player : MonoBehaviour
         Destroy(Instantiate(hitEffect, transform.position, Quaternion.identity), 1f);
         isStaggered = true;
         xMovementPossible = false;
+        AudioManager.Instance.Play(7);
         rb.AddForce(Vector2.right * knockback * roundedDistanceKnockback(), ForceMode2D.Impulse);
         yield return new WaitForSeconds(seconds);
         xMovementPossible = true;

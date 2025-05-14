@@ -6,5 +6,6 @@ public class DiscBomb : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         animator.SetTrigger("Explode");
+        AudioManager.Instance.Play(2);
     }
 }

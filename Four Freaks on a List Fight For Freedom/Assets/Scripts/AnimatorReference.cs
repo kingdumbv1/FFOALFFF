@@ -90,6 +90,7 @@ public class AnimatorReference : MonoBehaviour
     public void RFHeavyMiddle()
     {
         player.xMovementPossible = false;
+        AudioManager.Instance.Play(3);
         gameObject.transform.Translate(Vector3.left * player.distance * distanceCheck());
         cooldown2 = 0;
     }
@@ -119,6 +120,7 @@ public class AnimatorReference : MonoBehaviour
     {
         GameObject kickHitbox = Instantiate(objectsSpawn[0], hitBoxes[1].transform.position, Quaternion.identity);
         KickMagicOutlaw hitbox = kickHitbox.GetComponent<KickMagicOutlaw>();
+        AudioManager.Instance.Play(13);
         hitbox.InheritParent(player);
         Destroy(kickHitbox, 0.35f);
     }

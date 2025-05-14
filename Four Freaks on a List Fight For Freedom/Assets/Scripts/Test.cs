@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -10,7 +11,6 @@ public class Test
     string characterChoice;
     Animator animator;
     AnimatorReference animReference;
-    SoundManager soundManager;
     int distanceCheck()
     {
         if (player.distance < 0) return 1;
@@ -42,6 +42,7 @@ public class Test
             case "raven":
                 player.knockback = 3.5f;
                 player.lightDamage = 1.5f;
+                AudioManager.Instance.Play(4);
                 animator.SetTrigger("HighPrimary");
                 player.canAttack = false;
                 break;
@@ -53,6 +54,7 @@ public class Test
                     player.lightDamage = 2;
                     animator.SetTrigger("HighPrimary");
                     player.canAttack = false;
+                    AudioManager.Instance.Play(6);
                     player.rb.AddForce(Vector2.up * player.jumpHeight, ForceMode2D.Impulse);
                     player.rb.AddForce(Vector2.right * player.jumpHeight / 1.5f, ForceMode2D.Impulse);
                     passive.input = 3;
@@ -84,6 +86,7 @@ public class Test
             case "raven":
                 player.knockback = 3.5f;
                 player.lightDamage = 1.5f;
+                AudioManager.Instance.Play(4);
                 animator.SetTrigger("MiddlePrimary");
                 player.canAttack = false;
                 break;
@@ -91,6 +94,7 @@ public class Test
                 Passive passive = player.transform.GetComponent<Passive>();
                 player.knockback = 3.5f;
                 player.lightDamage = 2;
+                AudioManager.Instance.Play(6);
                 animator.SetTrigger("MiddlePrimary");
                 player.canAttack = false;
                 passive.input = 2;
@@ -121,6 +125,7 @@ public class Test
             case "raven":
                 player.knockback = 3.5f;
                 player.lightDamage = 1.5f;
+                AudioManager.Instance.Play(4);
                 animator.SetTrigger("LowPrimary");
                 player.canAttack = false;
                 break;
@@ -132,6 +137,7 @@ public class Test
                     player.knockback = 3.5f;
                     animator.SetTrigger("LowPrimary");
                     player.canAttack = false;
+                    AudioManager.Instance.Play(6);
                     player.rb.AddForce(Vector2.left * player.jumpHeight * distanceCheck(), ForceMode2D.Impulse);
                     animReference.cooldown = 0;
                     passive.input = 1;
@@ -215,6 +221,7 @@ public class Test
                 { 
                     player.heavyDamage = 4;
                     player.knockback = 3.5f;
+                    AudioManager.Instance.Play(9);
                     animator.SetTrigger("HeavyMiddle");
                     player.canAttack = false;
                     player.blockBreak = true;
@@ -224,6 +231,7 @@ public class Test
             case "dj":
                 player.heavyDamage = 2;
                 player.knockback = 2;
+                AudioManager.Instance.Play(0);
                 animator.SetTrigger("HeavyMiddle");
                 player.canAttack = false;
                 break;
@@ -232,6 +240,7 @@ public class Test
                 player.knockback = 0;
                 player.instantiatedDamage = 0.35f;
                 player.canAttack = false;
+                AudioManager.Instance.Play(1);
                 animator.SetTrigger("HeavyMiddle");
                 break;
         }
@@ -249,6 +258,7 @@ public class Test
             case "raven":
                 if (animReference.cooldown3 >= 6)
                 {
+                    AudioManager.Instance.Play(12);
                     animator.SetTrigger("HeavyLow");
                     player.blockBreak = true;
                     player.canAttack = false;
@@ -259,6 +269,7 @@ public class Test
                 break;
             case "rockstar":
                 player.canAttack = false;
+                AudioManager.Instance.Play(11);
                 animator.SetTrigger("HeavyLow");
                 break;
             case "dj":
@@ -267,6 +278,7 @@ public class Test
                     player.blockBreak = true;
                     player.knockback = 0;
                     player.heavyDamage = 0.5f;
+                    AudioManager.Instance.Play(10);
                     animator.SetTrigger("HeavyLow");
                     player.canAttack = false;
                     animReference.cooldown = 0;
@@ -278,6 +290,7 @@ public class Test
                     player.instantiatedDamage = 3f;
                     player.canAttack = false;
                     player.blockBreak = true;
+                    AudioManager.Instance.Play(5);
                     animator.SetTrigger("HeavyLow");
                     animReference.cooldown2 = 0;
                 }
