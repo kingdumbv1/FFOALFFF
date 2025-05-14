@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class FindMedian : MonoBehaviour
@@ -7,10 +8,13 @@ public class FindMedian : MonoBehaviour
     [SerializeField] Vector3 foundPlayerPosition;
     [SerializeField] Vector3 foundPlayer2Position;
 
+    public void InheritParent(Transform player)
+    {
+        player = foundPlayer;
+    }
     private void Start()
     {
-        foundPlayer = GameObject.FindGameObjectWithTag("Player").transform;
-        foundPlayer2 = GameObject.FindGameObjectWithTag("Enemy").transform;
+        foundPlayer2 = GameObject.FindWithTag("Enemy").transform;
         Debug.Log(foundPlayer);
     }
     private void Update()
@@ -20,7 +24,7 @@ public class FindMedian : MonoBehaviour
             foundPlayerPosition = new Vector3(foundPlayer.position.x, foundPlayer.position.y + 1, -10);
             foundPlayer2Position = new Vector3(foundPlayer2.position.x, foundPlayer2.position.y + 1, -10);
             transform.position = (foundPlayerPosition + foundPlayer2Position) / 2.0f;
-        } else return;
+        } else
+            foundPlayer = GameObject.FindWithTag("Player").transform;
     }
-
 }

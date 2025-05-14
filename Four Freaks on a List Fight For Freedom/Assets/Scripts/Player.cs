@@ -34,6 +34,7 @@ public class Player : MonoBehaviour
     public Animator animator;
     public Transform enemy;
     [Header("Misc")]
+    public FindMedian cam;
     public EventSystem eventSystem;
     // Pause stuff
     public GameObject pauseMenu;
@@ -83,6 +84,7 @@ public class Player : MonoBehaviour
     {
         StartCoroutine(LoadEnemyOfPlayer());
 
+        cam = Camera.main.GetComponent<FindMedian>();
         eventSystem = FindFirstObjectByType<EventSystem>();
         pauseMenu = GameObject.Find("UI").GetComponent<ArrayOfHealthbars>().pauseMenu;
         UI = GameObject.Find("UI");
@@ -92,6 +94,10 @@ public class Player : MonoBehaviour
         abilityDatabase = new Test(player, chosenCharacter, animatorReference);
         spriteRend = GetComponent<SpriteRenderer>();
         distance = 10;
+        if (CompareTag("Player"))
+        {
+            cam.InheritParent(transform);
+        }
     }
     IEnumerator LoadEnemyOfPlayer()
     {
