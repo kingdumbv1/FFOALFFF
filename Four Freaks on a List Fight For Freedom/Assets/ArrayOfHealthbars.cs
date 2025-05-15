@@ -9,9 +9,16 @@ public class ArrayOfHealthbars : MonoBehaviour
     [SerializeField] Transform[] healthbarSpawnAreas;
     [SerializeField] Transform[] passiveSpawnAreas;
     [SerializeField] FindMedian cameraMedian;
+    [SerializeField] DataSave data;
     public Player player;
     public Player player2;
     public GameObject pauseMenu;
+
+    private void Awake()
+    {
+        data = FindFirstObjectByType<DataSave>();
+        player = data.player.GetComponent<Player>();
+    }
     private void Start()
     { 
         player2 = GameObject.FindWithTag("Enemy").GetComponent<Player>();
@@ -20,7 +27,6 @@ public class ArrayOfHealthbars : MonoBehaviour
     IEnumerator Load()
     {
         yield return new WaitForEndOfFrame();
-        player = GameObject.FindWithTag("Player").GetComponent<Player>();
         cameraMedian = FindAnyObjectByType<FindMedian>();
 
 
@@ -29,7 +35,8 @@ public class ArrayOfHealthbars : MonoBehaviour
         {
             GameObject instantiatedHealthBar = Instantiate(healthbars[0], healthbarSpawnAreas[0].position, Quaternion.identity);
             GameObject instantiatedPassive = Instantiate(passives[0], passiveSpawnAreas[0].position, Quaternion.identity);
-            PlayerHealthBar playerHealth = FindFirstObjectByType<DataSave>().player.GetComponent<PlayerHealthBar>();
+            PlayerHealthBar playerHealth = player.GetComponent<PlayerHealthBar>();
+            Debug.Log(playerHealth);
             playerHealth.healthFillImage = instantiatedHealthBar.GetComponent<Image>();
             playerHealth.passiveFillImage = instantiatedPassive.GetComponent<Child>().image;
             instantiatedHealthBar.transform.SetParent(transform);
@@ -42,7 +49,8 @@ public class ArrayOfHealthbars : MonoBehaviour
         {
             GameObject instantiatedHealthBar = Instantiate(healthbars[1], healthbarSpawnAreas[0].position, Quaternion.identity);
             GameObject instantiatedPassive = Instantiate(passives[1], passiveSpawnAreas[0].position, Quaternion.identity);
-            PlayerHealthBar playerHealth = FindFirstObjectByType<DataSave>().player.GetComponent<PlayerHealthBar>();
+            PlayerHealthBar playerHealth = player.GetComponent<PlayerHealthBar>();
+            Debug.Log(playerHealth);
             playerHealth.healthFillImage = instantiatedHealthBar.GetComponent<Image>();
             playerHealth.passiveFillImage = instantiatedPassive.GetComponent<Child>().image;
             instantiatedHealthBar.transform.SetParent(transform);
@@ -54,7 +62,8 @@ public class ArrayOfHealthbars : MonoBehaviour
         {
             GameObject instantiatedHealthBar = Instantiate(healthbars[2], healthbarSpawnAreas[0].position, Quaternion.identity);
             GameObject instantiatedPassive = Instantiate(passives[2], passiveSpawnAreas[0].position, Quaternion.identity);
-            PlayerHealthBar playerHealth = FindFirstObjectByType<DataSave>().player.GetComponent<PlayerHealthBar>();
+            PlayerHealthBar playerHealth = player.GetComponent<PlayerHealthBar>();
+            Debug.Log(playerHealth);
             playerHealth.healthFillImage = instantiatedHealthBar.GetComponent<Image>();
             playerHealth.passiveFillImage = instantiatedPassive.GetComponent<Child>().image;
             instantiatedHealthBar.transform.SetParent(transform);
@@ -66,7 +75,8 @@ public class ArrayOfHealthbars : MonoBehaviour
         {
             GameObject instantiatedHealthBar = Instantiate(healthbars[3], healthbarSpawnAreas[0].position, Quaternion.identity);
             GameObject instantiatedPassive = Instantiate(passives[3], passiveSpawnAreas[0].position, Quaternion.identity);
-            PlayerHealthBar playerHealth = FindFirstObjectByType<DataSave>().player.GetComponent<PlayerHealthBar>();
+            PlayerHealthBar playerHealth = player.GetComponent<PlayerHealthBar>();
+            Debug.Log(playerHealth);
             playerHealth.healthFillImage = instantiatedHealthBar.GetComponent<Image>();
             playerHealth.passiveFillImage = instantiatedPassive.GetComponent<Child>().image;
             instantiatedHealthBar.transform.SetParent(transform);

@@ -15,7 +15,6 @@ public class FindMedian : MonoBehaviour
     private void Start()
     {
         foundPlayer2 = GameObject.FindWithTag("Enemy").transform;
-        Debug.Log(foundPlayer);
     }
     private void Update()
     {

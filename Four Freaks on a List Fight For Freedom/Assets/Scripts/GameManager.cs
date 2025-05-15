@@ -77,9 +77,14 @@ public class GameManager : MonoBehaviour
             eventsys.SetSelectedGameObject(GameObject.Find("Settings Button"));
         }
     }
-    public void Tutorial()
+    public void Tutorial(GameObject text)
     {
-
+        
+        if (!text.activeInHierarchy)
+        {
+            text.SetActive(true);
+        }
+        else text.SetActive(false);
     }
     public void Exit()
     {
